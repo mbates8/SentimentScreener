@@ -1,0 +1,36 @@
+#
+# This file contains VM parameters for Trader Workstation.
+# Each parameter should be defined in a separate line and the
+# last line must be followed by a line feed. No leading or
+# trailing whitespaces are allowed in the same line, where a
+# parameter is defined.
+#
+# Lines starting with a '#' character are treated as comments
+# and ignored. Additionally, if a line contains a
+# '### keep on update' string, all parameters defined below will
+# be preserved on update.
+#
+
+# maximum Java heap size
+-Xmx2048m
+
+# GC settings
+-XX:+UseG1GC
+-XX:MaxGCPauseMillis=200
+-XX:ParallelGCThreads=20
+-XX:ConcGCThreads=5
+-XX:InitiatingHeapOccupancyPercent=70
+
+# preferred channel for updates ("stable", "latest", "beta", "preview")
+-Dchannel=latest
+
+-Dinstaller.uuid=d9400b80-e041-4e25-b658-ac121d55dedd
+-DvmOptionsPath=C:\Users\mrbat\Desktop\495\tws\tws.vmoptions
+-Dsun.awt.nopixfmt=true
+-Dsun.java2d.noddraw=true
+-Dswing.boldMetal=false
+-Dsun.locale.formatasdefault=true
+-Dsun.java2d.uiScale.enabled=true
+-Dsun.java2d.uiScale=1.0
+
+### keep on update

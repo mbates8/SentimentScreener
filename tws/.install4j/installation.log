@@ -1,0 +1,1563 @@
+[INFO] Logger started at 2025-07-31 14:59:19
+[INFO] Executable name: D:\tws-latest-windows-x64.exe
+[INFO] install4j version: 10.0.8 (build 10152)
+[INFO] Properties: 
+-- listing properties --
+java.specification.version=17
+sun.cpu.isalist=amd64
+sun.jnu.encoding=Cp1252
+java.class.path=C:\Users\mrbat\AppData\Local\Temp\e4j...
+sun.awt.enableExtraMouseButtons=true
+java.vm.vendor=Azul Systems, Inc.
+sun.arch.data.model=64
+install4j.exeDir=D:\\
+user.variant=
+java.vendor.url=http://www.azul.com/
+user.timezone=America/New_York
+java.vm.specification.version=17
+os.name=Windows 11
+user.country=US
+sun.boot.library.path=c:\users\mrbat\appdata\local\temp\e4j...
+sun.java.command=D:\tws-latest-windows-x64.exe
+jdk.debug=release
+sun.cpu.endian=little
+exe4j.unextractedPosition=5189164
+user.home=C:\Users\mrbat
+user.language=en
+jdk.http.auth.tunneling.disabledSchemes=
+java.specification.vendor=Oracle Corporation
+java.version.date=2024-04-16
+java.home=c:\users\mrbat\appdata\local\temp\e4j...
+file.separator=\
+java.vm.compressedOopsMode=Zero based
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+java.specification.name=Java Platform API Specification
+jdk.lang.Process.allowAmbiguousCommands=false
+exe4j.moduleName=D:\tws-latest-windows-x64.exe
+exe4j.tempDir=C:\Users\mrbat\AppData\Local\Temp\e4j...
+user.script=
+exe4j.consoleCodepage=cp0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+exe4j.isInstall4j=true
+java.runtime.version=17.0.10.0.101+3-LTS
+user.name=mrbat
+path.separator=;
+os.version=10.0
+java.runtime.name=OpenJDK Runtime Environment
+file.encoding=Cp1252
+java.vm.name=OpenJDK 64-Bit Server VM
+java.vendor.version=Zulu17.49+16-SA
+exe4j.semaphoreName=Local\d:_tws-latest-windows-x64.exe
+install4j.appDir=C:\Users\mrbat\AppData\Local\Temp\
+java.vendor.url.bug=http://www.azul.com/support/
+java.io.tmpdir=C:\Users\mrbat\AppData\Local\Temp\
+java.version=17.0.10.0.101
+user.dir=C:\Users\mrbat\AppData\Local\Temp\e4j...
+os.arch=amd64
+java.vm.specification.name=Java Virtual Machine Specification
+sun.os.patch.level=
+native.encoding=Cp1252
+java.library.path=c:\users\mrbat\appdata\local\temp\e4j...
+java.vm.info=mixed mode
+java.vendor=Azul Systems, Inc.
+java.vm.version=17.0.10.0.101+3-LTS
+sun.io.unicode.encoding=UnicodeLittle
+java.class.version=61.0
+exe4j.launchName=D:\tws-latest-windows-x64.exe
+[INFO] Variable changed: sys.resolveUserSpecificInstallationDir=true[class java.lang.String]
+[INFO] System language 'en'
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 3121]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_1
+       Property variableName: installerType
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: true
+       Property rollbackSupported: false
+       Variable changed: installerType=updatable[class java.lang.String]
+       Execute action successful after 2 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 6384]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_2
+       Property rollbackSupported: false
+       Variable changed: sys.installationDir=C:\Jts[class java.lang.String]
+       Execute action successful after 2 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 4410]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_4
+       Property variableName: prevInstallDir
+       Property failIfNull: false
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Checking application registry [appId: 5889-6375-8446-2021]...
+       No existing installations found.
+       Variable changed: prevInstallDir=null
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 3516]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_5
+       Property variableName: appInstalled
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: appInstalled=false[class java.lang.Boolean]
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 3533]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_7
+       Property variableName: sameChannelInstalled
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: sameChannelInstalled=false[class java.lang.Boolean]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 1892]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_8
+       Property variableName: exeName
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: true
+       Property rollbackSupported: false
+       Variable changed: exeName=tws[class java.lang.String]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 1682]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_9
+       Property variableName: skipUpdateCheck
+       Property failIfNull: true
+       Property onlyIfUndefined: true
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: skipUpdateCheck=false[class java.lang.Boolean]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 2821]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_10
+       Property variableName: skipExecuteLauncher
+       Property failIfNull: true
+       Property onlyIfUndefined: true
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: skipExecuteLauncher=false[class java.lang.Boolean]
+       Execute action successful after 2 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 2668]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_11
+       Property variableName: nightlyEntitled
+       Property failIfNull: true
+       Property onlyIfUndefined: true
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: nightlyEntitled=false[class java.lang.Boolean]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 2742]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_12
+       Property variableName: autoInstall
+       Property failIfNull: true
+       Property onlyIfUndefined: true
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: autoInstall=false[class java.lang.Boolean]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 5734]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_13
+       Property variableName: downloadableJars
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: downloadableJars=[log4j-core-2.17.1.jar, commons-io-2.11.0.jar, log4j-api-2.17.1.jar, twslaunch-install4j-1.12.jar, jackson-core-2.12.3.jar, core-3.5.3.jar][class java.util.LinkedList]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 1]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 3538]: Show screen
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 3538]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 6374]: Show screen
+       Variable changed: sys.installationDir=C:\Users\mrbat\Desktop\495\tws[class java.lang.String]
+       checking writable with maximum
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 6374]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Show screen
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 6378]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_22
+       Property variableName: jtsConfigDir
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: true
+       Property rollbackSupported: false
+       Variable changed: jtsConfigDir=C:\Users\mrbat\Desktop\495\tws[class java.lang.String]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 6379]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_23
+       Property variableName: cmdLineArgs
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: true
+       Property rollbackSupported: false
+       Variable changed: cmdLineArgs=[C:\Users\mrbat\Desktop\495\tws, ndc1.ibllc.com:4000, language=https://download2.interactivebrokers.com/installers/shared/i18n/ib][class [Ljava.lang.String;]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 6380]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_24
+       Property variableName: iconArgs
+       Property failIfNull: false
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: iconArgs=-J-DjtsConfigDir="C:\Users\mrbat\Desktop\495\tws"[class java.lang.String]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 6590]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_27
+       Property variableName: vmOptionsPath
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: vmOptionsPath=C:\Users\mrbat\Desktop\495\tws\tws.vmoptions[class java.lang.String]
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 6382]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_28
+       Property variableName: savedVmOptions
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       VM options file not found: C:\Users\mrbat\Desktop\495\tws\tws.vmoptions
+       Variable changed: savedVmOptions={content=}[class java.util.HashMap]
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 6383]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_29
+       Property variableName: mergedVmOptions
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Detected 31 GB physical memory [mediaFileArch32Bit=false].
+       Variable changed: mergedVmOptions=#
+# This file contains VM parameters for Trader Workstation.
+# Each parameter should be defined in a separate line and the
+# last line must be followed by a line feed. No leading or
+# trailing whitespaces are allowed in the same line, where a
+# parameter is defined.
+#
+# Lines starting with a '#' character are treated as comments
+# and ignored. Additionally, if a line contains a
+# '### keep on update' string, all parameters defined below will
+# be preserved on update.
+#
+
+# maximum Java heap size
+-Xmx2048m
+
+# GC settings
+-XX:+UseG1GC
+-XX:MaxGCPauseMillis=200
+-XX:ParallelGCThreads=20
+-XX:ConcGCThreads=5
+-XX:InitiatingHeapOccupancyPercent=70
+
+# preferred channel for updates ("stable", "latest", "beta", "preview")
+-Dchannel=latest
+
+-Dinstaller.uuid=d9400b80-e041-4e25-b658-ac121d55dedd
+-DvmOptionsPath=C:\Users\mrbat\Desktop\495\tws\tws.vmoptions
+-Dsun.awt.nopixfmt=true
+-Dsun.java2d.noddraw=true
+-Dswing.boldMetal=false
+-Dsun.locale.formatasdefault=true
+-Dsun.java2d.uiScale.enabled=true
+-Dsun.java2d.uiScale=1.0
+
+### keep on update
+[class java.lang.String]
+       Execute action successful after 2 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: 'C:\Users\mrbat\Desktop\495\tws\.jxbrowser\7.41.3' exists: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 9]: Execute action
+       Property directoryResolverScript: null
+       Property fileFilterScript: null
+       Property sizeCalculatorScript: null
+       Property acceptAllCertificates: false
+       Property checkFreeSpace: true
+       Property delay: false
+       Property installRuntime: true
+       Property rollbackSupported: true
+       Property saveDownloadedFiles: false
+       Property showFileNames: true
+       Property triggerReboot: true
+       Property validateApplicationId: false
+       checking writable with maximum
+       (+3)
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-console-l1-1-0.dll; size: 20960 bytes; exists: false
+       File options set to: [fileTime: Thu Jul 31 14:59:14 EDT 2025, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-console-l1-2-0.dll; size: 20928 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-datetime-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-debug-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-errorhandling-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-fibers-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-file-l1-1-0.dll; size: 25032 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-file-l1-2-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-file-l2-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-handle-l1-1-0.dll; size: 20928 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-heap-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-interlocked-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-libraryloader-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-localization-l1-2-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-memory-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-namedpipe-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-processenvironment-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-processthreads-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-processthreads-l1-1-1.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-profile-l1-1-0.dll; size: 20960 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-rtlsupport-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-string-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-synch-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-synch-l1-2-0.dll; size: 20960 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-sysinfo-l1-1-0.dll; size: 20928 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-timezone-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-core-util-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-crt-conio-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-crt-convert-l1-1-0.dll; size: 25032 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-crt-environment-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-crt-filesystem-l1-1-0.dll; size: 20928 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-crt-heap-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-crt-locale-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-crt-math-l1-1-0.dll; size: 29120 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-crt-multibyte-l1-1-0.dll; size: 29128 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-crt-private-l1-1-0.dll; size: 74184 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-crt-process-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-crt-runtime-l1-1-0.dll; size: 25040 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-crt-stdio-l1-1-0.dll; size: 25032 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-crt-string-l1-1-0.dll; size: 25032 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-crt-time-l1-1-0.dll; size: 20928 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\api-ms-win-crt-utility-l1-1-0.dll; size: 20928 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\attach.dll; size: 29224 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\awt.dll; size: 1484328 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\dt_socket.dll; size: 35880 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\extnet.dll; size: 23592 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\fontmanager.dll; size: 845864 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\freetype.dll; size: 548904 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\instrument.dll; size: 51752 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\j2gss.dll; size: 50728 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\j2pcsc.dll; size: 26152 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\j2pkcs11.dll; size: 78376 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\jaas.dll; size: 28200 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\jabswitch.exe; size: 45096 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\jaccessinspector.exe; size: 106536 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\jaccesswalker.exe; size: 70696 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\java.dll; size: 146984 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\java.exe; size: 49704 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javaaccessbridge.dll; size: 304680 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-core-console-l1-1-0.dll; size: 20960 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-core-console-l1-2-0.dll; size: 20928 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-core-datetime-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-core-debug-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-core-errorhandling-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-core-file-l1-1-0.dll; size: 25032 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-core-file-l1-2-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-core-file-l2-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-core-handle-l1-1-0.dll; size: 20928 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-core-heap-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-core-interlocked-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-core-libraryloader-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-core-localization-l1-2-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-core-memory-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-core-namedpipe-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-core-processenvironment-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-core-processthreads-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-core-processthreads-l1-1-1.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-core-profile-l1-1-0.dll; size: 20960 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-core-rtlsupport-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-core-string-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-core-synch-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-core-synch-l1-2-0.dll; size: 20960 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-core-sysinfo-l1-1-0.dll; size: 20928 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-core-timezone-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-core-util-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-crt-conio-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-crt-convert-l1-1-0.dll; size: 25032 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-crt-environment-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-crt-filesystem-l1-1-0.dll; size: 20928 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-crt-heap-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-crt-locale-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-crt-math-l1-1-0.dll; size: 29120 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-crt-multibyte-l1-1-0.dll; size: 29128 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-crt-private-l1-1-0.dll; size: 74184 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-crt-process-l1-1-0.dll; size: 20936 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-crt-runtime-l1-1-0.dll; size: 25040 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-crt-stdio-l1-1-0.dll; size: 25032 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-crt-string-l1-1-0.dll; size: 25032 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-crt-time-l1-1-0.dll; size: 20928 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\api-ms-win-crt-utility-l1-1-0.dll; size: 20928 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\decora_sse.dll; size: 91688 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\fxplugins.dll; size: 138280 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\glass.dll; size: 264744 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\glib-lite.dll; size: 647720 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\gstreamer-lite.dll; size: 1002536 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\javafx_font.dll; size: 78376 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\javafx_iio.dll; size: 172072 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\jfxmedia.dll; size: 141352 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\jfxwebkit.dll; size: 79452200 bytes; exists: false
+       File options set to: [fileTime: Thu Jul 31 14:59:15 EDT 2025, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\msvcp140.dll; size: 578384 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\msvcp140_1.dll; size: 35704 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\msvcp140_2.dll; size: 267160 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\prism_common.dll; size: 21032 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\prism_d3d.dll; size: 189992 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\prism_sw.dll; size: 68136 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\ucrtbase.dll; size: 1118664 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\vcruntime140.dll; size: 109440 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javafx\vcruntime140_1.dll; size: 49560 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javajpeg.dll; size: 178728 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\javaw.exe; size: 49704 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\jawt.dll; size: 21032 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\jdwp.dll; size: 229928 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\jfr.exe; size: 23592 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\jimage.dll; size: 33320 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\jli.dll; size: 91176 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\jrunscript.exe; size: 23592 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\jsound.dll; size: 60968 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\keytool.exe; size: 23592 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\kinit.exe; size: 23592 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\klist.exe; size: 23592 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\ktab.exe; size: 23592 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\lcms.dll; size: 250920 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\le.dll; size: 35368 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\management.dll; size: 28712 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\management_agent.dll; size: 24104 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\management_ext.dll; size: 35880 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\mlib_image.dll; size: 509992 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\msvcp140.dll; size: 565648 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\net.dll; size: 96808 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\nio.dll; size: 79912 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\prefs.dll; size: 25640 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\rmi.dll; size: 21032 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\rmiregistry.exe; size: 23592 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\server\jvm.dll; size: 11887144 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\splashscreen.dll; size: 220200 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\sspi_bridge.dll; size: 44584 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\sunmscapi.dll; size: 47656 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\ucrtbase.dll; size: 1118664 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\vcruntime140.dll; size: 97168 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\vcruntime140_1.dll; size: 37240 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\verify.dll; size: 54824 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\w2k_lsa_auth.dll; size: 31272 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\windowsaccessbridge-64.dll; size: 72232 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\bin\zip.dll; size: 89128 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\conf\logging.properties; size: 2732 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\conf\management\jmxremote.access; size: 3997 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\conf\management\jmxremote.password.template; size: 5690 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\conf\management\management.properties; size: 14410 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\conf\net.properties; size: 6671 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\conf\security\java.policy; size: 2180 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\conf\security\java.security; size: 58613 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\conf\security\policy\limited\default_local.policy; size: 647 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\conf\security\policy\limited\default_US_export.policy; size: 146 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\conf\security\policy\limited\exempt_local.policy; size: 566 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\conf\security\policy\README.txt; size: 2390 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\conf\security\policy\unlimited\default_local.policy; size: 193 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\conf\security\policy\unlimited\default_US_export.policy; size: 146 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\conf\sound.properties; size: 1210 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\include\classfile_constants.h; size: 22155 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\include\jawt.h; size: 12458 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\include\jdwpTransport.h; size: 8151 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\include\jni.h; size: 75678 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\include\jvmti.h; size: 84350 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\include\jvmticmlr.h; size: 4771 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\include\win32\bridge\AccessBridgeCallbacks.h; size: 5518 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\include\win32\bridge\AccessBridgeCalls.h; size: 36093 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\include\win32\bridge\AccessBridgePackages.h; size: 77582 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\include\win32\jawt_md.h; size: 1895 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\include\win32\jni_md.h; size: 1580 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.base\ADDITIONAL_LICENSE_INFO; size: 2114 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.base\aes.md; size: 1444 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.base\asm.md; size: 1584 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.base\ASSEMBLY_EXCEPTION; size: 1522 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.base\c-libutl.md; size: 1556 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.base\CLASSPATH_EXCEPTION_NOTE; size: 551 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.base\cldr.md; size: 9130 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.base\icu.md; size: 11086 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.base\LICENSE; size: 19274 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.base\public_suffix.md; size: 17785 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.base\unicode.md; size: 2384 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.base\wepoll.md; size: 1454 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.base\zlib.md; size: 1011 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.compiler\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.compiler\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.compiler\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.compiler\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.datatransfer\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.datatransfer\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.datatransfer\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.datatransfer\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.desktop\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.desktop\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       File options set to: [fileTime: Thu Jul 31 14:59:16 EDT 2025, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.desktop\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.desktop\colorimaging.md; size: 741 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.desktop\freetype.md; size: 30422 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.desktop\giflib.md; size: 1288 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.desktop\harfbuzz.md; size: 3314 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.desktop\jpeg.md; size: 3475 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.desktop\lcms.md; size: 2630 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.desktop\libpng.md; size: 6941 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.desktop\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.desktop\mesa3d.md; size: 5732 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.instrument\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.instrument\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.instrument\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.instrument\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.logging\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.logging\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.logging\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.logging\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.management\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.management\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.management\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.management\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.management.rmi\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.management.rmi\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.management.rmi\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.management.rmi\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.naming\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.naming\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.naming\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.naming\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.net.http\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.net.http\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.net.http\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.net.http\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.prefs\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.prefs\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.prefs\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.prefs\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.rmi\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.rmi\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.rmi\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.rmi\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.scripting\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.scripting\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.scripting\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.scripting\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.se\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.se\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.se\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.se\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.security.jgss\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.security.jgss\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.security.jgss\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.security.jgss\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.security.sasl\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.security.sasl\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.security.sasl\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.security.sasl\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.smartcardio\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.smartcardio\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.smartcardio\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.smartcardio\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.sql\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.sql\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.sql\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.sql\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.sql.rowset\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.sql.rowset\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.sql.rowset\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.sql.rowset\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.transaction.xa\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.transaction.xa\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.transaction.xa\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.transaction.xa\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.xml\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.xml\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.xml\bcel.md; size: 11195 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.xml\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.xml\dom.md; size: 3761 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.xml\jcup.md; size: 1448 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.xml\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.xml\xalan.md; size: 13494 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.xml\xerces.md; size: 11852 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.xml.crypto\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.xml.crypto\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.xml.crypto\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.xml.crypto\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\java.xml.crypto\santuario.md; size: 11436 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.base\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.base\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.base\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.base\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.controls\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.controls\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.controls\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.controls\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.fxml\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.fxml\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.fxml\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.fxml\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.graphics\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.graphics\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.graphics\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.graphics\jpeg_fx.md; size: 2158 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.graphics\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.graphics\mesa3d.md; size: 38 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.media\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.media\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.media\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.media\directshow.md; size: 1165 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.media\glib.md; size: 34705 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.media\gstreamer.md; size: 37986 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.media\libffi.md; size: 2562 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.media\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.swing\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.swing\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.swing\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.swing\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.web\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.web\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.web\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.web\icu_web.md; size: 24768 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.web\libxml2.md; size: 3452 bytes; exists: false
+       File options set to: [fileTime: Thu Jul 31 14:59:17 EDT 2025, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.web\libxslt.md; size: 3031 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.web\LICENSE; size: 33 bytes; exists: false
+       File options set to: [fileTime: Thu Jul 31 14:59:16 EDT 2025, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\javafx.web\webkit.md; size: 333509 bytes; exists: false
+       File options set to: [fileTime: Thu Jul 31 14:59:17 EDT 2025, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.accessibility\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.accessibility\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.accessibility\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.accessibility\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.attach\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.attach\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.attach\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.attach\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.charsets\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.charsets\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.charsets\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.charsets\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.crypto.cryptoki\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.crypto.cryptoki\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.crypto.cryptoki\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.crypto.cryptoki\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.crypto.cryptoki\pkcs11cryptotoken.md; size: 3923 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.crypto.cryptoki\pkcs11wrapper.md; size: 2131 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.crypto.ec\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.crypto.ec\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.crypto.ec\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.crypto.ec\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.crypto.mscapi\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.crypto.mscapi\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.crypto.mscapi\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.crypto.mscapi\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.dynalink\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.dynalink\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.dynalink\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.dynalink\dynalink.md; size: 1502 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.dynalink\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.httpserver\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.httpserver\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.httpserver\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.httpserver\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.internal.ed\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.internal.ed\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.internal.ed\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.internal.ed\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.internal.jvmstat\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.internal.jvmstat\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.internal.jvmstat\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.internal.jvmstat\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.internal.le\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.internal.le\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.internal.le\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.internal.le\jline.md; size: 1579 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.internal.le\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.jdwp.agent\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.jdwp.agent\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.jdwp.agent\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.jdwp.agent\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.jfr\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.jfr\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.jfr\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.jfr\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.jsobject\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.jsobject\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.jsobject\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.jsobject\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.localedata\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.localedata\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.localedata\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.localedata\cldr.md; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.localedata\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.localedata\thaidict.md; size: 1346 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.management\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.management\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.management\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.management\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.management.agent\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.management.agent\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.management.agent\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.management.agent\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.management.jfr\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.management.jfr\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.management.jfr\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.management.jfr\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.naming.dns\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.naming.dns\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.naming.dns\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.naming.dns\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.naming.rmi\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.naming.rmi\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.naming.rmi\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.naming.rmi\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.net\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.net\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.net\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.net\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.sctp\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.sctp\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.sctp\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.sctp\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.security.auth\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.security.auth\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.security.auth\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.security.auth\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.security.jgss\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.security.jgss\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.security.jgss\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.security.jgss\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.unsupported\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.unsupported\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.unsupported\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.unsupported\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.unsupported.desktop\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.unsupported.desktop\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.unsupported.desktop\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.unsupported.desktop\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.xml.dom\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.xml.dom\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.xml.dom\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.xml.dom\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.zipfs\ADDITIONAL_LICENSE_INFO; size: 49 bytes; exists: false
+       File options set to: [fileTime: Thu Jul 31 14:59:18 EDT 2025, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.zipfs\ASSEMBLY_EXCEPTION; size: 44 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.zipfs\CLASSPATH_EXCEPTION_NOTE; size: 50 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\legal\jdk.zipfs\LICENSE; size: 33 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\lib\classlist; size: 73341 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\lib\fontconfig.bfc; size: 4630 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\lib\fontconfig.properties.src; size: 12345 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\lib\javafx-swt.jar; size: 36882 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\lib\javafx.properties; size: 93 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\lib\jawt.lib; size: 1682 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\lib\jfr\default.jfc; size: 36014 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\lib\jfr\profile.jfc; size: 35974 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\lib\jrt-fs.jar; size: 110519 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\lib\jvm.cfg; size: 29 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\lib\jvm.lib; size: 989790 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\lib\modules; size: 116293273 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\lib\psfont.properties.ja; size: 3793 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\lib\psfontj2d.properties; size: 11390 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\lib\security\blocked.certs; size: 2527 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\lib\security\cacerts; size: 189411 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\lib\security\default.policy; size: 12788 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\lib\security\public_suffix_list.dat; size: 231314 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\lib\tzdb.dat; size: 104163 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\lib\tzmappings; size: 22143 bytes; exists: false
+       Install file: C:\Users\mrbat\AppData\Local\Programs\Common\i4j_jres\Oda-jK0QgTEmVssfllLP\17.0.10.0.101-zulu_64\release; size: 874 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4jdel.exe; size: 95936 bytes; exists: false
+       File options set to: [fileTime: Mon May 27 06:19:32 EDT 2024, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4jinst.dll; size: 308416 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\restarter.exe; size: 473272 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 29 16:19:10 EDT 2025, mode: 755, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\updater.exe; size: 928952 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 29 16:19:08 EDT 2025, mode: 755, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Users\mrbat\Desktop\495\tws\data\audit.xsl; size: 52128 bytes; exists: false
+       File options set to: [fileTime: Tue Feb 13 17:42:16 EST 2024, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Users\mrbat\Desktop\495\tws\data\auditsummary.xsl; size: 47751 bytes; exists: false
+       File options set to: [fileTime: Tue Feb 13 17:42:30 EST 2024, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Users\mrbat\Desktop\495\tws\jars\locales.jar; size: 151505 bytes; exists: false
+       File options set to: [fileTime: Wed Feb 26 09:39:04 EST 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Users\mrbat\Desktop\495\tws\jars\twslaunch-1039.jar; size: 4461355 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 29 16:14:52 EDT 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Users\mrbat\Desktop\495\tws\tws.exe; size: 795320 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 29 16:19:04 EDT 2025, mode: 755, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Users\mrbat\Desktop\495\tws\uninstall.exe; size: 928952 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 29 16:19:12 EDT 2025, mode: 700, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\inst_jre.cfg; size: 65 bytes; exists: false
+       File options set to: [fileTime: Thu Jul 31 14:59:43 EDT 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\pref_jre.cfg; size: 98 bytes; exists: false
+       File options set to: [fileTime: Thu Jul 31 14:59:43 EDT 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4jruntime.jar; size: 2114514 bytes; exists: false
+       File options set to: [fileTime: Thu Jul 31 14:59:43 EDT 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\MessagesDefault; size: 34826 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4jparams.conf; size: 198782 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\stats.properties; size: 285 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\user.jar; size: 78081 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\user\flatlaf.jar; size: 758100 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\user\installer-custom.zip; size: 15177 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_0_1fkviev.utf8; size: 34826 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_10_1fkviev.utf8; size: 33865 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_11_1fkviev.properties; size: 791 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_12_1fkviev.utf8; size: 31894 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_13_1fkviev.properties; size: 872 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_14_1fkviev.utf8; size: 32800 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_15_1fkviev.utf8; size: 38929 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_16_1fkviev.properties; size: 987 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_17_1fkviev.utf8; size: 37408 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_18_1fkviev.properties; size: 1021 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_19_1fkviev.utf8; size: 48914 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_1_1fkviev.properties; size: 1337 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_20_1fkviev.utf8; size: 36823 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_21_1fkviev.properties; size: 1462 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_22_1fkviev.utf8; size: 37297 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_23_1fkviev.properties; size: 935 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_24_1fkviev.utf8; size: 44212 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_25_1fkviev.properties; size: 2138 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_26_1fkviev.utf8; size: 38580 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_27_1fkviev.utf8; size: 34140 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_28_1fkviev.properties; size: 926 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_29_1fkviev.utf8; size: 32419 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_2_1fkviev.utf8; size: 28359 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_30_1fkviev.utf8; size: 34760 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_31_1fkviev.utf8; size: 37661 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_32_1fkviev.properties; size: 1075 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_33_1fkviev.utf8; size: 35446 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_34_1fkviev.properties; size: 1075 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_35_1fkviev.utf8; size: 37427 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_36_1fkviev.utf8; size: 53111 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_37_1fkviev.properties; size: 3187 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_38_1fkviev.utf8; size: 36311 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_39_1fkviev.properties; size: 930 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_3_1fkviev.properties; size: 1034 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_40_1fkviev.utf8; size: 31918 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_41_1fkviev.utf8; size: 37556 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_42_1fkviev_a7hqzf.png; size: 1030 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_43_1fkviev_1tf2ja9.png; size: 27099 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_44_1fkviev_kw6g0r.ico; size: 146982 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_45_1fkviev_x7nby6.png; size: 756 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_46_1fkviev_vd2dea.png; size: 1187 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_47_1fkviev_un9apv.png; size: 1884 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_48_1fkviev_1xth8wx.png; size: 4609 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_49_1fkviev_259ij1.png; size: 8252 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_4_1fkviev.utf8; size: 27669 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_50_1fkviev_18gg8kx.png; size: 9202 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_50_1fkviev_18gg8kx@2x.png; size: 15419 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_50_1fkviev_18gg8kx@2x_dark.png; size: 15837 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_50_1fkviev_18gg8kx_dark.png; size: 8891 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_5_1fkviev.properties; size: 1034 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_6_1fkviev.utf8; size: 34273 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_7_1fkviev.utf8; size: 33738 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_8_1fkviev.properties; size: 1202 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\i4j_extf_9_1fkviev.utf8; size: 32127 bytes; exists: false
+       Install file: C:\Users\mrbat\Desktop\495\tws\.install4j\installer.ico; size: 15749 bytes; exists: false
+       Execute action successful after 3089 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 5603]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_54
+       Property variableName: jarName
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: jarName=log4j-core-2.17.1.jar[class java.lang.String]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.net.DownloadFileAction [ID 6108]: Execute action
+       Property connectTimeout: 10000
+       Property connectionFailureScript: null
+       Property digestAlgorithm: SHA-256
+       Property digestUrl: 
+       Property readTimeout: 20000
+       Property requestHeaders: []
+       Property targetFile: C:\Users\mrbat\AppData\Local\Temp\log4j-core-2.17.1.jar.sha256
+       Property url: https://download2.interactivebrokers.com/installers/jars/log4j-core-2.17.1.jar.sha256
+       Property acceptAllCertificates: false
+       Property askForProxy: true
+       Property checkDigest: false
+       Property deleteOnExit: true
+       Property dontAskForRetry: false
+       Property retryIfInterrupted: false
+       Property rollbackSupported: false
+       Property showError: false
+       Property showFileName: true
+       Property showProgress: false
+       Download: https://download2.interactivebrokers.com/installers/jars/log4j-core-2.17.1.jar.sha256 to C:\Users\mrbat\AppData\Local\Temp\log4j-core-2.17.1.jar.sha256; size: 64 bytes
+       Execute action successful after 30 ms
+[INFO] com.install4j.runtime.beans.actions.text.ReadTextFromFileAction [ID 6109]: Execute action
+       Property encoding: UTF-8
+       Property file: C:\Users\mrbat\AppData\Local\Temp\log4j-core-2.17.1.jar.sha256
+       Property variableName: jarDigest
+       Property rollbackSupported: false
+       Property saveAsArray: false
+       Variable changed: jarDigest=c967f223487980b9364e94a7c7f9a8a01fd3ee7c19bdbf0b0f9f8cb8511f3d41[class java.lang.String]
+       Execute action successful after 7 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 5921]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_55
+       Property variableName: skipDownload
+       Property failIfNull: false
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Local file 'C:\Users\mrbat\Desktop\495\tws\jars\log4j-core-2.17.1.jar' doesn't exist.
+       Variable changed: skipDownload=false[class java.lang.Boolean]
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.net.DownloadFileAction [ID 5204]: Execute action
+       Property connectTimeout: 10000
+       Property connectionFailureScript: null
+       Property digestAlgorithm: SHA-256
+       Property digestUrl: 
+       Property readTimeout: 20000
+       Property requestHeaders: []
+       Property targetFile: C:\Users\mrbat\AppData\Local\Temp\log4j-core-2.17.1.jar
+       Property url: https://download2.interactivebrokers.com/installers/jars/log4j-core-2.17.1.jar
+       Property acceptAllCertificates: false
+       Property askForProxy: true
+       Property checkDigest: false
+       Property deleteOnExit: false
+       Property dontAskForRetry: false
+       Property retryIfInterrupted: true
+       Property rollbackSupported: false
+       Property showError: false
+       Property showFileName: true
+       Property showProgress: true
+       Download: https://download2.interactivebrokers.com/installers/jars/log4j-core-2.17.1.jar to C:\Users\mrbat\AppData\Local\Temp\log4j-core-2.17.1.jar; size: 1790452 bytes
+       Execute action successful after 118 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 6241]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_57
+       Property rollbackSupported: false
+       Calculating digest for 'C:\Users\mrbat\AppData\Local\Temp\log4j-core-2.17.1.jar'...
+       Execute action successful after 37 ms
+[INFO] com.install4j.runtime.beans.actions.files.MoveFileAction [ID 6243]: Execute action
+       Property destinationFile: C:\Users\mrbat\Desktop\495\tws\jars\log4j-core-2.17.1.jar
+       Property destinationRoot: Installation directory
+       Property directoryFilter: null
+       Property directoryMode: 755
+       Property fileFilter: null
+       Property files: [C:\Users\mrbat\AppData\Local\Temp\log4j-core-2.17.1.jar]
+       Property filesRoot: Installation directory
+       Property mode: 644
+       Property overwriteMode: Always
+       Property uninstallMode: If created
+       Property delay: false
+       Property recursive: true
+       Property rollbackSupported: true
+       Property shared: false
+       Property showFileNames: true
+       Property showProgress: false
+       Property triggerReboot: true
+       Move C:\Users\mrbat\AppData\Local\Temp\log4j-core-2.17.1.jar to C:\Users\mrbat\Desktop\495\tws\jars\log4j-core-2.17.1.jar
+       Install file: C:\Users\mrbat\Desktop\495\tws\jars\log4j-core-2.17.1.jar; size: 1790452 bytes; exists: false
+       File options set to: [fileTime: Thu Jul 31 14:59:43 EDT 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Backing up C:\Users\mrbat\AppData\Local\Temp\log4j-core-2.17.1.jar
+       Execute action successful after 7 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 5603]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_54
+       Property variableName: jarName
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: jarName=commons-io-2.11.0.jar[class java.lang.String]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.net.DownloadFileAction [ID 6108]: Execute action
+       Property connectTimeout: 10000
+       Property connectionFailureScript: null
+       Property digestAlgorithm: SHA-256
+       Property digestUrl: 
+       Property readTimeout: 20000
+       Property requestHeaders: []
+       Property targetFile: C:\Users\mrbat\AppData\Local\Temp\commons-io-2.11.0.jar.sha256
+       Property url: https://download2.interactivebrokers.com/installers/jars/commons-io-2.11.0.jar.sha256
+       Property acceptAllCertificates: false
+       Property askForProxy: true
+       Property checkDigest: false
+       Property deleteOnExit: true
+       Property dontAskForRetry: false
+       Property retryIfInterrupted: false
+       Property rollbackSupported: false
+       Property showError: false
+       Property showFileName: true
+       Property showProgress: false
+       Download: https://download2.interactivebrokers.com/installers/jars/commons-io-2.11.0.jar.sha256 to C:\Users\mrbat\AppData\Local\Temp\commons-io-2.11.0.jar.sha256; size: 64 bytes
+       Execute action successful after 20 ms
+[INFO] com.install4j.runtime.beans.actions.text.ReadTextFromFileAction [ID 6109]: Execute action
+       Property encoding: UTF-8
+       Property file: C:\Users\mrbat\AppData\Local\Temp\commons-io-2.11.0.jar.sha256
+       Property variableName: jarDigest
+       Property rollbackSupported: false
+       Property saveAsArray: false
+       Variable changed: jarDigest=961b2f6d87dbacc5d54abf45ab7a6e2495f89b75598962d8c723cea9bc210908[class java.lang.String]
+       Execute action successful after 6 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 5921]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_55
+       Property variableName: skipDownload
+       Property failIfNull: false
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Local file 'C:\Users\mrbat\Desktop\495\tws\jars\commons-io-2.11.0.jar' doesn't exist.
+       Variable changed: skipDownload=false[class java.lang.Boolean]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.net.DownloadFileAction [ID 5204]: Execute action
+       Property connectTimeout: 10000
+       Property connectionFailureScript: null
+       Property digestAlgorithm: SHA-256
+       Property digestUrl: 
+       Property readTimeout: 20000
+       Property requestHeaders: []
+       Property targetFile: C:\Users\mrbat\AppData\Local\Temp\commons-io-2.11.0.jar
+       Property url: https://download2.interactivebrokers.com/installers/jars/commons-io-2.11.0.jar
+       Property acceptAllCertificates: false
+       Property askForProxy: true
+       Property checkDigest: false
+       Property deleteOnExit: false
+       Property dontAskForRetry: false
+       Property retryIfInterrupted: true
+       Property rollbackSupported: false
+       Property showError: false
+       Property showFileName: true
+       Property showProgress: true
+       Download: https://download2.interactivebrokers.com/installers/jars/commons-io-2.11.0.jar to C:\Users\mrbat\AppData\Local\Temp\commons-io-2.11.0.jar; size: 327135 bytes
+       Execute action successful after 94 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 6241]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_57
+       Property rollbackSupported: false
+       Calculating digest for 'C:\Users\mrbat\AppData\Local\Temp\commons-io-2.11.0.jar'...
+       Execute action successful after 16 ms
+[INFO] com.install4j.runtime.beans.actions.files.MoveFileAction [ID 6243]: Execute action
+       Property destinationFile: C:\Users\mrbat\Desktop\495\tws\jars\commons-io-2.11.0.jar
+       Property destinationRoot: Installation directory
+       Property directoryFilter: null
+       Property directoryMode: 755
+       Property fileFilter: null
+       Property files: [C:\Users\mrbat\AppData\Local\Temp\commons-io-2.11.0.jar]
+       Property filesRoot: Installation directory
+       Property mode: 644
+       Property overwriteMode: Always
+       Property uninstallMode: If created
+       Property delay: false
+       Property recursive: true
+       Property rollbackSupported: true
+       Property shared: false
+       Property showFileNames: true
+       Property showProgress: false
+       Property triggerReboot: true
+       Move C:\Users\mrbat\AppData\Local\Temp\commons-io-2.11.0.jar to C:\Users\mrbat\Desktop\495\tws\jars\commons-io-2.11.0.jar
+       Install file: C:\Users\mrbat\Desktop\495\tws\jars\commons-io-2.11.0.jar; size: 327135 bytes; exists: false
+       File options set to: [fileTime: Thu Jul 31 14:59:43 EDT 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Backing up C:\Users\mrbat\AppData\Local\Temp\commons-io-2.11.0.jar
+       Execute action successful after 5 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 5603]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_54
+       Property variableName: jarName
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: jarName=log4j-api-2.17.1.jar[class java.lang.String]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.net.DownloadFileAction [ID 6108]: Execute action
+       Property connectTimeout: 10000
+       Property connectionFailureScript: null
+       Property digestAlgorithm: SHA-256
+       Property digestUrl: 
+       Property readTimeout: 20000
+       Property requestHeaders: []
+       Property targetFile: C:\Users\mrbat\AppData\Local\Temp\log4j-api-2.17.1.jar.sha256
+       Property url: https://download2.interactivebrokers.com/installers/jars/log4j-api-2.17.1.jar.sha256
+       Property acceptAllCertificates: false
+       Property askForProxy: true
+       Property checkDigest: false
+       Property deleteOnExit: true
+       Property dontAskForRetry: false
+       Property retryIfInterrupted: false
+       Property rollbackSupported: false
+       Property showError: false
+       Property showFileName: true
+       Property showProgress: false
+       Download: https://download2.interactivebrokers.com/installers/jars/log4j-api-2.17.1.jar.sha256 to C:\Users\mrbat\AppData\Local\Temp\log4j-api-2.17.1.jar.sha256; size: 64 bytes
+       Execute action successful after 19 ms
+[INFO] com.install4j.runtime.beans.actions.text.ReadTextFromFileAction [ID 6109]: Execute action
+       Property encoding: UTF-8
+       Property file: C:\Users\mrbat\AppData\Local\Temp\log4j-api-2.17.1.jar.sha256
+       Property variableName: jarDigest
+       Property rollbackSupported: false
+       Property saveAsArray: false
+       Variable changed: jarDigest=b0d8a4c8ab4fb8b1888d0095822703b0e6d4793c419550203da9e69196161de4[class java.lang.String]
+       Execute action successful after 8 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 5921]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_55
+       Property variableName: skipDownload
+       Property failIfNull: false
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Local file 'C:\Users\mrbat\Desktop\495\tws\jars\log4j-api-2.17.1.jar' doesn't exist.
+       Variable changed: skipDownload=false[class java.lang.Boolean]
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.net.DownloadFileAction [ID 5204]: Execute action
+       Property connectTimeout: 10000
+       Property connectionFailureScript: null
+       Property digestAlgorithm: SHA-256
+       Property digestUrl: 
+       Property readTimeout: 20000
+       Property requestHeaders: []
+       Property targetFile: C:\Users\mrbat\AppData\Local\Temp\log4j-api-2.17.1.jar
+       Property url: https://download2.interactivebrokers.com/installers/jars/log4j-api-2.17.1.jar
+       Property acceptAllCertificates: false
+       Property askForProxy: true
+       Property checkDigest: false
+       Property deleteOnExit: false
+       Property dontAskForRetry: false
+       Property retryIfInterrupted: true
+       Property rollbackSupported: false
+       Property showError: false
+       Property showFileName: true
+       Property showProgress: true
+       Download: https://download2.interactivebrokers.com/installers/jars/log4j-api-2.17.1.jar to C:\Users\mrbat\AppData\Local\Temp\log4j-api-2.17.1.jar; size: 301872 bytes
+       Execute action successful after 76 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 6241]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_57
+       Property rollbackSupported: false
+       Calculating digest for 'C:\Users\mrbat\AppData\Local\Temp\log4j-api-2.17.1.jar'...
+       Execute action successful after 17 ms
+[INFO] com.install4j.runtime.beans.actions.files.MoveFileAction [ID 6243]: Execute action
+       Property destinationFile: C:\Users\mrbat\Desktop\495\tws\jars\log4j-api-2.17.1.jar
+       Property destinationRoot: Installation directory
+       Property directoryFilter: null
+       Property directoryMode: 755
+       Property fileFilter: null
+       Property files: [C:\Users\mrbat\AppData\Local\Temp\log4j-api-2.17.1.jar]
+       Property filesRoot: Installation directory
+       Property mode: 644
+       Property overwriteMode: Always
+       Property uninstallMode: If created
+       Property delay: false
+       Property recursive: true
+       Property rollbackSupported: true
+       Property shared: false
+       Property showFileNames: true
+       Property showProgress: false
+       Property triggerReboot: true
+       Move C:\Users\mrbat\AppData\Local\Temp\log4j-api-2.17.1.jar to C:\Users\mrbat\Desktop\495\tws\jars\log4j-api-2.17.1.jar
+       Install file: C:\Users\mrbat\Desktop\495\tws\jars\log4j-api-2.17.1.jar; size: 301872 bytes; exists: false
+       File options set to: [fileTime: Thu Jul 31 14:59:43 EDT 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Backing up C:\Users\mrbat\AppData\Local\Temp\log4j-api-2.17.1.jar
+       Execute action successful after 6 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 5603]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_54
+       Property variableName: jarName
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: jarName=twslaunch-install4j-1.12.jar[class java.lang.String]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.net.DownloadFileAction [ID 6108]: Execute action
+       Property connectTimeout: 10000
+       Property connectionFailureScript: null
+       Property digestAlgorithm: SHA-256
+       Property digestUrl: 
+       Property readTimeout: 20000
+       Property requestHeaders: []
+       Property targetFile: C:\Users\mrbat\AppData\Local\Temp\twslaunch-install4j-1.12.jar.sha256
+       Property url: https://download2.interactivebrokers.com/installers/jars/twslaunch-install4j-1.12.jar.sha256
+       Property acceptAllCertificates: false
+       Property askForProxy: true
+       Property checkDigest: false
+       Property deleteOnExit: true
+       Property dontAskForRetry: false
+       Property retryIfInterrupted: false
+       Property rollbackSupported: false
+       Property showError: false
+       Property showFileName: true
+       Property showProgress: false
+       Download: https://download2.interactivebrokers.com/installers/jars/twslaunch-install4j-1.12.jar.sha256 to C:\Users\mrbat\AppData\Local\Temp\twslaunch-install4j-1.12.jar.sha256; size: 64 bytes
+       Execute action successful after 20 ms
+[INFO] com.install4j.runtime.beans.actions.text.ReadTextFromFileAction [ID 6109]: Execute action
+       Property encoding: UTF-8
+       Property file: C:\Users\mrbat\AppData\Local\Temp\twslaunch-install4j-1.12.jar.sha256
+       Property variableName: jarDigest
+       Property rollbackSupported: false
+       Property saveAsArray: false
+       Variable changed: jarDigest=ff4b4710fdbfd1377e46ec24a8541df52a83af952f34fa4861edaa4395f327b8[class java.lang.String]
+       Execute action successful after 8 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 5921]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_55
+       Property variableName: skipDownload
+       Property failIfNull: false
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Local file 'C:\Users\mrbat\Desktop\495\tws\jars\twslaunch-install4j-1.12.jar' doesn't exist.
+       Variable changed: skipDownload=false[class java.lang.Boolean]
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.net.DownloadFileAction [ID 5204]: Execute action
+       Property connectTimeout: 10000
+       Property connectionFailureScript: null
+       Property digestAlgorithm: SHA-256
+       Property digestUrl: 
+       Property readTimeout: 20000
+       Property requestHeaders: []
+       Property targetFile: C:\Users\mrbat\AppData\Local\Temp\twslaunch-install4j-1.12.jar
+       Property url: https://download2.interactivebrokers.com/installers/jars/twslaunch-install4j-1.12.jar
+       Property acceptAllCertificates: false
+       Property askForProxy: true
+       Property checkDigest: false
+       Property deleteOnExit: false
+       Property dontAskForRetry: false
+       Property retryIfInterrupted: true
+       Property rollbackSupported: false
+       Property showError: false
+       Property showFileName: true
+       Property showProgress: true
+       Download: https://download2.interactivebrokers.com/installers/jars/twslaunch-install4j-1.12.jar to C:\Users\mrbat\AppData\Local\Temp\twslaunch-install4j-1.12.jar; size: 14786 bytes
+       Execute action successful after 175 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 6241]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_57
+       Property rollbackSupported: false
+       Calculating digest for 'C:\Users\mrbat\AppData\Local\Temp\twslaunch-install4j-1.12.jar'...
+       Execute action successful after 50 ms
+[INFO] com.install4j.runtime.beans.actions.files.MoveFileAction [ID 6243]: Execute action
+       Property destinationFile: C:\Users\mrbat\Desktop\495\tws\jars\twslaunch-install4j-1.12.jar
+       Property destinationRoot: Installation directory
+       Property directoryFilter: null
+       Property directoryMode: 755
+       Property fileFilter: null
+       Property files: [C:\Users\mrbat\AppData\Local\Temp\twslaunch-install4j-1.12.jar]
+       Property filesRoot: Installation directory
+       Property mode: 644
+       Property overwriteMode: Always
+       Property uninstallMode: If created
+       Property delay: false
+       Property recursive: true
+       Property rollbackSupported: true
+       Property shared: false
+       Property showFileNames: true
+       Property showProgress: false
+       Property triggerReboot: true
+       Move C:\Users\mrbat\AppData\Local\Temp\twslaunch-install4j-1.12.jar to C:\Users\mrbat\Desktop\495\tws\jars\twslaunch-install4j-1.12.jar
+       Install file: C:\Users\mrbat\Desktop\495\tws\jars\twslaunch-install4j-1.12.jar; size: 14786 bytes; exists: false
+       File options set to: [fileTime: Thu Jul 31 14:59:43 EDT 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Backing up C:\Users\mrbat\AppData\Local\Temp\twslaunch-install4j-1.12.jar
+       Execute action successful after 5 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 5603]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_54
+       Property variableName: jarName
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: jarName=jackson-core-2.12.3.jar[class java.lang.String]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.net.DownloadFileAction [ID 6108]: Execute action
+       Property connectTimeout: 10000
+       Property connectionFailureScript: null
+       Property digestAlgorithm: SHA-256
+       Property digestUrl: 
+       Property readTimeout: 20000
+       Property requestHeaders: []
+       Property targetFile: C:\Users\mrbat\AppData\Local\Temp\jackson-core-2.12.3.jar.sha256
+       Property url: https://download2.interactivebrokers.com/installers/jars/jackson-core-2.12.3.jar.sha256
+       Property acceptAllCertificates: false
+       Property askForProxy: true
+       Property checkDigest: false
+       Property deleteOnExit: true
+       Property dontAskForRetry: false
+       Property retryIfInterrupted: false
+       Property rollbackSupported: false
+       Property showError: false
+       Property showFileName: true
+       Property showProgress: false
+       Download: https://download2.interactivebrokers.com/installers/jars/jackson-core-2.12.3.jar.sha256 to C:\Users\mrbat\AppData\Local\Temp\jackson-core-2.12.3.jar.sha256; size: 64 bytes
+       Execute action successful after 26 ms
+[INFO] com.install4j.runtime.beans.actions.text.ReadTextFromFileAction [ID 6109]: Execute action
+       Property encoding: UTF-8
+       Property file: C:\Users\mrbat\AppData\Local\Temp\jackson-core-2.12.3.jar.sha256
+       Property variableName: jarDigest
+       Property rollbackSupported: false
+       Property saveAsArray: false
+       Variable changed: jarDigest=baef34fbce041d54f3af3ff4fc917ed8b43ed2a6fa30e0a6abfd9a2b2c3f71e0[class java.lang.String]
+       Execute action successful after 7 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 5921]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_55
+       Property variableName: skipDownload
+       Property failIfNull: false
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Local file 'C:\Users\mrbat\Desktop\495\tws\jars\jackson-core-2.12.3.jar' doesn't exist.
+       Variable changed: skipDownload=false[class java.lang.Boolean]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.net.DownloadFileAction [ID 5204]: Execute action
+       Property connectTimeout: 10000
+       Property connectionFailureScript: null
+       Property digestAlgorithm: SHA-256
+       Property digestUrl: 
+       Property readTimeout: 20000
+       Property requestHeaders: []
+       Property targetFile: C:\Users\mrbat\AppData\Local\Temp\jackson-core-2.12.3.jar
+       Property url: https://download2.interactivebrokers.com/installers/jars/jackson-core-2.12.3.jar
+       Property acceptAllCertificates: false
+       Property askForProxy: true
+       Property checkDigest: false
+       Property deleteOnExit: false
+       Property dontAskForRetry: false
+       Property retryIfInterrupted: true
+       Property rollbackSupported: false
+       Property showError: false
+       Property showFileName: true
+       Property showProgress: true
+       Download: https://download2.interactivebrokers.com/installers/jars/jackson-core-2.12.3.jar to C:\Users\mrbat\AppData\Local\Temp\jackson-core-2.12.3.jar; size: 365220 bytes
+       Execute action successful after 79 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 6241]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_57
+       Property rollbackSupported: false
+       Calculating digest for 'C:\Users\mrbat\AppData\Local\Temp\jackson-core-2.12.3.jar'...
+       Execute action successful after 14 ms
+[INFO] com.install4j.runtime.beans.actions.files.MoveFileAction [ID 6243]: Execute action
+       Property destinationFile: C:\Users\mrbat\Desktop\495\tws\jars\jackson-core-2.12.3.jar
+       Property destinationRoot: Installation directory
+       Property directoryFilter: null
+       Property directoryMode: 755
+       Property fileFilter: null
+       Property files: [C:\Users\mrbat\AppData\Local\Temp\jackson-core-2.12.3.jar]
+       Property filesRoot: Installation directory
+       Property mode: 644
+       Property overwriteMode: Always
+       Property uninstallMode: If created
+       Property delay: false
+       Property recursive: true
+       Property rollbackSupported: true
+       Property shared: false
+       Property showFileNames: true
+       Property showProgress: false
+       Property triggerReboot: true
+       Move C:\Users\mrbat\AppData\Local\Temp\jackson-core-2.12.3.jar to C:\Users\mrbat\Desktop\495\tws\jars\jackson-core-2.12.3.jar
+       Install file: C:\Users\mrbat\Desktop\495\tws\jars\jackson-core-2.12.3.jar; size: 365220 bytes; exists: false
+       File options set to: [fileTime: Thu Jul 31 14:59:44 EDT 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Backing up C:\Users\mrbat\AppData\Local\Temp\jackson-core-2.12.3.jar
+       Execute action successful after 6 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 5603]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_54
+       Property variableName: jarName
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: jarName=core-3.5.3.jar[class java.lang.String]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.net.DownloadFileAction [ID 6108]: Execute action
+       Property connectTimeout: 10000
+       Property connectionFailureScript: null
+       Property digestAlgorithm: SHA-256
+       Property digestUrl: 
+       Property readTimeout: 20000
+       Property requestHeaders: []
+       Property targetFile: C:\Users\mrbat\AppData\Local\Temp\core-3.5.3.jar.sha256
+       Property url: https://download2.interactivebrokers.com/installers/jars/core-3.5.3.jar.sha256
+       Property acceptAllCertificates: false
+       Property askForProxy: true
+       Property checkDigest: false
+       Property deleteOnExit: true
+       Property dontAskForRetry: false
+       Property retryIfInterrupted: false
+       Property rollbackSupported: false
+       Property showError: false
+       Property showFileName: true
+       Property showProgress: false
+       Download: https://download2.interactivebrokers.com/installers/jars/core-3.5.3.jar.sha256 to C:\Users\mrbat\AppData\Local\Temp\core-3.5.3.jar.sha256; size: 64 bytes
+       Execute action successful after 19 ms
+[INFO] com.install4j.runtime.beans.actions.text.ReadTextFromFileAction [ID 6109]: Execute action
+       Property encoding: UTF-8
+       Property file: C:\Users\mrbat\AppData\Local\Temp\core-3.5.3.jar.sha256
+       Property variableName: jarDigest
+       Property rollbackSupported: false
+       Property saveAsArray: false
+       Variable changed: jarDigest=8d8064c1636fdaef7189dd9055c7d59950a8940a12f2293956446ec3c109fd82[class java.lang.String]
+       Execute action successful after 6 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 5921]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_55
+       Property variableName: skipDownload
+       Property failIfNull: false
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Local file 'C:\Users\mrbat\Desktop\495\tws\jars\core-3.5.3.jar' doesn't exist.
+       Variable changed: skipDownload=false[class java.lang.Boolean]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.net.DownloadFileAction [ID 5204]: Execute action
+       Property connectTimeout: 10000
+       Property connectionFailureScript: null
+       Property digestAlgorithm: SHA-256
+       Property digestUrl: 
+       Property readTimeout: 20000
+       Property requestHeaders: []
+       Property targetFile: C:\Users\mrbat\AppData\Local\Temp\core-3.5.3.jar
+       Property url: https://download2.interactivebrokers.com/installers/jars/core-3.5.3.jar
+       Property acceptAllCertificates: false
+       Property askForProxy: true
+       Property checkDigest: false
+       Property deleteOnExit: false
+       Property dontAskForRetry: false
+       Property retryIfInterrupted: true
+       Property rollbackSupported: false
+       Property showError: false
+       Property showFileName: true
+       Property showProgress: true
+       Download: https://download2.interactivebrokers.com/installers/jars/core-3.5.3.jar to C:\Users\mrbat\AppData\Local\Temp\core-3.5.3.jar; size: 607650 bytes
+       Execute action successful after 127 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 6241]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_57
+       Property rollbackSupported: false
+       Calculating digest for 'C:\Users\mrbat\AppData\Local\Temp\core-3.5.3.jar'...
+       Execute action successful after 16 ms
+[INFO] com.install4j.runtime.beans.actions.files.MoveFileAction [ID 6243]: Execute action
+       Property destinationFile: C:\Users\mrbat\Desktop\495\tws\jars\core-3.5.3.jar
+       Property destinationRoot: Installation directory
+       Property directoryFilter: null
+       Property directoryMode: 755
+       Property fileFilter: null
+       Property files: [C:\Users\mrbat\AppData\Local\Temp\core-3.5.3.jar]
+       Property filesRoot: Installation directory
+       Property mode: 644
+       Property overwriteMode: Always
+       Property uninstallMode: If created
+       Property delay: false
+       Property recursive: true
+       Property rollbackSupported: true
+       Property shared: false
+       Property showFileNames: true
+       Property showProgress: false
+       Property triggerReboot: true
+       Move C:\Users\mrbat\AppData\Local\Temp\core-3.5.3.jar to C:\Users\mrbat\Desktop\495\tws\jars\core-3.5.3.jar
+       Install file: C:\Users\mrbat\Desktop\495\tws\jars\core-3.5.3.jar; size: 607650 bytes; exists: false
+       File options set to: [fileTime: Thu Jul 31 14:59:44 EDT 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Backing up C:\Users\mrbat\AppData\Local\Temp\core-3.5.3.jar
+       Execute action successful after 4 ms
+[INFO] com.install4j.runtime.beans.actions.text.WriteTextFileAction [ID 2307]: Execute action
+       Property encoding: 
+       Property file: C:\Users\mrbat\Desktop\495\tws\tws.vmoptions
+       Property text: #
+# This file contains VM parameters for Trader Workstation.
+# Each parameter should be defined in a separate line and the
+# last line must be followed by a line feed. No leading or
+# trailing whitespaces are allowed in the same line, where a
+# parameter is defined.
+#
+# Lines starting with a '#' character are treated as comments
+# and ignored. Additionally, if a line contains a
+# '### keep on update' string, all parameters defined below will
+# be preserved on update.
+#
+
+# maximum Java heap size
+-Xmx2048m
+
+# GC settings
+-XX:+UseG1GC
+-XX:MaxGCPauseMillis=200
+-XX:ParallelGCThreads=20
+-XX:ConcGCThreads=5
+-XX:InitiatingHeapOccupancyPercent=70
+
+# preferred channel for updates ("stable", "latest", "beta", "preview")
+-Dchannel=latest
+
+-Dinstaller.uuid=d9400b80-e041-4e25-b658-ac121d55dedd
+-DvmOptionsPath=C:\Users\mrbat\Desktop\495\tws\tws.vmoptions
+-Dsun.awt.nopixfmt=true
+-Dsun.java2d.noddraw=true
+-Dswing.boldMetal=false
+-Dsun.locale.formatasdefault=true
+-Dsun.java2d.uiScale.enabled=true
+-Dsun.java2d.uiScale=1.0
+
+### keep on update
+
+       Property append: false
+       Property escaped: false
+       Property logText: true
+       Property rollbackSupported: true
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 10]: Execute action
+       Property categories: Application
+       Property linkDirectory: /usr/local/bin
+       Property programGroupEntryConfigs: []
+       Property programGroupName: Trader Workstation
+       Property uninstallerMenuName: Trader Workstation Uninstaller
+       Property addDefaultLauncherLinks: true
+       Property addUninstaller: true
+       Property allUsers: true
+       Property failForSymlinksNotCreated: false
+       Property rollbackSupported: true
+       Property unixMenuEntries: true
+       Property unixSymlinks: true
+       Variable changed: sys.programGroupName=Trader Workstation[class java.lang.String]
+       Variable changed: sys.symlinkDir=/usr/local/bin[class java.lang.String]
+       Install file: C:\Users\mrbat\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Trader Workstation\Trader Workstation.lnk; size: 1620 bytes; exists: false
+       File options set to: [fileTime: Thu Jul 31 14:59:44 EDT 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\Users\mrbat\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Trader Workstation\Trader Workstation Uninstaller.lnk; size: 1668 bytes; exists: false
+       File options set to: [fileTime: Thu Jul 31 14:59:44 EDT 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Execute action successful after 51 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 11]: Execute action
+       Property icon: i4j_extf_44_1fkviev_kw6g0r.ico
+       Property iconSource: Custom icon
+       Property itemName: Trader Workstation
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Could not set app version: For input string: "latest (10"
+       Execute action successful after 18 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateDesktopLinkAction [ID 54]: Execute action
+       Property additionalDesktopFileEntries: 
+       Property arguments: -J-DjtsConfigDir="C:\Users\mrbat\Desktop\495\tws"
+       Property description: Trader Workstation
+       Property file: tws
+       Property name: Trader Workstation
+       Property startIn: null
+       Property unixIconFile: null
+       Property winIconFile: null
+       Property allUsers: true
+       Property macSingleBundleTarget: false
+       Property rollbackSupported: true
+       Property runAsAdministrator: false
+       Install file: C:\Users\Public\Desktop\Trader Workstation.lnk; size: 1758 bytes; exists: false
+       File options set to: [fileTime: Thu Jul 31 14:59:44 EDT 2025, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Execute action successful after 72 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 1569]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_62
+       Property rollbackSupported: false
+       Creating a registry key [root: HKEY_CURRENT_USER, keyName: SOFTWARE\Classes\.twsdemo]...
+       Setting a registry value [root: HKEY_CURRENT_USER, keyName: SOFTWARE\Classes\.twsdemo, valueName: , value: tws]...
+       Setting a registry value [root: HKEY_CURRENT_USER, keyName: SOFTWARE\Classes\.twsdemo, valueName: Content Type, value: application/x-ibllc-twsdemo]...
+       Creating a registry key [root: HKEY_CURRENT_USER, keyName: SOFTWARE\Classes\tws]...
+       Setting a registry value [root: HKEY_CURRENT_USER, keyName: SOFTWARE\Classes\tws, valueName: , value: Trader Workstation Launch File]...
+       Creating a registry key [root: HKEY_CURRENT_USER, keyName: SOFTWARE\Classes\tws\shell]...
+       Creating a registry key [root: HKEY_CURRENT_USER, keyName: SOFTWARE\Classes\tws\shell\open]...
+       Creating a registry key [root: HKEY_CURRENT_USER, keyName: SOFTWARE\Classes\tws\shell\open\command]...
+       Setting a registry value [root: HKEY_CURRENT_USER, keyName: SOFTWARE\Classes\tws\shell\open\command, valueName: , value: "C:\Users\mrbat\Desktop\495\tws\tws.exe" "%1"]...
+       Creating a registry key [root: HKEY_CURRENT_USER, keyName: SOFTWARE\Classes\MIME\Database\Content Type\application/x-ibllc-twsdemo]...
+       Setting a registry value [root: HKEY_CURRENT_USER, keyName: SOFTWARE\Classes\MIME\Database\Content Type\application/x-ibllc-twsdemo, valueName: Extension, value: .twsdemo]...
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.text.WriteTextFileAction [ID 2244]: Execute action
+       Property encoding: 
+       Property file: C:\Users\mrbat\Desktop\495\tws\.install4j\.installSuccess
+       Property text: .
+       Property append: false
+       Property escaped: true
+       Property logText: true
+       Property rollbackSupported: true
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 3770]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_64
+       Property variableName: launcherArgs
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: launcherArgs=[-J-DskipUpdateCheck=false][class [Ljava.lang.String;]
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Rollback barrier reached
+       command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 2986]: Show screen
+       Variable changed: executeLauncherAction=false[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 2986]: command: finish
+       cleaning up
+       Finished at 2025-07-31 14:59:46

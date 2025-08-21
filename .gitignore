@@ -1,0 +1,30 @@
+# sensitive/env
+.env
+.env.*
+*.env
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env/ 
+.venv/
+
+# mysql/db dumps
+*.sql
+*.sqlite
+*.db
+
+# IDE/editor
+.vscode/
+.idea/
+
+# binaries, jars, large runtime files
+tws/jars/
+*.dat
+
+# OS
+Thumbs.db
+.DS_Store

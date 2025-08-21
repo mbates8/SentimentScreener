@@ -1,0 +1,863 @@
+2025-07-31 15:00:04.642 [RO] INFO  [JTS-Main] - OvernightManager.dayInit: new values: dayOfTheWeek: 5 (Thu), YYYYMMofToday: 202507, YYYYMMDDofToday: 20250731, m_todayDate: 20250731, dueToChangeInTimezone: false
+2025-07-31 15:00:04.644 [RO] INFO  [JTS-Main] - Created on: 20250731
+2025-07-31 15:00:04.644 [RO] INFO  [JTS-Main] - ------------------------------- TWS RESTART --------------------------------
+2025-07-31 15:00:04.645 [RO] INFO  [JTS-Main] - installer version: 4.101, installer type: updatable, install dir: 'C:\Users\mrbat\Desktop\495\tws\', Jts dir: 'C:\Users\mrbat\Desktop\495\tws', VM options file: 'C:\Users\mrbat\Desktop\495\tws\tws.vmoptions'
+2025-07-31 15:00:04.648 [RO] INFO  [JTS-Main] - PROXY Installed custom selector
+2025-07-31 15:00:04.655 [RO] INFO  [JTS-Main] - LOCALE: Property locale_to_use=null JTS Locale=en_US  country=United States  variant=
+2025-07-31 15:00:04.656 [RO] INFO  [JTS-Main] - Region: America
+2025-07-31 15:00:04.656 [RO] INFO  [JTS-Main] - URL for locales.jar from argument: https://download2.interactivebrokers.com/installers/shared/i18n/ib
+2025-07-31 15:00:04.660 [RO] INFO  [JTS-Main] - DocumentBuilderFactory=jrt:/java.xml/com/sun/org/apache/xerces/internal/jaxp/DocumentBuilderFactoryImpl.class
+2025-07-31 15:00:04.672 [RO] INFO  [JTS-Main] - LOCALE: loaded 11 supported locales
+2025-07-31 15:00:04.679 [RO] INFO  [JTS-Main] - LOCALE: loaded 10 countries
+2025-07-31 15:00:04.684 [RO] INFO  [JTS-Main] - LOCALE: from OS: en_US
+2025-07-31 15:00:04.684 [RO] INFO  [JTS-Main] - LOCALE: created classloader java.net.URLClassLoader@b78a709 with file:/C:/Users/mrbat/Desktop/495/tws/jars/locales.jar, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@28c97a5
+2025-07-31 15:00:04.685 [RO] INFO  [JTS-Main] - Locale=en_US  country=United States  variant=
+2025-07-31 15:00:04.686 [RO] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage]
+2025-07-31 15:00:04.687 [RO] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage_en]
+2025-07-31 15:00:04.688 [RO] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage_en_US]
+2025-07-31 15:00:04.688 [RO] INFO  [JTS-Main] - LOCALE:  type: launcher intended: en_US actual:  size: 503
+2025-07-31 15:00:04.688 [RO] INFO  [JTS-Main] - settings dir: 'C:\Users\mrbat\Desktop\495\tws'
+2025-07-31 15:00:04.698 [RO] INFO  [JTS-Main] - Verifying environment [entryPoint=TWS_UPDATABLE]...
+2025-07-31 15:00:04.699 [RO] INFO  [AWT-EventQueue-0] - LauncherFontUpdater: simulatehighdefscreen=false
+2025-07-31 15:00:04.699 [RO] INFO  [AWT-EventQueue-0] - LauncherFontUpdater: Screen dimensions=1920x1080
+2025-07-31 15:00:04.699 [RO] INFO  [AWT-EventQueue-0] - LauncherFontUpdater: highres=false
+2025-07-31 15:00:04.699 [RO] INFO  [AWT-EventQueue-0] - LauncherFontUpdater: FontSize=16
+2025-07-31 15:00:04.703 [RO] INFO  [AWT-EventQueue-0] - LauncherJtsLookAndFeel initialized
+2025-07-31 15:00:04.739 [RO] INFO  [AWT-EventQueue-0] - Install4jAutoUpdateService initialized [props=LauncherProperties[updateDownloadUrl=https://download2.interactivebrokers.com/installers/tws/latest,skipUpdateCheck=false,nightlyEnabled=false,channelNameArg=null,channelName=latest,channelChanged=false,jtsConfigDir=C:\Users\mrbat\Desktop\495\tws,apiPort=null,sessionId=null,installDir=C:\Users\mrbat\Desktop\495\tws\,exeName=tws]].
+2025-07-31 15:00:04.753 [RO] INFO  [AWT-EventQueue-0] - Proxy not found for accessing 'https://download2.interactivebrokers.com/installers/tws/latest'
+2025-07-31 15:00:04.754 [RO] INFO  [AWT-EventQueue-0] - Checking for update [args=[-Vchannel=latest, -VchannelChanged=false, -VcustomJtsConfigDir=C:\Users\mrbat\Desktop\495\tws]]...
+2025-07-31 15:00:06.393 [RO] INFO  [JTS-Main] - Initializing launcher downloader [internalJars=jts4launch-1039-windows-x64.jar,internalJarsUrl=https://download2.interactivebrokers.com/installers/tws/latest,thirdPartyJars=jackson-databind-2.12.3.jar:jxbrowser-7.41.3.jar:total-2024.jar:batik-all-1.16.jar:jxbrowser-swing-7.41.3.jar:fop-2.8.jar:protobuf-java-3.25.6.jar:jxbrowser-win64-7.41.3.jar:jackson-annotations-2.12.3.jar:xmlgraphics-commons-2.8.jar,thirdPartyJarsUrl=https://download2.interactivebrokers.com/installers/jars,mainJarName=jts4launch-1039-windows-x64.jar,mainJarDigest=4a482de7e214afa4de7fcb07d2e48e9a1b78c3f3f3fa7a426b6ddc9b941f8784,ignoreDate=false,ignoreDownload=false]...
+2025-07-31 15:00:06.394 [RO] INFO  [JTS-Main] - Verifying SHA-256 digest [digestUrl=https://download2.interactivebrokers.com/installers/tws/latest/jts4launch-1039-windows-x64.jar.sha256,expectedDigest=4a482de7e214afa4de7fcb07d2e48e9a1b78c3f3f3fa7a426b6ddc9b941f8784]...
+2025-07-31 15:00:06.395 [RO] INFO  [JTS-Main] - Starting to download 'https://download2.interactivebrokers.com/installers/tws/latest/jts4launch-1039-windows-x64.jar.sha256' using HotBackup 'https://download2.interactivebrokers.com/installers/tws/latest/jts4launch-1039-windows-x64.jar.sha256'
+2025-07-31 15:00:06.580 [RO] INFO  [JTS-Main] - getFileFromUrl: dest=C:\Users\mrbat\AppData\Local\Temp\digest2994997501752206352.tmp empty sourceSize=64
+2025-07-31 15:00:06.581 [RO] INFO  [JTS-Main] - Finished downloading file [path=/installers/tws/latest/jts4launch-1039-windows-x64.jar.sha256,startPosition=0,totalBytesRead=64,fileLen=64,remoteLength=64].
+2025-07-31 15:00:06.588 [RO] INFO  [JTS-Main] - Remote 'jts4launch-1039-windows-x64.jar' is compatible with this launcher.
+2025-07-31 15:00:06.751 [RO] INFO  [JTS-Main] - Checking which local files need to be updated [relaxedRemoteFileSize: false]...
+2025-07-31 15:00:06.751 [RO] INFO  [JTS-Main] - 'C:\Users\mrbat\Desktop\495\tws\jars\jts4launch-1039-windows-x64_1753820093000.dat' needs to be updated.
+2025-07-31 15:00:06.751 [RO] INFO  [JTS-Main] - 'C:\Users\mrbat\Desktop\495\tws\jars\jackson-databind-2.12.3_1700085189000.dat' needs to be updated.
+2025-07-31 15:00:06.751 [RO] INFO  [JTS-Main] - 'C:\Users\mrbat\Desktop\495\tws\jars\jxbrowser-7.41.3_1727888552000.dat' needs to be updated.
+2025-07-31 15:00:06.751 [RO] INFO  [JTS-Main] - 'C:\Users\mrbat\Desktop\495\tws\jars\total-2024_1727361747000.dat' needs to be updated.
+2025-07-31 15:00:06.751 [RO] INFO  [JTS-Main] - 'C:\Users\mrbat\Desktop\495\tws\jars\batik-all-1.16_1684763319000.dat' needs to be updated.
+2025-07-31 15:00:06.751 [RO] INFO  [JTS-Main] - 'C:\Users\mrbat\Desktop\495\tws\jars\jxbrowser-swing-7.41.3_1727888555000.dat' needs to be updated.
+2025-07-31 15:00:06.752 [RO] INFO  [JTS-Main] - 'C:\Users\mrbat\Desktop\495\tws\jars\fop-2.8_1684763319000.dat' needs to be updated.
+2025-07-31 15:00:06.752 [RO] INFO  [JTS-Main] - 'C:\Users\mrbat\Desktop\495\tws\jars\protobuf-java-3.25.6_1740684430000.dat' needs to be updated.
+2025-07-31 15:00:06.752 [RO] INFO  [JTS-Main] - 'C:\Users\mrbat\Desktop\495\tws\jars\jxbrowser-win64-7.41.3_1727888557000.dat' needs to be updated.
+2025-07-31 15:00:06.752 [RO] INFO  [JTS-Main] - 'C:\Users\mrbat\Desktop\495\tws\jars\jackson-annotations-2.12.3_1700085178000.dat' needs to be updated.
+2025-07-31 15:00:06.752 [RO] INFO  [JTS-Main] - 'C:\Users\mrbat\Desktop\495\tws\jars\xmlgraphics-commons-2.8_1684763319000.dat' needs to be updated.
+2025-07-31 15:00:06.752 [RO] INFO  [JTS-Main] - 11 file(s) need to be updated.
+2025-07-31 15:00:06.752 [RO] INFO  [JTS-Main] - Launcher will download the following missing/modified jars:
+2025-07-31 15:00:06.754 [RO] INFO  [JTS-Main] -    C:\Users\mrbat\Desktop\495\tws\jars\jts4launch-1039-windows-x64_1753820093000.dat from: https://download2.interactivebrokers.com/installers/tws/latest/jts4launch-1039-windows-x64.jar, size: 79991029, modified: Tue Jul 29 16:14:53 EDT 2025
+2025-07-31 15:00:06.755 [RO] INFO  [JTS-Main] -    C:\Users\mrbat\Desktop\495\tws\jars\jackson-databind-2.12.3_1700085189000.dat from: https://download2.interactivebrokers.com/installers/jars/jackson-databind-2.12.3.jar, size: 1515756, modified: Wed Nov 15 16:53:09 EST 2023
+2025-07-31 15:00:06.755 [RO] INFO  [JTS-Main] -    C:\Users\mrbat\Desktop\495\tws\jars\jxbrowser-7.41.3_1727888552000.dat from: https://download2.interactivebrokers.com/installers/jars/jxbrowser-7.41.3.jar, size: 14228927, modified: Wed Oct 02 13:02:32 EDT 2024
+2025-07-31 15:00:06.755 [RO] INFO  [JTS-Main] -    C:\Users\mrbat\Desktop\495\tws\jars\total-2024_1727361747000.dat from: https://download2.interactivebrokers.com/installers/jars/total-2024.jar, size: 5708986, modified: Thu Sep 26 10:42:27 EDT 2024
+2025-07-31 15:00:06.755 [RO] INFO  [JTS-Main] -    C:\Users\mrbat\Desktop\495\tws\jars\batik-all-1.16_1684763319000.dat from: https://download2.interactivebrokers.com/installers/jars/batik-all-1.16.jar, size: 4289313, modified: Mon May 22 09:48:39 EDT 2023
+2025-07-31 15:00:06.755 [RO] INFO  [JTS-Main] -    C:\Users\mrbat\Desktop\495\tws\jars\jxbrowser-swing-7.41.3_1727888555000.dat from: https://download2.interactivebrokers.com/installers/jars/jxbrowser-swing-7.41.3.jar, size: 201356, modified: Wed Oct 02 13:02:35 EDT 2024
+2025-07-31 15:00:06.755 [RO] INFO  [JTS-Main] -    C:\Users\mrbat\Desktop\495\tws\jars\fop-2.8_1684763319000.dat from: https://download2.interactivebrokers.com/installers/jars/fop-2.8.jar, size: 4453484, modified: Mon May 22 09:48:39 EDT 2023
+2025-07-31 15:00:06.755 [RO] INFO  [JTS-Main] -    C:\Users\mrbat\Desktop\495\tws\jars\protobuf-java-3.25.6_1740684430000.dat from: https://download2.interactivebrokers.com/installers/jars/protobuf-java-3.25.6.jar, size: 1876053, modified: Thu Feb 27 14:27:10 EST 2025
+2025-07-31 15:00:06.755 [RO] INFO  [JTS-Main] -    C:\Users\mrbat\Desktop\495\tws\jars\jxbrowser-win64-7.41.3_1727888557000.dat from: https://download2.interactivebrokers.com/installers/jars/jxbrowser-win64-7.41.3.jar, size: 107151702, modified: Wed Oct 02 13:02:37 EDT 2024
+2025-07-31 15:00:06.755 [RO] INFO  [JTS-Main] -    C:\Users\mrbat\Desktop\495\tws\jars\jackson-annotations-2.12.3_1700085178000.dat from: https://download2.interactivebrokers.com/installers/jars/jackson-annotations-2.12.3.jar, size: 75703, modified: Wed Nov 15 16:52:58 EST 2023
+2025-07-31 15:00:06.755 [RO] INFO  [JTS-Main] -    C:\Users\mrbat\Desktop\495\tws\jars\xmlgraphics-commons-2.8_1684763319000.dat from: https://download2.interactivebrokers.com/installers/jars/xmlgraphics-commons-2.8.jar, size: 676840, modified: Mon May 22 09:48:39 EDT 2023
+2025-07-31 15:00:06.757 [RO] INFO  [JTS-DownloadCenter-2] - Starting to download 'https://download2.interactivebrokers.com/installers/tws/latest/jts4launch-1039-windows-x64.jar' using HotBackup 'https://download2.interactivebrokers.com/installers/tws/latest/jts4launch-1039-windows-x64.jar'
+2025-07-31 15:00:06.760 [RO] INFO  [JTS-MiscUlrsRequester-3] - Connecting ndc1.ibllc.com:4000 timeout=10000...
+2025-07-31 15:00:06.784 [RO] INFO  [JTS-DownloadCenter-2] - getFileFromUrl: dest=C:\Users\mrbat\Desktop\495\tws\jars\jts4launch-1039-windows-x64_1753820093000.dat.tws_tmp new
+2025-07-31 15:00:06.819 [RO] INFO  [JTS-MiscUlrsRequester-3] - Connected to ndc1.ibllc.com:4000/64.190.197.40 remote-ip on local port 0 socket local addrs:port /192.168.1.166:51585
+2025-07-31 15:00:06.820 [RO] INFO  [JTS-MiscUlrsRequester-3] - Updating machine info [connectionAddress=/192.168.1.166]...
+2025-07-31 15:00:06.821 [RO] INFO  [JTS-MiscUlrsRequester-3] - Creating unique random...
+2025-07-31 15:00:06.826 [RO] INFO  [JTS-MiscUlrsRequester-3] - id=14460645
+2025-07-31 15:00:06.826 [RO] INFO  [JTS-MiscUlrsRequester-3] - Resolving MAC address...
+2025-07-31 15:00:06.836 [RO] INFO  [JTS-MiscUlrsRequester-3] - MACNetworkInfo created <14460645|34:5A:60:10:8B:2E|192.168.1.166>.
+2025-07-31 15:00:06.841 [RO] INFO  [JTS-MISC URLsListenerS1-4] - Starting listener thread [sessionID=1]...
+2025-07-31 15:00:06.850 [RO] INFO  [JTS-MiscUlrsRequester-3] - Sending MiscUrls request
+2025-07-31 15:00:06.850 [RO] INFO  [JTS-AuthDispatcherS1-5] - Starting dispatcher thread [sessionID=1]...
+2025-07-31 15:00:06.852 [RO] INFO  [JTS-MiscUlrsRequester-3] - LOGIN_TIME_MONITOR	 false 15:00:06:852 since start = 0 thread delay = 0 global delay = 0 tag=null, cls=AuthDispatcher method=send
+2025-07-31 15:00:06.853 [RO] INFO  [JTS-AuthResponseMonitor-6] - Starting auth response monitor thread
+2025-07-31 15:00:06.853 [RO] INFO  [JTS-MISC URLsListenerS1-4] - Initial listener buffer size is 65536.
+2025-07-31 15:00:06.853 [RO] INFO  [JTS-MISC URLsListenerS1-4] - Listener thread [sessionID=1] is ready to process messages.
+2025-07-31 15:00:06.872 [RO] INFO  [JTS-AuthDispatcherS1-5] - Received NS_MISC_URLS
+2025-07-31 15:00:06.872 [RO] INFO  [JTS-AuthDispatcherS1-5] - IBMiscUrl.miscUrlMessage()[sslRequired=true]
+2025-07-31 15:00:06.872 [RO] INFO  [JTS-AuthDispatcherS1-5] - Misc URL: scope is blank - setting userScope to EXTERNAL
+2025-07-31 15:00:06.872 [RO] INFO  [JTS-AuthDispatcherS1-5] - Misc URL: setting userScope to EXTERNAL
+2025-07-31 15:00:06.875 [RO] INFO  [JTS-AuthDispatcherS1-5] - Disconnecting ndc1.ibllc.com:4000 [disconnectDetails=DisconnectDetails[sessionID=1,endPoint=ndc1.ibllc.com:4000,reason=DISCONNECT_BY_DESIGN,cause=null,systemMessage=null,keepSocketOpen=false]]...
+2025-07-31 15:00:06.875 [RO] INFO  [JTS-AuthDispatcherS1-5] - Socket closed.
+2025-07-31 15:00:06.875 [RO] INFO  [JTS-MISC URLsListenerS1-4] - Socket or stream for connection ndc1.ibllc.com:4000 was closed by another thread.
+2025-07-31 15:00:06.878 [RO] INFO  [JTS-AuthDispatcherS1-5] - SocketTracker[name=name=MISC URLs(ndc1.ibllc.com:4000),usesCcpConMan=false,lastReadTimestamp=1753988406872,lastReadDateTime=2025-07-31T15:00:06.872,lastFixSendTime=].
+2025-07-31 15:00:06.878 [RO] INFO  [JTS-AuthDispatcherS1-5] - Interrupting dispatcher [sessionID=1]...
+2025-07-31 15:00:06.878 [RO] INFO  [JTS-AuthDispatcherS1-5] - Interrupting listener [sessionID=1,disconnectSocket=true]...
+2025-07-31 15:00:06.879 [RO] INFO  [JTS-AuthDispatcherS1-5] - Dispatcher thread terminating [sessionID=1,interrupted=true]...
+2025-07-31 15:00:06.879 [RO] INFO  [JTS-MISC URLsListenerS1-4] - Listener thread terminating [sessionID=1] [seen=1159,totalShifted=1159,moreAvailable=0]
+2025-07-31 15:00:06.879 [RO] INFO  [JTS-AuthResponseMonitor-6] - Terminating auth response monitor thread
+2025-07-31 15:00:07.122 [RO] INFO  [AWT-EventQueue-0] - Default timezone:America/New_York
+2025-07-31 15:00:07.124 [RO] INFO  [AWT-EventQueue-0] - Starting GstatMessageMgr...
+2025-07-31 15:00:07.128 [RO] INFO  [JTS-GstatMessageMgr-9] - Sending a request to GSTAT [url=https://api.ibkr.com/v1/gstat//bulletins,data='{"p":"10391d","t":"Maintenance","tz":"America/New_York","format":"webapp","theme":"dark","fontSize":"12px","lang":"en"}']...
+2025-07-31 15:00:07.139 [RO] INFO  [AWT-EventQueue-0] - Started on 20250731-19:00:07
+2025-07-31 15:00:07.139 [RO] INFO  [AWT-EventQueue-0] - Default timezone:America/New_York name:Eastern Standard Time dst:3600000
+2025-07-31 15:00:07.139 [RO] INFO  [AWT-EventQueue-0] - java version = 17.0.10.0.101
+2025-07-31 15:00:07.139 [RO] INFO  [AWT-EventQueue-0] - sun.arch.data.model = 64
+2025-07-31 15:00:07.139 [RO] INFO  [AWT-EventQueue-0] - os = Windows 11
+2025-07-31 15:00:07.139 [RO] INFO  [AWT-EventQueue-0] - os version = 10.0
+2025-07-31 15:00:07.139 [RO] INFO  [AWT-EventQueue-0] - os architecture = 64
+2025-07-31 15:00:07.139 [RO] INFO  [AWT-EventQueue-0] - runtime = OpenJDK Runtime Environment
+2025-07-31 15:00:07.140 [RO] INFO  [AWT-EventQueue-0] - vendor = Azul Systems, Inc.
+2025-07-31 15:00:07.140 [RO] INFO  [AWT-EventQueue-0] - vm name = OpenJDK 64-Bit Server VM
+2025-07-31 15:00:07.140 [RO] INFO  [AWT-EventQueue-0] - username = 'mrbat'
+2025-07-31 15:00:07.306 [RO] INFO  [AWT-EventQueue-0] - Basic init done. Login window shown
+2025-07-31 15:00:07.306 [RO] INFO  [JTS-Main] - Launcher created @ 20250729-16:08:59
+2025-07-31 15:00:07.929 [RO] INFO  [JTS-DownloadCenter-2] - Finished downloading file [path=/installers/tws/latest/jts4launch-1039-windows-x64.jar,startPosition=0,totalBytesRead=79991029,fileLen=79991029,remoteLength=79991029].
+2025-07-31 15:00:07.930 [RO] INFO  [JTS-DownloadCenter-2] - Verifying 'jts4launch-1039-windows-x64.jar'...
+2025-07-31 15:00:08.010 [RO] INFO  [JTS-DownloadCenter-2] - 'jts4launch-1039-windows-x64.jar' was verified successfully.
+2025-07-31 15:00:08.010 [RO] INFO  [JTS-DownloadCenter-2] - Renaming 'C:\Users\mrbat\Desktop\495\tws\jars\jts4launch-1039-windows-x64_1753820093000.dat.tws_tmp' to 'C:\Users\mrbat\Desktop\495\tws\jars\jts4launch-1039-windows-x64_1753820093000.dat'...
+2025-07-31 15:00:08.011 [RO] INFO  [JTS-DownloadCenter-2] - Starting to download 'https://download2.interactivebrokers.com/installers/jars/jackson-databind-2.12.3.jar' using HotBackup 'https://download2.interactivebrokers.com/installers/jars/jackson-databind-2.12.3.jar'
+2025-07-31 15:00:08.041 [RO] INFO  [JTS-DownloadCenter-2] - getFileFromUrl: dest=C:\Users\mrbat\Desktop\495\tws\jars\jackson-databind-2.12.3_1700085189000.dat new
+2025-07-31 15:00:08.064 [RO] INFO  [JTS-DownloadCenter-2] - Finished downloading file [path=/installers/jars/jackson-databind-2.12.3.jar,startPosition=0,totalBytesRead=1515756,fileLen=1515756,remoteLength=1515756].
+2025-07-31 15:00:08.064 [RO] INFO  [JTS-DownloadCenter-2] - Starting to download 'https://download2.interactivebrokers.com/installers/jars/jxbrowser-7.41.3.jar' using HotBackup 'https://download2.interactivebrokers.com/installers/jars/jxbrowser-7.41.3.jar'
+2025-07-31 15:00:08.191 [RO] INFO  [JTS-DownloadCenter-2] - getFileFromUrl: dest=C:\Users\mrbat\Desktop\495\tws\jars\jxbrowser-7.41.3_1727888552000.dat new
+2025-07-31 15:00:08.303 [RO] INFO  [JTS-GstatMessageMgr-9] - Received response [errorCode=204,contentLen=-1].
+2025-07-31 15:00:08.340 [RO] INFO  [JTS-DownloadCenter-2] - Finished downloading file [path=/installers/jars/jxbrowser-7.41.3.jar,startPosition=0,totalBytesRead=14228927,fileLen=14228927,remoteLength=14228927].
+2025-07-31 15:00:08.341 [RO] INFO  [JTS-DownloadCenter-2] - Starting to download 'https://download2.interactivebrokers.com/installers/jars/total-2024.jar' using HotBackup 'https://download2.interactivebrokers.com/installers/jars/total-2024.jar'
+2025-07-31 15:00:08.355 [RO] INFO  [JTS-DownloadCenter-2] - getFileFromUrl: dest=C:\Users\mrbat\Desktop\495\tws\jars\total-2024_1727361747000.dat new
+2025-07-31 15:00:08.429 [RO] INFO  [JTS-DownloadCenter-2] - Finished downloading file [path=/installers/jars/total-2024.jar,startPosition=0,totalBytesRead=5708986,fileLen=5708986,remoteLength=5708986].
+2025-07-31 15:00:08.429 [RO] INFO  [JTS-DownloadCenter-2] - Starting to download 'https://download2.interactivebrokers.com/installers/jars/batik-all-1.16.jar' using HotBackup 'https://download2.interactivebrokers.com/installers/jars/batik-all-1.16.jar'
+2025-07-31 15:00:08.455 [RO] INFO  [JTS-DownloadCenter-2] - getFileFromUrl: dest=C:\Users\mrbat\Desktop\495\tws\jars\batik-all-1.16_1684763319000.dat new
+2025-07-31 15:00:08.509 [RO] INFO  [JTS-DownloadCenter-2] - Finished downloading file [path=/installers/jars/batik-all-1.16.jar,startPosition=0,totalBytesRead=4289313,fileLen=4289313,remoteLength=4289313].
+2025-07-31 15:00:08.509 [RO] INFO  [JTS-DownloadCenter-2] - Starting to download 'https://download2.interactivebrokers.com/installers/jars/jxbrowser-swing-7.41.3.jar' using HotBackup 'https://download2.interactivebrokers.com/installers/jars/jxbrowser-swing-7.41.3.jar'
+2025-07-31 15:00:08.528 [RO] INFO  [JavaFX Application Thread] - GstatMessagePanel: setup web app is done
+2025-07-31 15:00:08.536 [RO] INFO  [JTS-DownloadCenter-2] - getFileFromUrl: dest=C:\Users\mrbat\Desktop\495\tws\jars\jxbrowser-swing-7.41.3_1727888555000.dat new
+2025-07-31 15:00:08.537 [RO] INFO  [JTS-DownloadCenter-2] - Finished downloading file [path=/installers/jars/jxbrowser-swing-7.41.3.jar,startPosition=0,totalBytesRead=201356,fileLen=201356,remoteLength=201356].
+2025-07-31 15:00:08.538 [RO] INFO  [JTS-DownloadCenter-2] - Starting to download 'https://download2.interactivebrokers.com/installers/jars/fop-2.8.jar' using HotBackup 'https://download2.interactivebrokers.com/installers/jars/fop-2.8.jar'
+2025-07-31 15:00:08.562 [RO] INFO  [JTS-DownloadCenter-2] - getFileFromUrl: dest=C:\Users\mrbat\Desktop\495\tws\jars\fop-2.8_1684763319000.dat new
+2025-07-31 15:00:08.614 [RO] INFO  [JTS-DownloadCenter-2] - Finished downloading file [path=/installers/jars/fop-2.8.jar,startPosition=0,totalBytesRead=4453484,fileLen=4453484,remoteLength=4453484].
+2025-07-31 15:00:08.615 [RO] INFO  [JTS-DownloadCenter-2] - Starting to download 'https://download2.interactivebrokers.com/installers/jars/protobuf-java-3.25.6.jar' using HotBackup 'https://download2.interactivebrokers.com/installers/jars/protobuf-java-3.25.6.jar'
+2025-07-31 15:00:08.627 [RO] INFO  [JTS-DownloadCenter-2] - getFileFromUrl: dest=C:\Users\mrbat\Desktop\495\tws\jars\protobuf-java-3.25.6_1740684430000.dat new
+2025-07-31 15:00:08.655 [RO] INFO  [JTS-DownloadCenter-2] - Finished downloading file [path=/installers/jars/protobuf-java-3.25.6.jar,startPosition=0,totalBytesRead=1876053,fileLen=1876053,remoteLength=1876053].
+2025-07-31 15:00:08.655 [RO] INFO  [JTS-DownloadCenter-2] - Starting to download 'https://download2.interactivebrokers.com/installers/jars/jxbrowser-win64-7.41.3.jar' using HotBackup 'https://download2.interactivebrokers.com/installers/jars/jxbrowser-win64-7.41.3.jar'
+2025-07-31 15:00:08.675 [RO] INFO  [JTS-DownloadCenter-2] - getFileFromUrl: dest=C:\Users\mrbat\Desktop\495\tws\jars\jxbrowser-win64-7.41.3_1727888557000.dat new
+2025-07-31 15:00:09.785 [RO] INFO  [JTS-DownloadCenter-2] - Finished downloading file [path=/installers/jars/jxbrowser-win64-7.41.3.jar,startPosition=0,totalBytesRead=107151702,fileLen=107151702,remoteLength=107151702].
+2025-07-31 15:00:09.786 [RO] INFO  [JTS-DownloadCenter-2] - Starting to download 'https://download2.interactivebrokers.com/installers/jars/jackson-annotations-2.12.3.jar' using HotBackup 'https://download2.interactivebrokers.com/installers/jars/jackson-annotations-2.12.3.jar'
+2025-07-31 15:00:09.807 [RO] INFO  [JTS-DownloadCenter-2] - getFileFromUrl: dest=C:\Users\mrbat\Desktop\495\tws\jars\jackson-annotations-2.12.3_1700085178000.dat new
+2025-07-31 15:00:09.808 [RO] INFO  [JTS-DownloadCenter-2] - Finished downloading file [path=/installers/jars/jackson-annotations-2.12.3.jar,startPosition=0,totalBytesRead=75703,fileLen=75703,remoteLength=75703].
+2025-07-31 15:00:09.809 [RO] INFO  [JTS-DownloadCenter-2] - Starting to download 'https://download2.interactivebrokers.com/installers/jars/xmlgraphics-commons-2.8.jar' using HotBackup 'https://download2.interactivebrokers.com/installers/jars/xmlgraphics-commons-2.8.jar'
+2025-07-31 15:00:09.832 [RO] INFO  [JTS-DownloadCenter-2] - getFileFromUrl: dest=C:\Users\mrbat\Desktop\495\tws\jars\xmlgraphics-commons-2.8_1684763319000.dat new
+2025-07-31 15:00:09.841 [RO] INFO  [JTS-DownloadCenter-2] - Finished downloading file [path=/installers/jars/xmlgraphics-commons-2.8.jar,startPosition=0,totalBytesRead=676840,fileLen=676840,remoteLength=676840].
+2025-07-31 15:00:22.015 [RO] INFO  [AWT-EventQueue-0] - Stopping GstatMessageMgr...
+2025-07-31 15:00:22.016 [RO] INFO  [AWT-EventQueue-0] - LoginWindow.onLogin() - request MiscUrls
+2025-07-31 15:00:22.016 [RO] INFO  [AWT-EventQueue-0] - Setting dir is C:\Users\mrbat\Desktop\495\tws\
+2025-07-31 15:00:22.017 [RO] INFO  [AWT-EventQueue-0] - PROXY Cleared HTTP proxy: no valid proxy is present (passing on :0)
+2025-07-31 15:00:22.026 [RO] INFO  [AWT-EventQueue-0] - host = ndc1.ibllc.com
+2025-07-31 15:00:22.026 [RO] INFO  [AWT-EventQueue-0] - remotePort = 4000
+2025-07-31 15:00:22.027 [RO] INFO  [AWT-EventQueue-0] - localPort = 0
+2025-07-31 15:00:22.034 [RO] INFO  [AWT-EventQueue-0] - SPLASH Creating screen with 60 steps
+2025-07-31 15:00:22.053 [RO] INFO  [AWT-EventQueue-0] - UserCredentials.sessionId() [this=314271625,old=null,new=688bbd46.0033].
+2025-07-31 15:00:22.054 [RO] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection attempt time is cleared!
+2025-07-31 15:00:22.054 [RO] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection set as now:15:00:22:054
+2025-07-31 15:00:22.054 [RO] INFO  [AWT-EventQueue-0] - Prelogin delay:0
+2025-07-31 15:00:22.054 [RO] INFO  [JTS-Login-11] - Starting launcher login thread
+2025-07-31 15:00:22.054 [RO] INFO  [AWT-EventQueue-0] - Network monitor is activated
+2025-07-31 15:00:22.055 [RO] INFO  [JTS-Login-11] - LauncherLoginThread.runLoginWithUI()[hotBackupStrategy=ON,loginAttempt=1,socketDelay=20000].
+2025-07-31 15:00:22.055 [RO] INFO  [JTS-Login-11] - SPLASH Connecting to server
+2025-07-31 15:00:22.055 [RO] INFO  [JTS-Login-11] - ### startLogin startTime=1753988422053
+2025-07-31 15:00:22.055 [RO] INFO  [JTS-Login-11] - ### loginAttempt loginAttempt=1
+2025-07-31 15:00:22.056 [RO] INFO  [JTS-Login-11] - Connecting ndc1.ibllc.com:4001 (SSL) timeout=20000...
+2025-07-31 15:00:22.056 [RO] INFO  [JTS-Login-11] - ### onSocketOpenStart socketOpenStart=1753988422056; endPoint=ndc1.ibllc.com; port=4001
+2025-07-31 15:00:22.074 [RO] INFO  [JTS-Login-11] - ### onSocketOpenEnd socketOpenEnd=1753988422074
+2025-07-31 15:00:22.075 [RO] INFO  [JTS-Login-11] - Connected to ndc1.ibllc.com:4001 (SSL)/64.190.197.40 remote-ip on local port 0 socket local addrs:port /192.168.1.166:51626
+2025-07-31 15:00:22.075 [RO] INFO  [JTS-Login-11] - Updating machine info [connectionAddress=/192.168.1.166]...
+2025-07-31 15:00:22.075 [RO] INFO  [JTS-Login-11] - JTSAuthConnection.onConnected(): lastKnownCipherStatus=INSECURE
+2025-07-31 15:00:22.075 [RO] INFO  [JTS-Login-11] - Changing state for connection from PRELOGON to PRELOGON in B 399332725: SessionSocket:2
+2025-07-31 15:00:22.075 [RO] INFO  [JTS-Login-11] - Authenticating
+2025-07-31 15:00:22.076 [RO] INFO  [JTS-Login-11] - AuthTimeoutMonitor-CCP: deactivate
+2025-07-31 15:00:22.076 [RO] INFO  [JTS-Login-11] - AuthTimeoutMonitor-CCP: timeout=20000
+2025-07-31 15:00:22.076 [RO] INFO  [JTS-CCPListenerS2-13] - Starting listener thread [sessionID=2]...
+2025-07-31 15:00:22.076 [RO] INFO  [JTS-Login-11] - AuthTimeoutMonitor-CCP: activate
+2025-07-31 15:00:22.076 [RO] INFO  [JTS-AuthTimeoutMonitorThread-CCP-15] - Starting auth timeout monitor thread for CCP
+2025-07-31 15:00:22.076 [RO] INFO  [JTS-Login-11] - SPLASH -0001 step 1 AuthDispatcher.connect
+2025-07-31 15:00:22.076 [RO] INFO  [JTS-Login-11] - Sending connect request
+2025-07-31 15:00:22.076 [RO] INFO  [JTS-AuthDispatcherS2-14] - Starting dispatcher thread [sessionID=2]...
+2025-07-31 15:00:22.077 [RO] INFO  [JTS-Login-11] - AuthDispatcher.initNSMsgVersionLimits: minVersion=38, maxVersion=50
+2025-07-31 15:00:22.077 [RO] INFO  [JTS-Login-11] - AuthDispatcher.NSConnectRequest: userSessionID=688bbd46.0033, beeDemoType=NULL
+2025-07-31 15:00:22.077 [RO] INFO  [JTS-Login-11] - ### onNsMsg loginMessageReq=1753988422077; brandNewUser=true
+2025-07-31 15:00:22.142 [RO] INFO  [JTS-Login-11] - SPLASH Authenticating
+2025-07-31 15:00:22.142 [RO] INFO  [JTS-CCPListenerS2-13] - Initial listener buffer size is 65536.
+2025-07-31 15:00:22.142 [RO] INFO  [JTS-CCPListenerS2-13] - Listener thread [sessionID=2] is ready to process messages.
+2025-07-31 15:00:22.142 [RO] INFO  [JTS-Login-11] - Terminating launcher login thread
+2025-07-31 15:00:22.160 [RO] INFO  [JTS-AuthDispatcherS2-14] - NSErrorResponse.INVALID_USERNAME_OR_BAD_IP
+2025-07-31 15:00:22.161 [RO] INFO  [JTS-AuthDispatcherS2-14] - Starting GstatMessageMgr...
+2025-07-31 15:00:22.161 [RO] INFO  [JTS-GstatMessageMgr-19] - Sending a request to GSTAT [url=https://api.ibkr.com/v1/gstat//bulletins,data='{"p":"10391d","t":"Maintenance","tz":"America/New_York","peer":"ndc1.ibllc.com","format":"webapp","theme":"dark","fontSize":"12px","lang":"en","user":"***","ut":"live"}']...
+2025-07-31 15:00:22.162 [RO] INFO  [JTS-AuthDispatcherS2-14] - Reconnection time cleared: argClearBackoff=true base=0 range=5000 next=0 disconnected=0
+2025-07-31 15:00:22.162 [RO] INFO  [JTS-AuthDispatcherS2-14] - Disconnecting ndc1.ibllc.com:4001 (SSL) [disconnectDetails=DisconnectDetails[sessionID=2,endPoint=ndc1.ibllc.com:4001 (SSL),reason=DISCONNECT_AUTHORIZATION_FAILED,cause=null,systemMessage=Invalid username or password. 
+
+Please check the "Caps Lock" key; passwords are case sensitive. 
+
+If you are in the process of opening an individual account, please contact 
+customer service to reset the password. 
+
+If you are in the process of opening any other type of account, please note 
+that the login is possible beginning the day after account approval.
+
+Example user name: trader777,keepSocketOpen=false]]...
+2025-07-31 15:00:22.162 [RO] INFO  [JTS-AuthDispatcherS2-14] - Socket closed.
+2025-07-31 15:00:22.162 [RO] INFO  [JTS-AuthDispatcherS2-14] - AuthTimeoutMonitor-CCP: deactivate
+2025-07-31 15:00:22.162 [RO] INFO  [JTS-CCPListenerS2-13] - Socket or stream for connection ndc1.ibllc.com:4001 (SSL) was closed by another thread.
+2025-07-31 15:00:22.162 [RO] INFO  [JTS-AuthTimeoutMonitorThread-CCP-15] - Terminating auth timeout monitor thread for CCP
+2025-07-31 15:00:22.162 [RO] INFO  [JTS-AuthDispatcherS2-14] - SocketTracker[name=name=CCP(ndc1.ibllc.com:4001 (SSL)),usesCcpConMan=false,lastReadTimestamp=1753988422158,lastReadDateTime=2025-07-31T15:00:22.158,lastFixSendTime=].
+2025-07-31 15:00:22.162 [RO] INFO  [JTS-AuthDispatcherS2-14] - Interrupting dispatcher [sessionID=2]...
+2025-07-31 15:00:22.162 [RO] INFO  [JTS-AuthDispatcherS2-14] - Interrupting listener [sessionID=2,disconnectSocket=true]...
+2025-07-31 15:00:22.163 [RO] INFO  [JTS-AuthDispatcherS2-14] - CONN CALC: Last connection attempt time is cleared!
+2025-07-31 15:00:22.163 [RO] INFO  [JTS-CCPListenerS2-13] - Listener thread terminating [sessionID=2] [seen=49,totalShifted=49,moreAvailable=0]
+2025-07-31 15:00:22.163 [RO] INFO  [JTS-AuthDispatcherS2-14] - Dispatcher thread terminating [sessionID=2,interrupted=true]...
+2025-07-31 15:00:22.287 [RO] INFO  [JTS-GstatMessageMgr-19] - Received response [errorCode=204,contentLen=-1].
+2025-07-31 15:00:22.292 [RO] INFO  [JavaFX Application Thread] - GstatMessagePanel: bridge already created
+2025-07-31 15:00:22.292 [RO] INFO  [JavaFX Application Thread] - GstatMessagePanel: setup web app is done
+2025-07-31 15:03:22.288 [RO] INFO  [JTS-GstatMessageMgr-19] - Sending a request to GSTAT [url=https://api.ibkr.com/v1/gstat//bulletins,data='{"p":"10391d","t":"Maintenance","tz":"America/New_York","peer":"ndc1.ibllc.com","format":"webapp","theme":"dark","fontSize":"12px","lang":"en","user":"***","ut":"live"}']...
+2025-07-31 15:03:22.431 [RO] INFO  [JTS-GstatMessageMgr-19] - Received response [errorCode=204,contentLen=-1].
+2025-07-31 15:03:22.437 [RO] INFO  [JavaFX Application Thread] - GstatMessagePanel: bridge already created
+2025-07-31 15:03:22.437 [RO] INFO  [JavaFX Application Thread] - GstatMessagePanel: setup web app is done
+2025-07-31 15:06:08.097 [RO] INFO  [AWT-EventQueue-0] - Stopping GstatMessageMgr...
+2025-07-31 15:06:08.098 [RO] INFO  [AWT-EventQueue-0] - LoginWindow.onLogin() - request MiscUrls
+2025-07-31 15:06:08.098 [RO] INFO  [AWT-EventQueue-0] - Setting dir is C:\Users\mrbat\Desktop\495\tws\
+2025-07-31 15:06:08.099 [RO] INFO  [AWT-EventQueue-0] - PROXY Cleared HTTP proxy: no valid proxy is present (passing on :0)
+2025-07-31 15:06:08.110 [RO] INFO  [AWT-EventQueue-0] - host = ndc1.ibllc.com
+2025-07-31 15:06:08.110 [RO] INFO  [AWT-EventQueue-0] - remotePort = 4001
+2025-07-31 15:06:08.110 [RO] INFO  [AWT-EventQueue-0] - localPort = 0
+2025-07-31 15:06:08.117 [RO] INFO  [AWT-EventQueue-0] - SPLASH Creating screen with 60 steps
+2025-07-31 15:06:08.127 [RO] INFO  [AWT-EventQueue-0] - UserCredentials.sessionId() [this=1636265586,old=null,new=688bbd46.0033].
+2025-07-31 15:06:08.127 [RO] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection attempt time is cleared!
+2025-07-31 15:06:08.127 [RO] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection set as now:15:06:08:127
+2025-07-31 15:06:08.127 [RO] INFO  [AWT-EventQueue-0] - Prelogin delay:0
+2025-07-31 15:06:08.128 [RO] INFO  [AWT-EventQueue-0] - Network monitor is activated
+2025-07-31 15:06:08.128 [RO] INFO  [JTS-Login-21] - Starting launcher login thread
+2025-07-31 15:06:08.128 [RO] INFO  [JTS-Login-21] - LauncherLoginThread.runLoginWithUI()[hotBackupStrategy=ON,loginAttempt=1,socketDelay=20000].
+2025-07-31 15:06:08.128 [RO] INFO  [JTS-Login-21] - SPLASH Connecting to server
+2025-07-31 15:06:08.128 [RO] INFO  [JTS-Login-21] - ### startLogin startTime=1753988768127
+2025-07-31 15:06:08.128 [RO] INFO  [JTS-Login-21] - ### loginAttempt loginAttempt=1
+2025-07-31 15:06:08.128 [RO] INFO  [JTS-Login-21] - AsyncDisconnectNotifiers: 1
+2025-07-31 15:06:08.128 [RO] INFO  [JTS-Login-21] - Connecting ndc1.ibllc.com:4001 (SSL) timeout=20000...
+2025-07-31 15:06:08.128 [RO] INFO  [JTS-Login-21] - ### onSocketOpenStart socketOpenStart=1753988768128; endPoint=ndc1.ibllc.com; port=4001
+2025-07-31 15:06:08.167 [RO] INFO  [JTS-Login-21] - ### onSocketOpenEnd socketOpenEnd=1753988768167
+2025-07-31 15:06:08.167 [RO] INFO  [JTS-Login-21] - Connected to ndc1.ibllc.com:4001 (SSL)/64.190.197.40 remote-ip on local port 0 socket local addrs:port /192.168.1.166:51973
+2025-07-31 15:06:08.167 [RO] INFO  [JTS-Login-21] - Updating machine info [connectionAddress=/192.168.1.166]...
+2025-07-31 15:06:08.168 [RO] INFO  [JTS-Login-21] - JTSAuthConnection.onConnected(): lastKnownCipherStatus=INSECURE
+2025-07-31 15:06:08.168 [RO] INFO  [JTS-Login-21] - Changing state for connection from PRELOGON to PRELOGON in B 399332725: SessionSocket:3
+2025-07-31 15:06:08.168 [RO] INFO  [JTS-Login-21] - Authenticating
+2025-07-31 15:06:08.168 [RO] INFO  [JTS-Login-21] - AuthTimeoutMonitor-CCP: deactivate
+2025-07-31 15:06:08.168 [RO] INFO  [JTS-Login-21] - AuthTimeoutMonitor-CCP: timeout=20000
+2025-07-31 15:06:08.168 [RO] INFO  [JTS-Login-21] - AuthTimeoutMonitor-CCP: activate
+2025-07-31 15:06:08.168 [RO] INFO  [JTS-Login-21] - SPLASH -0001 step 1 AuthDispatcher.connect
+2025-07-31 15:06:08.168 [RO] INFO  [JTS-Login-21] - Sending connect request
+2025-07-31 15:06:08.168 [RO] INFO  [JTS-CCPListenerS3-23] - Starting listener thread [sessionID=3]...
+2025-07-31 15:06:08.168 [RO] INFO  [JTS-Login-21] - AuthDispatcher.initNSMsgVersionLimits: minVersion=38, maxVersion=50
+2025-07-31 15:06:08.168 [RO] INFO  [JTS-AuthTimeoutMonitorThread-CCP-25] - Starting auth timeout monitor thread for CCP
+2025-07-31 15:06:08.168 [RO] INFO  [JTS-AuthDispatcherS3-24] - Starting dispatcher thread [sessionID=3]...
+2025-07-31 15:06:08.170 [RO] INFO  [JTS-Login-21] - AuthDispatcher.NSConnectRequest: userSessionID=688bbd46.0033, beeDemoType=NULL
+2025-07-31 15:06:08.170 [RO] INFO  [JTS-Login-21] - ### onNsMsg loginMessageReq=1753988768170; brandNewUser=true
+2025-07-31 15:06:08.170 [RO] INFO  [JTS-Login-21] - mapProdToPaper: In NSConnectRequest: sending PAPER_CONNECT=0x2000
+2025-07-31 15:06:08.251 [RO] INFO  [JTS-Login-21] - SPLASH Authenticating
+2025-07-31 15:06:08.251 [RO] INFO  [JTS-CCPListenerS3-23] - Initial listener buffer size is 65536.
+2025-07-31 15:06:08.251 [RO] INFO  [JTS-CCPListenerS3-23] - Listener thread [sessionID=3] is ready to process messages.
+2025-07-31 15:06:08.251 [RO] INFO  [JTS-Login-21] - Terminating launcher login thread
+2025-07-31 15:06:08.278 [RO] INFO  [JTS-AuthDispatcherS3-24] - NSErrorResponse.INVALID_USERNAME_OR_BAD_IP
+2025-07-31 15:06:08.278 [RO] INFO  [JTS-AuthDispatcherS3-24] - Starting GstatMessageMgr...
+2025-07-31 15:06:08.278 [RO] INFO  [JTS-AuthDispatcherS3-24] - Reconnection time cleared: argClearBackoff=true base=0 range=5000 next=0 disconnected=0
+2025-07-31 15:06:08.278 [RO] INFO  [JTS-AuthDispatcherS3-24] - Disconnecting ndc1.ibllc.com:4001 (SSL) [disconnectDetails=DisconnectDetails[sessionID=3,endPoint=ndc1.ibllc.com:4001 (SSL),reason=DISCONNECT_AUTHORIZATION_FAILED,cause=null,systemMessage=Invalid username or password. 
+
+Please check the "Caps Lock" key; passwords are case sensitive. 
+
+If you are in the process of opening an individual account, please contact 
+customer service to reset the password. 
+
+If you are in the process of opening any other type of account, please note 
+that the login is possible beginning the day after account approval.
+
+Example user name: trader777,keepSocketOpen=false]]...
+2025-07-31 15:06:08.278 [RO] INFO  [JTS-GstatMessageMgr-29] - Sending a request to GSTAT [url=https://api.ibkr.com/v1/gstat//bulletins,data='{"p":"10391d","t":"Maintenance","tz":"America/New_York","peer":"ndc1.ibllc.com","format":"webapp","theme":"dark","fontSize":"12px","lang":"en","user":"***","ut":"paper"}']...
+2025-07-31 15:06:08.280 [RO] INFO  [JTS-AuthDispatcherS3-24] - Socket closed.
+2025-07-31 15:06:08.280 [RO] INFO  [JTS-CCPListenerS3-23] - Socket or stream for connection ndc1.ibllc.com:4001 (SSL) was closed by another thread.
+2025-07-31 15:06:08.280 [RO] INFO  [JTS-AuthDispatcherS3-24] - AuthTimeoutMonitor-CCP: deactivate
+2025-07-31 15:06:08.280 [RO] INFO  [JTS-AuthTimeoutMonitorThread-CCP-25] - Terminating auth timeout monitor thread for CCP
+2025-07-31 15:06:08.280 [RO] INFO  [JTS-AuthDispatcherS3-24] - SocketTracker[name=name=CCP(ndc1.ibllc.com:4001 (SSL)),usesCcpConMan=false,lastReadTimestamp=1753988768278,lastReadDateTime=2025-07-31T15:06:08.278,lastFixSendTime=].
+2025-07-31 15:06:08.280 [RO] INFO  [JTS-AuthDispatcherS3-24] - Interrupting dispatcher [sessionID=3]...
+2025-07-31 15:06:08.280 [RO] INFO  [JTS-AuthDispatcherS3-24] - Interrupting listener [sessionID=3,disconnectSocket=true]...
+2025-07-31 15:06:08.280 [RO] INFO  [JTS-AuthDispatcherS3-24] - CONN CALC: Last connection attempt time is cleared!
+2025-07-31 15:06:08.280 [RO] INFO  [JTS-AuthDispatcherS3-24] - Dispatcher thread terminating [sessionID=3,interrupted=true]...
+2025-07-31 15:06:08.280 [RO] INFO  [JTS-CCPListenerS3-23] - Listener thread terminating [sessionID=3] [seen=49,totalShifted=49,moreAvailable=0]
+2025-07-31 15:06:08.411 [RO] INFO  [JTS-GstatMessageMgr-29] - Received response [errorCode=204,contentLen=-1].
+2025-07-31 15:06:08.416 [RO] INFO  [JavaFX Application Thread] - GstatMessagePanel: bridge already created
+2025-07-31 15:06:08.416 [RO] INFO  [JavaFX Application Thread] - GstatMessagePanel: setup web app is done
+2025-07-31 15:09:08.412 [RO] INFO  [JTS-GstatMessageMgr-29] - Sending a request to GSTAT [url=https://api.ibkr.com/v1/gstat//bulletins,data='{"p":"10391d","t":"Maintenance","tz":"America/New_York","peer":"ndc1.ibllc.com","format":"webapp","theme":"dark","fontSize":"12px","lang":"en","user":"***","ut":"paper"}']...
+2025-07-31 15:09:08.586 [RO] INFO  [JTS-GstatMessageMgr-29] - Received response [errorCode=204,contentLen=-1].
+2025-07-31 15:09:08.592 [RO] INFO  [JavaFX Application Thread] - GstatMessagePanel: bridge already created
+2025-07-31 15:09:08.592 [RO] INFO  [JavaFX Application Thread] - GstatMessagePanel: setup web app is done
+2025-07-31 15:19:31.525 [GF] INFO  [JTS-Main] - ------------------------------- TWS RESTART --------------------------------
+2025-07-31 15:19:31.528 [GF] INFO  [JTS-Main] - installer version: 4.101, installer type: updatable, install dir: 'C:\Users\mrbat\Desktop\495\tws\', Jts dir: 'C:\Users\mrbat\Desktop\495\tws', VM options file: 'C:\Users\mrbat\Desktop\495\tws\tws.vmoptions'
+2025-07-31 15:19:31.539 [GF] INFO  [JTS-Main] - PROXY Installed custom selector
+2025-07-31 15:19:31.624 [GF] INFO  [JTS-Main] - Setting custom timezone: America/New_York
+2025-07-31 15:19:31.634 [GF] INFO  [JTS-Main] - LOCALE: Property locale_to_use=null JTS Locale=en_US  country=United States  variant=
+2025-07-31 15:19:31.635 [GF] INFO  [JTS-Main] - Region: America
+2025-07-31 15:19:31.635 [GF] INFO  [JTS-Main] - URL for locales.jar from argument: https://download2.interactivebrokers.com/installers/shared/i18n/ib
+2025-07-31 15:19:31.653 [GF] INFO  [JTS-Main] - DocumentBuilderFactory=jrt:/java.xml/com/sun/org/apache/xerces/internal/jaxp/DocumentBuilderFactoryImpl.class
+2025-07-31 15:19:31.670 [GF] INFO  [JTS-Main] - LOCALE: loaded 11 supported locales
+2025-07-31 15:19:31.679 [GF] INFO  [JTS-Main] - LOCALE: loaded 10 countries
+2025-07-31 15:19:31.686 [GF] INFO  [JTS-Main] - Locale from ini: en
+2025-07-31 15:19:31.686 [GF] INFO  [JTS-Main] - LOCALE: created classloader java.net.URLClassLoader@a8e6492 with file:/C:/Users/mrbat/Desktop/495/tws/jars/locales.jar, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@28c97a5
+2025-07-31 15:19:31.687 [GF] INFO  [JTS-Main] - Locale=en_US  country=United States  variant=
+2025-07-31 15:19:31.689 [GF] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage]
+2025-07-31 15:19:31.690 [GF] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage_en]
+2025-07-31 15:19:31.690 [GF] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage_en_US]
+2025-07-31 15:19:31.691 [GF] INFO  [JTS-Main] - LOCALE:  type: launcher intended: en_US actual:  size: 503
+2025-07-31 15:19:31.691 [GF] INFO  [JTS-Main] - settings dir: 'C:\Users\mrbat\Desktop\495\tws'
+2025-07-31 15:19:31.704 [GF] INFO  [JTS-Main] - Verifying environment [entryPoint=TWS_UPDATABLE]...
+2025-07-31 15:19:31.705 [GF] INFO  [AWT-EventQueue-0] - LauncherFontUpdater: simulatehighdefscreen=false
+2025-07-31 15:19:31.705 [GF] INFO  [AWT-EventQueue-0] - LauncherFontUpdater: Screen dimensions=1920x1080
+2025-07-31 15:19:31.705 [GF] INFO  [AWT-EventQueue-0] - LauncherFontUpdater: highres=false
+2025-07-31 15:19:31.705 [GF] INFO  [AWT-EventQueue-0] - LauncherFontUpdater: FontSize=16
+2025-07-31 15:19:31.709 [GF] INFO  [AWT-EventQueue-0] - LauncherJtsLookAndFeel initialized
+2025-07-31 15:19:31.756 [GF] INFO  [AWT-EventQueue-0] - Install4jAutoUpdateService initialized [props=LauncherProperties[updateDownloadUrl=https://download2.interactivebrokers.com/installers/tws/latest,skipUpdateCheck=false,nightlyEnabled=false,channelNameArg=null,channelName=latest,channelChanged=false,jtsConfigDir=C:\Users\mrbat\Desktop\495\tws,apiPort=null,sessionId=null,installDir=C:\Users\mrbat\Desktop\495\tws\,exeName=tws]].
+2025-07-31 15:19:31.776 [GF] INFO  [AWT-EventQueue-0] - Proxy not found for accessing 'https://download2.interactivebrokers.com/installers/tws/latest'
+2025-07-31 15:19:31.776 [GF] INFO  [AWT-EventQueue-0] - Checking for update [args=[-Vchannel=latest, -VchannelChanged=false, -VcustomJtsConfigDir=C:\Users\mrbat\Desktop\495\tws]]...
+2025-07-31 15:19:33.447 [GF] INFO  [JTS-Main] - Initializing launcher downloader [internalJars=jts4launch-1039-windows-x64.jar,internalJarsUrl=https://download2.interactivebrokers.com/installers/tws/latest,thirdPartyJars=jackson-databind-2.12.3.jar:jxbrowser-7.41.3.jar:total-2024.jar:batik-all-1.16.jar:jxbrowser-swing-7.41.3.jar:fop-2.8.jar:protobuf-java-3.25.6.jar:jxbrowser-win64-7.41.3.jar:jackson-annotations-2.12.3.jar:xmlgraphics-commons-2.8.jar,thirdPartyJarsUrl=https://download2.interactivebrokers.com/installers/jars,mainJarName=jts4launch-1039-windows-x64.jar,mainJarDigest=4a482de7e214afa4de7fcb07d2e48e9a1b78c3f3f3fa7a426b6ddc9b941f8784,ignoreDate=false,ignoreDownload=false]...
+2025-07-31 15:19:33.449 [GF] INFO  [JTS-Main] - Verifying SHA-256 digest [digestUrl=https://download2.interactivebrokers.com/installers/tws/latest/jts4launch-1039-windows-x64.jar.sha256,expectedDigest=4a482de7e214afa4de7fcb07d2e48e9a1b78c3f3f3fa7a426b6ddc9b941f8784]...
+2025-07-31 15:19:33.450 [GF] INFO  [JTS-Main] - Starting to download 'https://download2.interactivebrokers.com/installers/tws/latest/jts4launch-1039-windows-x64.jar.sha256' using HotBackup 'https://download2.interactivebrokers.com/installers/tws/latest/jts4launch-1039-windows-x64.jar.sha256'
+2025-07-31 15:19:33.740 [GF] INFO  [JTS-Main] - getFileFromUrl: dest=C:\Users\mrbat\AppData\Local\Temp\digest13861101702115917548.tmp empty sourceSize=64
+2025-07-31 15:19:33.741 [GF] INFO  [JTS-Main] - Finished downloading file [path=/installers/tws/latest/jts4launch-1039-windows-x64.jar.sha256,startPosition=0,totalBytesRead=64,fileLen=64,remoteLength=64].
+2025-07-31 15:19:33.750 [GF] INFO  [JTS-Main] - Remote 'jts4launch-1039-windows-x64.jar' is compatible with this launcher.
+2025-07-31 15:19:33.973 [GF] INFO  [JTS-Main] - Checking which local files need to be updated [relaxedRemoteFileSize: false]...
+2025-07-31 15:19:33.974 [GF] INFO  [JTS-Main] - 0 file(s) need to be updated.
+2025-07-31 15:19:33.979 [GF] INFO  [JTS-MiscUlrsRequester-2] - Connecting ndc1.ibllc.com:4000 timeout=10000...
+2025-07-31 15:19:34.018 [GF] INFO  [JTS-MiscUlrsRequester-2] - Connected to ndc1.ibllc.com:4000/64.190.197.40 remote-ip on local port 0 socket local addrs:port /192.168.1.166:50558
+2025-07-31 15:19:34.019 [GF] INFO  [JTS-MiscUlrsRequester-2] - Updating machine info [connectionAddress=/192.168.1.166]...
+2025-07-31 15:19:34.020 [GF] INFO  [JTS-MiscUlrsRequester-2] - Creating unique random...
+2025-07-31 15:19:34.023 [GF] INFO  [JTS-MiscUlrsRequester-2] - id=14460645
+2025-07-31 15:19:34.023 [GF] INFO  [JTS-MiscUlrsRequester-2] - Resolving MAC address...
+2025-07-31 15:19:34.033 [GF] INFO  [JTS-MiscUlrsRequester-2] - MACNetworkInfo created <14460645|34:5A:60:10:8B:2E|192.168.1.166>.
+2025-07-31 15:19:34.038 [GF] INFO  [JTS-MISC URLsListenerS1-3] - Starting listener thread [sessionID=1]...
+2025-07-31 15:19:34.052 [GF] INFO  [JTS-MiscUlrsRequester-2] - Sending MiscUrls request
+2025-07-31 15:19:34.052 [GF] INFO  [JTS-AuthDispatcherS1-4] - Starting dispatcher thread [sessionID=1]...
+2025-07-31 15:19:34.055 [GF] INFO  [JTS-MiscUlrsRequester-2] - LOGIN_TIME_MONITOR	 false 15:19:34:055 since start = 0 thread delay = 0 global delay = 0 tag=null, cls=AuthDispatcher method=send
+2025-07-31 15:19:34.056 [GF] INFO  [JTS-AuthResponseMonitor-5] - Starting auth response monitor thread
+2025-07-31 15:19:34.056 [GF] INFO  [JTS-MISC URLsListenerS1-3] - Initial listener buffer size is 65536.
+2025-07-31 15:19:34.056 [GF] INFO  [JTS-MISC URLsListenerS1-3] - Listener thread [sessionID=1] is ready to process messages.
+2025-07-31 15:19:34.077 [GF] INFO  [JTS-AuthDispatcherS1-4] - Received NS_MISC_URLS
+2025-07-31 15:19:34.077 [GF] INFO  [JTS-AuthDispatcherS1-4] - IBMiscUrl.miscUrlMessage()[sslRequired=true]
+2025-07-31 15:19:34.078 [GF] INFO  [JTS-AuthDispatcherS1-4] - Misc URL: scope is blank - setting userScope to EXTERNAL
+2025-07-31 15:19:34.078 [GF] INFO  [JTS-AuthDispatcherS1-4] - Misc URL: setting userScope to EXTERNAL
+2025-07-31 15:19:34.079 [GF] INFO  [AWT-EventQueue-0] - OvernightManager.dayInit: new values: dayOfTheWeek: 5 (Thu), YYYYMMofToday: 202507, YYYYMMDDofToday: 20250731, m_todayDate: 20250731, dueToChangeInTimezone: false
+2025-07-31 15:19:34.081 [GF] INFO  [JTS-AuthDispatcherS1-4] - Disconnecting ndc1.ibllc.com:4000 [disconnectDetails=DisconnectDetails[sessionID=1,endPoint=ndc1.ibllc.com:4000,reason=DISCONNECT_BY_DESIGN,cause=null,systemMessage=null,keepSocketOpen=false]]...
+2025-07-31 15:19:34.081 [GF] INFO  [JTS-AuthDispatcherS1-4] - Socket closed.
+2025-07-31 15:19:34.081 [GF] INFO  [JTS-MISC URLsListenerS1-3] - Socket or stream for connection ndc1.ibllc.com:4000 was closed by another thread.
+2025-07-31 15:19:34.082 [GF] INFO  [JTS-AuthDispatcherS1-4] - SocketTracker[name=name=MISC URLs(ndc1.ibllc.com:4000),usesCcpConMan=false,lastReadTimestamp=1753989574076,lastReadDateTime=2025-07-31T15:19:34.076,lastFixSendTime=].
+2025-07-31 15:19:34.082 [GF] INFO  [JTS-AuthDispatcherS1-4] - Interrupting dispatcher [sessionID=1]...
+2025-07-31 15:19:34.082 [GF] INFO  [JTS-AuthDispatcherS1-4] - Interrupting listener [sessionID=1,disconnectSocket=true]...
+2025-07-31 15:19:34.082 [GF] INFO  [JTS-AuthDispatcherS1-4] - Dispatcher thread terminating [sessionID=1,interrupted=true]...
+2025-07-31 15:19:34.082 [GF] INFO  [JTS-MISC URLsListenerS1-3] - Listener thread terminating [sessionID=1] [seen=1159,totalShifted=1159,moreAvailable=0]
+2025-07-31 15:19:34.082 [GF] INFO  [JTS-AuthResponseMonitor-5] - Terminating auth response monitor thread
+2025-07-31 15:19:34.257 [GF] INFO  [AWT-EventQueue-0] - Default timezone:America/New_York
+2025-07-31 15:19:34.259 [GF] INFO  [AWT-EventQueue-0] - Starting GstatMessageMgr...
+2025-07-31 15:19:34.262 [GF] INFO  [JTS-GstatMessageMgr-8] - Sending a request to GSTAT [url=https://api.ibkr.com/v1/gstat//bulletins,data='{"p":"10391d","t":"Maintenance","tz":"America/New_York","format":"webapp","theme":"dark","fontSize":"12px","lang":"en"}']...
+2025-07-31 15:19:34.276 [GF] INFO  [AWT-EventQueue-0] - Started on 20250731-19:19:34
+2025-07-31 15:19:34.276 [GF] INFO  [AWT-EventQueue-0] - Default timezone:America/New_York name:Eastern Standard Time dst:3600000
+2025-07-31 15:19:34.276 [GF] INFO  [AWT-EventQueue-0] - java version = 17.0.10.0.101
+2025-07-31 15:19:34.276 [GF] INFO  [AWT-EventQueue-0] - sun.arch.data.model = 64
+2025-07-31 15:19:34.276 [GF] INFO  [AWT-EventQueue-0] - os = Windows 11
+2025-07-31 15:19:34.276 [GF] INFO  [AWT-EventQueue-0] - os version = 10.0
+2025-07-31 15:19:34.276 [GF] INFO  [AWT-EventQueue-0] - os architecture = 64
+2025-07-31 15:19:34.276 [GF] INFO  [AWT-EventQueue-0] - runtime = OpenJDK Runtime Environment
+2025-07-31 15:19:34.276 [GF] INFO  [AWT-EventQueue-0] - vendor = Azul Systems, Inc.
+2025-07-31 15:19:34.276 [GF] INFO  [AWT-EventQueue-0] - vm name = OpenJDK 64-Bit Server VM
+2025-07-31 15:19:34.276 [GF] INFO  [AWT-EventQueue-0] - username = 'mrbat'
+2025-07-31 15:19:34.432 [GF] INFO  [JTS-GstatMessageMgr-8] - Received response [errorCode=204,contentLen=-1].
+2025-07-31 15:19:34.434 [GF] INFO  [AWT-EventQueue-0] - Basic init done. Login window shown
+2025-07-31 15:19:34.435 [GF] INFO  [JTS-Main] - Launcher created @ 20250729-16:08:59
+2025-07-31 15:19:35.175 [GF] INFO  [JavaFX Application Thread] - GstatMessagePanel: setup web app is done
+2025-07-31 15:20:32.247 [GF] INFO  [AWT-EventQueue-0] - Stopping GstatMessageMgr...
+2025-07-31 15:20:32.247 [GF] INFO  [AWT-EventQueue-0] - LoginWindow.onLogin() - request MiscUrls
+2025-07-31 15:20:32.248 [GF] INFO  [AWT-EventQueue-0] - Setting dir is C:\Users\mrbat\Desktop\495\tws\
+2025-07-31 15:20:32.249 [GF] INFO  [AWT-EventQueue-0] - PROXY Cleared HTTP proxy: no valid proxy is present (passing on :0)
+2025-07-31 15:20:32.255 [GF] INFO  [AWT-EventQueue-0] - host = ndc1.ibllc.com
+2025-07-31 15:20:32.255 [GF] INFO  [AWT-EventQueue-0] - remotePort = 4000
+2025-07-31 15:20:32.255 [GF] INFO  [AWT-EventQueue-0] - localPort = 0
+2025-07-31 15:20:32.264 [GF] INFO  [AWT-EventQueue-0] - SPLASH Creating screen with 60 steps
+2025-07-31 15:20:32.284 [GF] INFO  [AWT-EventQueue-0] - UserCredentials.sessionId() [this=1981403015,old=null,new=688bc200.0119].
+2025-07-31 15:20:32.284 [GF] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection attempt time is cleared!
+2025-07-31 15:20:32.284 [GF] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection set as now:15:20:32:284
+2025-07-31 15:20:32.284 [GF] INFO  [AWT-EventQueue-0] - Prelogin delay:0
+2025-07-31 15:20:32.285 [GF] INFO  [JTS-Login-10] - Starting launcher login thread
+2025-07-31 15:20:32.285 [GF] INFO  [AWT-EventQueue-0] - Network monitor is activated
+2025-07-31 15:20:32.285 [GF] INFO  [JTS-Login-10] - LauncherLoginThread.runLoginWithUI()[hotBackupStrategy=ON,loginAttempt=1,socketDelay=20000].
+2025-07-31 15:20:32.285 [GF] INFO  [JTS-Login-10] - SPLASH Connecting to server
+2025-07-31 15:20:32.286 [GF] INFO  [JTS-Login-10] - ### startLogin startTime=1753989632284
+2025-07-31 15:20:32.286 [GF] INFO  [JTS-Login-10] - ### loginAttempt loginAttempt=1
+2025-07-31 15:20:32.286 [GF] INFO  [JTS-Login-10] - Connecting ndc1.ibllc.com:4001 (SSL) timeout=20000...
+2025-07-31 15:20:32.286 [GF] INFO  [JTS-Login-10] - ### onSocketOpenStart socketOpenStart=1753989632286; endPoint=ndc1.ibllc.com; port=4001
+2025-07-31 15:20:32.322 [GF] INFO  [JTS-Login-10] - ### onSocketOpenEnd socketOpenEnd=1753989632322
+2025-07-31 15:20:32.322 [GF] INFO  [JTS-Login-10] - Connected to ndc1.ibllc.com:4001 (SSL)/64.190.197.40 remote-ip on local port 0 socket local addrs:port /192.168.1.166:50628
+2025-07-31 15:20:32.322 [GF] INFO  [JTS-Login-10] - Updating machine info [connectionAddress=/192.168.1.166]...
+2025-07-31 15:20:32.322 [GF] INFO  [JTS-Login-10] - JTSAuthConnection.onConnected(): lastKnownCipherStatus=INSECURE
+2025-07-31 15:20:32.322 [GF] INFO  [JTS-Login-10] - Changing state for connection from PRELOGON to PRELOGON in B 1680006109: SessionSocket:2
+2025-07-31 15:20:32.322 [GF] INFO  [JTS-Login-10] - Authenticating
+2025-07-31 15:20:32.323 [GF] INFO  [JTS-Login-10] - AuthTimeoutMonitor-CCP: deactivate
+2025-07-31 15:20:32.323 [GF] INFO  [JTS-Login-10] - AuthTimeoutMonitor-CCP: timeout=20000
+2025-07-31 15:20:32.323 [GF] INFO  [JTS-CCPListenerS2-12] - Starting listener thread [sessionID=2]...
+2025-07-31 15:20:32.323 [GF] INFO  [JTS-Login-10] - AuthTimeoutMonitor-CCP: activate
+2025-07-31 15:20:32.323 [GF] INFO  [JTS-AuthTimeoutMonitorThread-CCP-14] - Starting auth timeout monitor thread for CCP
+2025-07-31 15:20:32.323 [GF] INFO  [JTS-Login-10] - SPLASH -0001 step 1 AuthDispatcher.connect
+2025-07-31 15:20:32.323 [GF] INFO  [JTS-Login-10] - Sending connect request
+2025-07-31 15:20:32.323 [GF] INFO  [JTS-AuthDispatcherS2-13] - Starting dispatcher thread [sessionID=2]...
+2025-07-31 15:20:32.324 [GF] INFO  [JTS-Login-10] - AuthDispatcher.initNSMsgVersionLimits: minVersion=38, maxVersion=50
+2025-07-31 15:20:32.324 [GF] INFO  [JTS-Login-10] - AuthDispatcher.NSConnectRequest: userSessionID=688bc200.0119, beeDemoType=NULL
+2025-07-31 15:20:32.324 [GF] INFO  [JTS-Login-10] - ### onNsMsg loginMessageReq=1753989632324; brandNewUser=true
+2025-07-31 15:20:32.408 [GF] INFO  [JTS-CCPListenerS2-12] - Initial listener buffer size is 65536.
+2025-07-31 15:20:32.408 [GF] INFO  [JTS-Login-10] - SPLASH Authenticating
+2025-07-31 15:20:32.408 [GF] INFO  [JTS-CCPListenerS2-12] - Listener thread [sessionID=2] is ready to process messages.
+2025-07-31 15:20:32.408 [GF] INFO  [JTS-Login-10] - Terminating launcher login thread
+2025-07-31 15:20:32.435 [GF] INFO  [JTS-AuthDispatcherS2-13] - NSErrorResponse.INVALID_USERNAME_OR_BAD_IP
+2025-07-31 15:20:32.435 [GF] INFO  [JTS-AuthDispatcherS2-13] - Starting GstatMessageMgr...
+2025-07-31 15:20:32.435 [GF] INFO  [JTS-GstatMessageMgr-18] - Sending a request to GSTAT [url=https://api.ibkr.com/v1/gstat//bulletins,data='{"p":"10391d","t":"Maintenance","tz":"America/New_York","peer":"ndc1.ibllc.com","format":"webapp","theme":"dark","fontSize":"12px","lang":"en","user":"***","ut":"live"}']...
+2025-07-31 15:20:32.436 [GF] INFO  [JTS-AuthDispatcherS2-13] - Reconnection time cleared: argClearBackoff=true base=0 range=5000 next=0 disconnected=0
+2025-07-31 15:20:32.436 [GF] INFO  [JTS-AuthDispatcherS2-13] - Disconnecting ndc1.ibllc.com:4001 (SSL) [disconnectDetails=DisconnectDetails[sessionID=2,endPoint=ndc1.ibllc.com:4001 (SSL),reason=DISCONNECT_AUTHORIZATION_FAILED,cause=null,systemMessage=Invalid username or password. 
+
+Please check the "Caps Lock" key; passwords are case sensitive. 
+
+If you are in the process of opening an individual account, please contact 
+customer service to reset the password. 
+
+If you are in the process of opening any other type of account, please note 
+that the login is possible beginning the day after account approval.
+
+Example user name: trader777,keepSocketOpen=false]]...
+2025-07-31 15:20:32.436 [GF] INFO  [JTS-AuthDispatcherS2-13] - Socket closed.
+2025-07-31 15:20:32.436 [GF] INFO  [JTS-CCPListenerS2-12] - Socket or stream for connection ndc1.ibllc.com:4001 (SSL) was closed by another thread.
+2025-07-31 15:20:32.436 [GF] INFO  [JTS-AuthDispatcherS2-13] - AuthTimeoutMonitor-CCP: deactivate
+2025-07-31 15:20:32.436 [GF] INFO  [JTS-AuthTimeoutMonitorThread-CCP-14] - Terminating auth timeout monitor thread for CCP
+2025-07-31 15:20:32.436 [GF] INFO  [JTS-AuthDispatcherS2-13] - SocketTracker[name=name=CCP(ndc1.ibllc.com:4001 (SSL)),usesCcpConMan=false,lastReadTimestamp=1753989632434,lastReadDateTime=2025-07-31T15:20:32.434,lastFixSendTime=].
+2025-07-31 15:20:32.437 [GF] INFO  [JTS-AuthDispatcherS2-13] - Interrupting dispatcher [sessionID=2]...
+2025-07-31 15:20:32.437 [GF] INFO  [JTS-AuthDispatcherS2-13] - Interrupting listener [sessionID=2,disconnectSocket=true]...
+2025-07-31 15:20:32.437 [GF] INFO  [JTS-AuthDispatcherS2-13] - CONN CALC: Last connection attempt time is cleared!
+2025-07-31 15:20:32.438 [GF] INFO  [JTS-CCPListenerS2-12] - Listener thread terminating [sessionID=2] [seen=49,totalShifted=49,moreAvailable=0]
+2025-07-31 15:20:32.438 [GF] INFO  [JTS-AuthDispatcherS2-13] - Dispatcher thread terminating [sessionID=2,interrupted=true]...
+2025-07-31 15:20:32.740 [GF] INFO  [JTS-GstatMessageMgr-18] - Received response [errorCode=204,contentLen=-1].
+2025-07-31 15:20:32.747 [GF] INFO  [JavaFX Application Thread] - GstatMessagePanel: bridge already created
+2025-07-31 15:20:32.747 [GF] INFO  [JavaFX Application Thread] - GstatMessagePanel: setup web app is done
+2025-07-31 15:23:32.742 [GF] INFO  [JTS-GstatMessageMgr-18] - Sending a request to GSTAT [url=https://api.ibkr.com/v1/gstat//bulletins,data='{"p":"10391d","t":"Maintenance","tz":"America/New_York","peer":"ndc1.ibllc.com","format":"webapp","theme":"dark","fontSize":"12px","lang":"en","user":"***","ut":"live"}']...
+2025-07-31 15:23:32.875 [GF] INFO  [JTS-GstatMessageMgr-18] - Received response [errorCode=204,contentLen=-1].
+2025-07-31 15:23:32.881 [GF] INFO  [JavaFX Application Thread] - GstatMessagePanel: bridge already created
+2025-07-31 15:23:32.882 [GF] INFO  [JavaFX Application Thread] - GstatMessagePanel: setup web app is done
+2025-07-31 15:26:32.876 [GF] INFO  [JTS-GstatMessageMgr-18] - Sending a request to GSTAT [url=https://api.ibkr.com/v1/gstat//bulletins,data='{"p":"10391d","t":"Maintenance","tz":"America/New_York","peer":"ndc1.ibllc.com","format":"webapp","theme":"dark","fontSize":"12px","lang":"en","user":"***","ut":"live"}']...
+2025-07-31 15:26:33.005 [GF] INFO  [JTS-GstatMessageMgr-18] - Received response [errorCode=204,contentLen=-1].
+2025-07-31 15:26:33.010 [GF] INFO  [JavaFX Application Thread] - GstatMessagePanel: bridge already created
+2025-07-31 15:26:33.010 [GF] INFO  [JavaFX Application Thread] - GstatMessagePanel: setup web app is done
+2025-07-31 15:29:33.006 [GF] INFO  [JTS-GstatMessageMgr-18] - Sending a request to GSTAT [url=https://api.ibkr.com/v1/gstat//bulletins,data='{"p":"10391d","t":"Maintenance","tz":"America/New_York","peer":"ndc1.ibllc.com","format":"webapp","theme":"dark","fontSize":"12px","lang":"en","user":"***","ut":"live"}']...
+2025-07-31 15:29:33.203 [GF] INFO  [JTS-GstatMessageMgr-18] - Received response [errorCode=204,contentLen=-1].
+2025-07-31 15:29:33.209 [GF] INFO  [JavaFX Application Thread] - GstatMessagePanel: bridge already created
+2025-07-31 15:29:33.209 [GF] INFO  [JavaFX Application Thread] - GstatMessagePanel: setup web app is done
+2025-07-31 15:32:33.204 [GF] INFO  [JTS-GstatMessageMgr-18] - Sending a request to GSTAT [url=https://api.ibkr.com/v1/gstat//bulletins,data='{"p":"10391d","t":"Maintenance","tz":"America/New_York","peer":"ndc1.ibllc.com","format":"webapp","theme":"dark","fontSize":"12px","lang":"en","user":"***","ut":"live"}']...
+2025-07-31 15:32:33.382 [GF] INFO  [JTS-GstatMessageMgr-18] - Received response [errorCode=204,contentLen=-1].
+2025-07-31 15:32:33.389 [GF] INFO  [JavaFX Application Thread] - GstatMessagePanel: bridge already created
+2025-07-31 15:32:33.389 [GF] INFO  [JavaFX Application Thread] - GstatMessagePanel: setup web app is done
+2025-07-31 15:35:33.383 [GF] INFO  [JTS-GstatMessageMgr-18] - Sending a request to GSTAT [url=https://api.ibkr.com/v1/gstat//bulletins,data='{"p":"10391d","t":"Maintenance","tz":"America/New_York","peer":"ndc1.ibllc.com","format":"webapp","theme":"dark","fontSize":"12px","lang":"en","user":"***","ut":"live"}']...
+2025-07-31 15:35:33.556 [GF] INFO  [JTS-GstatMessageMgr-18] - Received response [errorCode=204,contentLen=-1].
+2025-07-31 15:35:33.562 [GF] INFO  [JavaFX Application Thread] - GstatMessagePanel: bridge already created
+2025-07-31 15:35:33.563 [GF] INFO  [JavaFX Application Thread] - GstatMessagePanel: setup web app is done
+2025-07-31 15:38:33.560 [GF] INFO  [JTS-GstatMessageMgr-18] - Sending a request to GSTAT [url=https://api.ibkr.com/v1/gstat//bulletins,data='{"p":"10391d","t":"Maintenance","tz":"America/New_York","peer":"ndc1.ibllc.com","format":"webapp","theme":"dark","fontSize":"12px","lang":"en","user":"***","ut":"live"}']...
+2025-07-31 15:38:33.724 [GF] INFO  [JTS-GstatMessageMgr-18] - Received response [errorCode=204,contentLen=-1].
+2025-07-31 15:38:33.729 [GF] INFO  [JavaFX Application Thread] - GstatMessagePanel: bridge already created
+2025-07-31 15:38:33.729 [GF] INFO  [JavaFX Application Thread] - GstatMessagePanel: setup web app is done
+2025-07-31 15:41:33.725 [GF] INFO  [JTS-GstatMessageMgr-18] - Sending a request to GSTAT [url=https://api.ibkr.com/v1/gstat//bulletins,data='{"p":"10391d","t":"Maintenance","tz":"America/New_York","peer":"ndc1.ibllc.com","format":"webapp","theme":"dark","fontSize":"12px","lang":"en","user":"***","ut":"live"}']...
+2025-07-31 15:41:33.860 [GF] INFO  [JTS-GstatMessageMgr-18] - Received response [errorCode=204,contentLen=-1].
+2025-07-31 15:41:33.865 [GF] INFO  [JavaFX Application Thread] - GstatMessagePanel: bridge already created
+2025-07-31 15:41:33.865 [GF] INFO  [JavaFX Application Thread] - GstatMessagePanel: setup web app is done
+2025-07-31 15:44:33.865 [GF] INFO  [JTS-GstatMessageMgr-18] - Sending a request to GSTAT [url=https://api.ibkr.com/v1/gstat//bulletins,data='{"p":"10391d","t":"Maintenance","tz":"America/New_York","peer":"ndc1.ibllc.com","format":"webapp","theme":"dark","fontSize":"12px","lang":"en","user":"***","ut":"live"}']...
+2025-07-31 15:44:33.999 [GF] INFO  [JTS-GstatMessageMgr-18] - Received response [errorCode=204,contentLen=-1].
+2025-07-31 15:44:34.005 [GF] INFO  [JavaFX Application Thread] - GstatMessagePanel: bridge already created
+2025-07-31 15:44:34.005 [GF] INFO  [JavaFX Application Thread] - GstatMessagePanel: setup web app is done
+2025-07-31 15:47:34.010 [GF] INFO  [JTS-GstatMessageMgr-18] - Sending a request to GSTAT [url=https://api.ibkr.com/v1/gstat//bulletins,data='{"p":"10391d","t":"Maintenance","tz":"America/New_York","peer":"ndc1.ibllc.com","format":"webapp","theme":"dark","fontSize":"12px","lang":"en","user":"***","ut":"live"}']...
+2025-07-31 15:47:34.149 [GF] INFO  [JTS-GstatMessageMgr-18] - Received response [errorCode=204,contentLen=-1].
+2025-07-31 15:47:34.155 [GF] INFO  [JavaFX Application Thread] - GstatMessagePanel: bridge already created
+2025-07-31 15:47:34.155 [GF] INFO  [JavaFX Application Thread] - GstatMessagePanel: setup web app is done
+2025-07-31 15:47:56.390 [GF] INFO  [AWT-EventQueue-0] - Stopping GstatMessageMgr...
+2025-07-31 15:47:56.391 [GF] INFO  [AWT-EventQueue-0] - LoginWindow.onLogin() - request MiscUrls
+2025-07-31 15:47:56.392 [GF] INFO  [AWT-EventQueue-0] - Setting dir is C:\Users\mrbat\Desktop\495\tws\
+2025-07-31 15:47:56.393 [GF] INFO  [AWT-EventQueue-0] - PROXY Cleared HTTP proxy: no valid proxy is present (passing on :0)
+2025-07-31 15:47:56.408 [GF] INFO  [AWT-EventQueue-0] - host = ndc1.ibllc.com
+2025-07-31 15:47:56.409 [GF] INFO  [AWT-EventQueue-0] - remotePort = 4001
+2025-07-31 15:47:56.409 [GF] INFO  [AWT-EventQueue-0] - localPort = 0
+2025-07-31 15:47:56.413 [GF] INFO  [AWT-EventQueue-0] - UserCredentials.sessionId() [this=416623305,old=null,new=688bc200.0119].
+2025-07-31 15:47:56.413 [GF] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection attempt time is cleared!
+2025-07-31 15:47:56.413 [GF] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection set as now:15:47:56:413
+2025-07-31 15:47:56.413 [GF] INFO  [AWT-EventQueue-0] - Prelogin delay:0
+2025-07-31 15:47:56.414 [GF] INFO  [AWT-EventQueue-0] - Network monitor is activated
+2025-07-31 15:47:56.414 [GF] INFO  [JTS-Login-20] - Starting launcher login thread
+2025-07-31 15:47:56.414 [GF] INFO  [JTS-Login-20] - LauncherLoginThread.runLoginWithUI()[hotBackupStrategy=ON,loginAttempt=1,socketDelay=20000].
+2025-07-31 15:47:56.414 [GF] INFO  [JTS-Login-20] - SPLASH Connecting to server
+2025-07-31 15:47:56.414 [GF] INFO  [JTS-Login-20] - ### startLogin startTime=1753991276413
+2025-07-31 15:47:56.414 [GF] INFO  [JTS-Login-20] - ### loginAttempt loginAttempt=1
+2025-07-31 15:47:56.414 [GF] INFO  [JTS-Login-20] - AsyncDisconnectNotifiers: 1
+2025-07-31 15:47:56.414 [GF] INFO  [JTS-Login-20] - Connecting ndc1.ibllc.com:4001 (SSL) timeout=20000...
+2025-07-31 15:47:56.414 [GF] INFO  [JTS-Login-20] - ### onSocketOpenStart socketOpenStart=1753991276414; endPoint=ndc1.ibllc.com; port=4001
+2025-07-31 15:47:56.451 [GF] INFO  [JTS-Login-20] - ### onSocketOpenEnd socketOpenEnd=1753991276451
+2025-07-31 15:47:56.451 [GF] INFO  [JTS-Login-20] - Connected to ndc1.ibllc.com:4001 (SSL)/64.190.197.40 remote-ip on local port 0 socket local addrs:port /192.168.1.166:52484
+2025-07-31 15:47:56.451 [GF] INFO  [JTS-Login-20] - Updating machine info [connectionAddress=/192.168.1.166]...
+2025-07-31 15:47:56.451 [GF] INFO  [JTS-Login-20] - JTSAuthConnection.onConnected(): lastKnownCipherStatus=INSECURE
+2025-07-31 15:47:56.451 [GF] INFO  [JTS-Login-20] - Changing state for connection from PRELOGON to PRELOGON in B 1680006109: SessionSocket:3
+2025-07-31 15:47:56.451 [GF] INFO  [JTS-Login-20] - Authenticating
+2025-07-31 15:47:56.451 [GF] INFO  [JTS-Login-20] - AuthTimeoutMonitor-CCP: deactivate
+2025-07-31 15:47:56.451 [GF] INFO  [JTS-Login-20] - AuthTimeoutMonitor-CCP: timeout=20000
+2025-07-31 15:47:56.451 [GF] INFO  [JTS-Login-20] - AuthTimeoutMonitor-CCP: activate
+2025-07-31 15:47:56.451 [GF] INFO  [JTS-Login-20] - SPLASH 1644128 step 2 AuthDispatcher.connect
+2025-07-31 15:47:56.451 [GF] INFO  [JTS-CCPListenerS3-22] - Starting listener thread [sessionID=3]...
+2025-07-31 15:47:56.452 [GF] INFO  [JTS-AuthTimeoutMonitorThread-CCP-24] - Starting auth timeout monitor thread for CCP
+2025-07-31 15:47:56.452 [GF] INFO  [JTS-Login-20] - Sending connect request
+2025-07-31 15:47:56.452 [GF] INFO  [JTS-Login-20] - AuthDispatcher.initNSMsgVersionLimits: minVersion=38, maxVersion=50
+2025-07-31 15:47:56.452 [GF] INFO  [JTS-AuthDispatcherS3-23] - Starting dispatcher thread [sessionID=3]...
+2025-07-31 15:47:56.452 [GF] INFO  [JTS-Login-20] - AuthDispatcher.NSConnectRequest: userSessionID=688bc200.0119, beeDemoType=NULL
+2025-07-31 15:47:56.452 [GF] INFO  [JTS-Login-20] - ### onNsMsg loginMessageReq=1753991276452; brandNewUser=true
+2025-07-31 15:47:56.514 [GF] INFO  [JTS-Login-20] - SPLASH Authenticating
+2025-07-31 15:47:56.514 [GF] INFO  [JTS-CCPListenerS3-22] - Initial listener buffer size is 65536.
+2025-07-31 15:47:56.514 [GF] INFO  [JTS-CCPListenerS3-22] - Listener thread [sessionID=3] is ready to process messages.
+2025-07-31 15:47:56.514 [GF] INFO  [JTS-Login-20] - Terminating launcher login thread
+2025-07-31 15:47:56.534 [GF] INFO  [JTS-AuthDispatcherS3-23] - Received NS_REDIRECT
+2025-07-31 15:47:56.534 [GF] INFO  [JTS-AuthDispatcherS3-23] - ### onConmanRedirect
+2025-07-31 15:47:56.534 [GF] INFO  [JTS-AuthDispatcherS3-23] - Disconnecting ndc1.ibllc.com:4001 (SSL) [disconnectDetails=DisconnectDetails[sessionID=3,endPoint=ndc1.ibllc.com:4001 (SSL),reason=DISCONNECT_ON_REDIRECTION,cause=null,systemMessage=null,keepSocketOpen=false]]...
+2025-07-31 15:47:56.534 [GF] INFO  [JTS-AuthDispatcherS3-23] - Socket closed.
+2025-07-31 15:47:56.534 [GF] INFO  [JTS-CCPListenerS3-22] - Socket or stream for connection ndc1.ibllc.com:4001 (SSL) was closed by another thread.
+2025-07-31 15:47:56.534 [GF] INFO  [JTS-AuthDispatcherS3-23] - AuthTimeoutMonitor-CCP: deactivate
+2025-07-31 15:47:56.534 [GF] INFO  [JTS-AuthTimeoutMonitorThread-CCP-24] - Terminating auth timeout monitor thread for CCP
+2025-07-31 15:47:56.534 [GF] INFO  [JTS-AuthDispatcherS3-23] - SocketTracker[name=name=CCP(ndc1.ibllc.com:4001 (SSL)),usesCcpConMan=false,lastReadTimestamp=1753991276534,lastReadDateTime=2025-07-31T15:47:56.534,lastFixSendTime=].
+2025-07-31 15:47:56.534 [GF] INFO  [JTS-AuthDispatcherS3-23] - Interrupting dispatcher [sessionID=3]...
+2025-07-31 15:47:56.534 [GF] INFO  [JTS-AuthDispatcherS3-23] - Interrupting listener [sessionID=3,disconnectSocket=true]...
+2025-07-31 15:47:56.535 [GF] INFO  [JTS-AuthDispatcherS3-23] - Redirecting to cdc1.ibllc.com:4001 (SSL)
+2025-07-31 15:47:56.535 [GF] INFO  [JTS-AuthDispatcherS3-23] - UserCredentials.sessionId() [this=416623305,old=688bc200.0119,new=688bc200.0119].
+2025-07-31 15:47:56.535 [GF] INFO  [JTS-AuthDispatcherS3-23] - Prelogin delay:0
+2025-07-31 15:47:56.535 [GF] INFO  [JTS-AuthDispatcherS3-23] - Dispatcher thread terminating [sessionID=3,interrupted=true]...
+2025-07-31 15:47:56.535 [GF] INFO  [JTS-CCPListenerS3-22] - Listener thread terminating [sessionID=3] [seen=35,totalShifted=35,moreAvailable=0]
+2025-07-31 15:47:56.535 [GF] INFO  [JTS-MiscUlrsRequester-30] - Connecting cdc1.ibllc.com:4000 timeout=10000...
+2025-07-31 15:47:56.535 [GF] INFO  [JTS-Login-31] - Starting launcher login thread
+2025-07-31 15:47:56.535 [GF] INFO  [JTS-Login-31] - LauncherLoginThread.runLoginWithUI()[hotBackupStrategy=ON,loginAttempt=1,socketDelay=20000].
+2025-07-31 15:47:56.535 [GF] INFO  [JTS-Login-31] - SPLASH Connecting to server
+2025-07-31 15:47:56.535 [GF] INFO  [JTS-Login-31] - ### startLogin startTime=1753991276535
+2025-07-31 15:47:56.535 [GF] INFO  [JTS-Login-31] - ### loginAttempt loginAttempt=1
+2025-07-31 15:47:56.535 [GF] INFO  [JTS-Login-31] - AsyncDisconnectNotifiers: 1
+2025-07-31 15:47:56.535 [GF] INFO  [JTS-Login-31] - Connecting cdc1.ibllc.com:4001 (SSL) timeout=20000...
+2025-07-31 15:47:56.535 [GF] INFO  [JTS-Login-31] - ### onSocketOpenStart socketOpenStart=1753991276535; endPoint=cdc1.ibllc.com; port=4001
+2025-07-31 15:47:56.586 [GF] INFO  [JTS-Login-31] - ### onSocketOpenEnd socketOpenEnd=1753991276586
+2025-07-31 15:47:56.586 [GF] INFO  [JTS-Login-31] - Connected to cdc1.ibllc.com:4001 (SSL)/8.17.22.31 remote-ip on local port 0 socket local addrs:port /192.168.1.166:52485
+2025-07-31 15:47:56.587 [GF] INFO  [JTS-Login-31] - Updating machine info [connectionAddress=/192.168.1.166]...
+2025-07-31 15:47:56.587 [GF] INFO  [JTS-Login-31] - JTSAuthConnection.onConnected(): lastKnownCipherStatus=INSECURE
+2025-07-31 15:47:56.587 [GF] INFO  [JTS-Login-31] - Changing state for connection from PRELOGON to PRELOGON in B 1680006109: SessionSocket:5
+2025-07-31 15:47:56.587 [GF] INFO  [JTS-Login-31] - Authenticating
+2025-07-31 15:47:56.587 [GF] INFO  [JTS-Login-31] - AuthTimeoutMonitor-CCP: deactivate
+2025-07-31 15:47:56.587 [GF] INFO  [JTS-Login-31] - AuthTimeoutMonitor-CCP: timeout=20000
+2025-07-31 15:47:56.587 [GF] INFO  [JTS-Login-31] - AuthTimeoutMonitor-CCP: activate
+2025-07-31 15:47:56.587 [GF] INFO  [JTS-CCPListenerS5-33] - Starting listener thread [sessionID=5]...
+2025-07-31 15:47:56.587 [GF] INFO  [JTS-AuthTimeoutMonitorThread-CCP-35] - Starting auth timeout monitor thread for CCP
+2025-07-31 15:47:56.587 [GF] INFO  [JTS-Login-31] - Sending connect request
+2025-07-31 15:47:56.587 [GF] INFO  [JTS-Login-31] - AuthDispatcher.initNSMsgVersionLimits: minVersion=38, maxVersion=50
+2025-07-31 15:47:56.587 [GF] INFO  [JTS-AuthDispatcherS5-34] - Starting dispatcher thread [sessionID=5]...
+2025-07-31 15:47:56.588 [GF] INFO  [JTS-Login-31] - AuthDispatcher.NSConnectRequest: userSessionID=688bc200.0119, beeDemoType=NULL
+2025-07-31 15:47:56.588 [GF] INFO  [JTS-Login-31] - ### onNsMsg loginMessageReq=1753991276588; brandNewUser=true
+2025-07-31 15:47:56.592 [GF] INFO  [JTS-MiscUlrsRequester-30] - Connected to cdc1.ibllc.com:4000/8.17.22.31 remote-ip on local port 0 socket local addrs:port /192.168.1.166:52486
+2025-07-31 15:47:56.592 [GF] INFO  [JTS-MiscUlrsRequester-30] - Updating machine info [connectionAddress=/192.168.1.166]...
+2025-07-31 15:47:56.592 [GF] INFO  [JTS-MiscUlrsRequester-30] - Sending MiscUrls request
+2025-07-31 15:47:56.592 [GF] INFO  [JTS-MISC URLsListenerS4-37] - Starting listener thread [sessionID=4]...
+2025-07-31 15:47:56.592 [GF] INFO  [JTS-AuthResponseMonitor-39] - Starting auth response monitor thread
+2025-07-31 15:47:56.592 [GF] INFO  [JTS-AuthDispatcherS4-38] - Starting dispatcher thread [sessionID=4]...
+2025-07-31 15:47:56.593 [GF] INFO  [JTS-MISC URLsListenerS4-37] - Initial listener buffer size is 65536.
+2025-07-31 15:47:56.593 [GF] INFO  [JTS-MISC URLsListenerS4-37] - Listener thread [sessionID=4] is ready to process messages.
+2025-07-31 15:47:56.625 [GF] INFO  [JTS-AuthDispatcherS4-38] - Received NS_MISC_URLS
+2025-07-31 15:47:56.625 [GF] INFO  [JTS-AuthDispatcherS4-38] - IBMiscUrl.miscUrlMessage()[sslRequired=true]
+2025-07-31 15:47:56.625 [GF] INFO  [JTS-AuthDispatcherS4-38] - Misc URL: scope is blank - setting userScope to EXTERNAL
+2025-07-31 15:47:56.625 [GF] INFO  [JTS-AuthDispatcherS4-38] - Misc URL: setting userScope to EXTERNAL
+2025-07-31 15:47:56.625 [GF] INFO  [JTS-AuthDispatcherS4-38] - Disconnecting cdc1.ibllc.com:4000 [disconnectDetails=DisconnectDetails[sessionID=4,endPoint=cdc1.ibllc.com:4000,reason=DISCONNECT_BY_DESIGN,cause=null,systemMessage=null,keepSocketOpen=false]]...
+2025-07-31 15:47:56.626 [GF] INFO  [JTS-AuthDispatcherS4-38] - Socket closed.
+2025-07-31 15:47:56.626 [GF] INFO  [JTS-MISC URLsListenerS4-37] - Socket or stream for connection cdc1.ibllc.com:4000 was closed by another thread.
+2025-07-31 15:47:56.626 [GF] INFO  [JTS-AuthDispatcherS4-38] - SocketTracker[name=name=MISC URLs(cdc1.ibllc.com:4000),usesCcpConMan=false,lastReadTimestamp=1753991276625,lastReadDateTime=2025-07-31T15:47:56.625,lastFixSendTime=].
+2025-07-31 15:47:56.626 [GF] INFO  [JTS-AuthDispatcherS4-38] - Interrupting dispatcher [sessionID=4]...
+2025-07-31 15:47:56.626 [GF] INFO  [JTS-AuthDispatcherS4-38] - Interrupting listener [sessionID=4,disconnectSocket=true]...
+2025-07-31 15:47:56.626 [GF] INFO  [JTS-AuthDispatcherS4-38] - Dispatcher thread terminating [sessionID=4,interrupted=true]...
+2025-07-31 15:47:56.626 [GF] INFO  [JTS-MISC URLsListenerS4-37] - Listener thread terminating [sessionID=4] [seen=1159,totalShifted=1159,moreAvailable=0]
+2025-07-31 15:47:56.626 [GF] INFO  [JTS-AuthResponseMonitor-39] - Terminating auth response monitor thread
+2025-07-31 15:47:56.672 [GF] INFO  [JTS-CCPListenerS5-33] - Initial listener buffer size is 65536.
+2025-07-31 15:47:56.672 [GF] INFO  [JTS-Login-31] - SPLASH Authenticating
+2025-07-31 15:47:56.674 [GF] INFO  [JTS-CCPListenerS5-33] - Listener thread [sessionID=5] is ready to process messages.
+2025-07-31 15:47:56.674 [GF] INFO  [JTS-Login-31] - Terminating launcher login thread
+2025-07-31 15:47:56.743 [GF] INFO  [JTS-AuthDispatcherS5-34] - SPLASH 0292 step 3 AuthDispatcher.processDataItr
+2025-07-31 15:47:56.744 [GF] INFO  [JTS-AuthDispatcherS5-34] - set nsMsgVersion: context=AuthStart; version=50
+2025-07-31 15:47:56.744 [GF] INFO  [JTS-AuthDispatcherS5-34] - Received NS_AUTH_START: 1
+2025-07-31 15:47:56.744 [GF] INFO  [JTS-AuthDispatcherS5-34] - pwd time to expiry ms: 2348385123000 days: 27181
+2025-07-31 15:47:56.744 [GF] INFO  [JTS-AuthDispatcherS5-34] - Long pwd allowed: true
+2025-07-31 15:47:56.744 [GF] INFO  [JTS-AuthDispatcherS5-34] -  NS_AUTH_START version=50 pwd=1 soft=0 token(s)=[token=0] initialTokenType=PWD authenticationType=MARKET_DATA_CONNECTION identityHashcode=2040600342
+2025-07-31 15:47:56.745 [GF] INFO  [JTS-AuthDispatcherS5-34] - ### onStartAuthentication
+2025-07-31 15:47:56.745 [GF] INFO  [JTS-AuthDispatcherS5-34] - Starting password Authentication
+2025-07-31 15:47:56.745 [GF] INFO  [JTS-AuthDispatcherS5-34] - ### onXyzAuthQuery
+2025-07-31 15:47:56.745 [GF] INFO  [JTS-AuthDispatcherS5-34] - sendXYZMessage: 777
+2025-07-31 15:47:56.745 [GF] INFO  [JTS-AuthDispatcherS5-34] - UserCredentials.setFrom() [this=1995696712,other=416623305,old=null,new=688bc200.0119].
+2025-07-31 15:47:56.746 [GF] INFO  [AWT-EventQueue-0] - SplashScreen: using ads manager
+2025-07-31 15:47:56.747 [GF] INFO  [AWT-EventQueue-0] - AdImageContainer: start build ads UI
+2025-07-31 15:47:56.749 [GF] INFO  [JTS-CachedThreadExecutor-44] - AdManager: NEXT_AD request https://api.ibkr.com/tws.proxy/info/next?platform=dTWS&size=1200x1000&lang=en&version=null&build=latest
+2025-07-31 15:47:56.750 [GF] INFO  [JTS-CachedThreadExecutor-44] - AdManager: sending request with header X-USERNAME
+2025-07-31 15:47:57.011 [GF] INFO  [JTS-AuthDispatcherS5-34] - SPLASH 0268 step 3 AuthDispatcher.processDataItr
+2025-07-31 15:47:57.011 [GF] INFO  [JTS-AuthDispatcherS5-34] - Receiver: 777
+2025-07-31 15:47:57.011 [GF] ERROR [JTS-AuthDispatcherS5-34] - ERROR: Received twslaunch.jauthentication.N with userName NOT PRINTED in it - this is not expected
+2025-07-31 15:47:57.011 [GF] INFO  [JTS-AuthDispatcherS5-34] - processXYZMessage: 777, protocol version: 50
+2025-07-31 15:47:57.011 [GF] INFO  [JTS-AuthDispatcherS5-34] - Received AUTH_PARAMS
+2025-07-31 15:47:57.011 [GF] INFO  [JTS-AuthDispatcherS5-34] - ### onXyzAuthParams
+2025-07-31 15:47:57.012 [GF] INFO  [JTS-AuthDispatcherS5-34] - sendXYZMessage: 777
+2025-07-31 15:47:57.040 [GF] INFO  [JTS-AuthDispatcherS5-34] - Receiver: 777
+2025-07-31 15:47:57.040 [GF] ERROR [JTS-AuthDispatcherS5-34] - ERROR: Received twslaunch.jauthentication.N with userName NOT PRINTED in it - this is not expected
+2025-07-31 15:47:57.040 [GF] INFO  [JTS-AuthDispatcherS5-34] - processXYZMessage: 777, protocol version: 50
+2025-07-31 15:47:57.040 [GF] INFO  [JTS-AuthDispatcherS5-34] - Received SERVER_PARAMS
+2025-07-31 15:47:57.043 [GF] INFO  [JTS-AuthDispatcherS5-34] - Session Token received in AuthenticationMessageXYZ=99f2bXXXXX.., messageId=SERVER_KEY (4)
+2025-07-31 15:47:57.043 [GF] INFO  [JTS-AuthDispatcherS5-34] - sendXYZMessage: 777
+2025-07-31 15:47:57.073 [GF] INFO  [JTS-AuthDispatcherS5-34] - Receiver: 777
+2025-07-31 15:47:57.073 [GF] ERROR [JTS-AuthDispatcherS5-34] - ERROR: Received twslaunch.jauthentication.N with userName NOT PRINTED in it - this is not expected
+2025-07-31 15:47:57.073 [GF] INFO  [JTS-AuthDispatcherS5-34] - processXYZMessage: 777, protocol version: 50
+2025-07-31 15:47:57.073 [GF] INFO  [JTS-AuthDispatcherS5-34] - Received AUTH_RESULT
+2025-07-31 15:47:57.073 [GF] INFO  [JTS-AuthDispatcherS5-34] - ### onXyzAuthServerProof
+2025-07-31 15:47:57.073 [GF] INFO  [JTS-AuthDispatcherS5-34] - Passed pwd authentication.
+2025-07-31 15:47:57.073 [GF] INFO  [JTS-AuthDispatcherS5-34] - Authentication completed.
+2025-07-31 15:47:57.073 [GF] INFO  [JTS-AuthDispatcherS5-34] - ### onAuthenticationCompleted tokenProtocol=0; authenticated=true
+2025-07-31 15:47:57.073 [GF] INFO  [JTS-AuthDispatcherS5-34] - setting session token in AuthenticationHandler: authenticationType=MARKET_DATA_CONNECTION hashCode=2040600342 new=XYZSessionToken[type=SOFT,token=99f2bXXXXX..] old=null ctciOld=null
+2025-07-31 15:47:57.073 [GF] INFO  [JTS-AuthDispatcherS5-34] - ccp session token non-CTCI is set as XYZSessionToken[type=SOFT,token=99f2bXXXXX..] 
+2025-07-31 15:47:57.114 [GF] INFO  [JTS-AuthDispatcherS5-34] - Received NS_CONNECT_RESPONSE
+2025-07-31 15:47:57.114 [GF] INFO  [JTS-AuthDispatcherS5-34] - Received CCP connect features: [TST, ONELOGON].
+2025-07-31 15:47:57.115 [GF] INFO  [JTS-AuthDispatcherS5-34] - Log encryption support is enabled [authType=MARKET_DATA_CONNECTION,logKeyId=aaa,logKey=***,logUploadKey=dhtnuyctsj].
+2025-07-31 15:47:57.115 [GF] INFO  [JTS-AuthDispatcherS5-34] - CCP sent paperUser NOT PRINTED for prodUser NOT PRINTED
+2025-07-31 15:47:57.116 [GF] INFO  [JTS-AuthDispatcherS5-34] - UserCredentials.setFrom() [this=1995696712,other=416623305,old=688bc200.0119,new=688bc200.0119].
+2025-07-31 15:47:57.117 [GF] INFO  [JTS-AuthDispatcherS5-34] - AuthDispatcher.newCommPort()[userDirname=kicbjfhlalemndjpnaddbdcdaabdnacekaedffca,restart=,authToken=null,ccpToken=XYZSessionToken[type=SOFT,token=99f2bXXXXX..]].
+2025-07-31 15:47:57.117 [GF] INFO  [JTS-AuthDispatcherS5-34] - Daily auto-restart is not enabled.
+2025-07-31 15:47:57.118 [GF] INFO  [JTS-AuthDispatcherS5-34] - Sending NSNewcommPort [tokenMask=2,tokens=XYZSessionToken[type=SOFT,token=99f2bXXXXX..]],shortTokenHashes=795fabf8]...
+2025-07-31 15:47:57.147 [GF] INFO  [JTS-AuthDispatcherS5-34] - Received NS_FIX_START
+2025-07-31 15:47:57.147 [GF] INFO  [JTS-AuthDispatcherS5-34] - ### onNsFixStart
+2025-07-31 15:47:57.148 [GF] INFO  [JTS-PostAuthenticateS5-45] - Interrupting dispatcher [sessionID=5]...
+2025-07-31 15:47:57.148 [GF] INFO  [JTS-AuthDispatcherS5-34] - Dispatcher thread terminating [sessionID=5,interrupted=true]...
+2025-07-31 15:47:57.148 [GF] INFO  [JTS-PostAuthenticateS5-45] - AuthTimeoutMonitor-CCP: deactivate
+2025-07-31 15:47:57.148 [GF] INFO  [JTS-PostAuthenticateS5-45] - Authentication complete
+2025-07-31 15:47:57.148 [GF] INFO  [JTS-AuthTimeoutMonitorThread-CCP-35] - Terminating auth timeout monitor thread for CCP
+2025-07-31 15:47:57.148 [GF] INFO  [JTS-PostAuthenticateS5-45] - Checking which local files need to be updated [relaxedRemoteFileSize: true]...
+2025-07-31 15:47:57.149 [GF] INFO  [JTS-PostAuthenticateS5-45] - 0 file(s) need to be updated.
+2025-07-31 15:47:57.149 [GF] INFO  [JTS-PostAuthenticateS5-45] - Creating a FixLogonHandlerFactory instance...
+2025-07-31 15:47:57.149 [GF] INFO  [JTS-PostAuthenticateS5-45] - getTWSClassLoaderAndInitThreads(): [urls=[file:/C:/Users/mrbat/Desktop/495/tws/jars/jts4launch-1039-windows-x64_1753820093000.dat, file:/C:/Users/mrbat/Desktop/495/tws/jars/jackson-databind-2.12.3_1700085189000.dat, file:/C:/Users/mrbat/Desktop/495/tws/jars/jxbrowser-7.41.3_1727888552000.dat, file:/C:/Users/mrbat/Desktop/495/tws/jars/total-2024_1727361747000.dat, file:/C:/Users/mrbat/Desktop/495/tws/jars/batik-all-1.16_1684763319000.dat, file:/C:/Users/mrbat/Desktop/495/tws/jars/jxbrowser-swing-7.41.3_1727888555000.dat, file:/C:/Users/mrbat/Desktop/495/tws/jars/fop-2.8_1684763319000.dat, file:/C:/Users/mrbat/Desktop/495/tws/jars/protobuf-java-3.25.6_1740684430000.dat, file:/C:/Users/mrbat/Desktop/495/tws/jars/jxbrowser-win64-7.41.3_1727888557000.dat, file:/C:/Users/mrbat/Desktop/495/tws/jars/jackson-annotations-2.12.3_1700085178000.dat, file:/C:/Users/mrbat/Desktop/495/tws/jars/xmlgraphics-commons-2.8_1684763319000.dat]].
+2025-07-31 15:47:57.187 [GF] INFO  [JTS-PostAuthenticateS5-45] - Instance created.
+2025-07-31 15:47:57.211 [GF] INFO  [AWT-EventQueue-0] - initPreUI() - entry
+2025-07-31 15:47:57.215 [GF] INFO  [AWT-EventQueue-0] - Build 10.39.1d, Jul 29, 2025 4:04:39 PM
+2025-07-31 15:47:57.238 [GF] INFO  [AWT-EventQueue-0] - LauncherJtsLookAndFeel uninitialized
+2025-07-31 15:47:57.238 [GF] INFO  [AWT-EventQueue-0] - LookAndFeelChangedListener installed
+2025-07-31 15:47:57.288 [GF] INFO  [AWT-EventQueue-0] - JtsLookAndFeel initialized
+2025-07-31 15:47:57.303 [GF] INFO  [JTS-PostAuthenticateS5-45] - prohibiting class lookup [org.jfree.chart.LocalizationBundle]
+2025-07-31 15:47:57.303 [GF] INFO  [JTS-PostAuthenticateS5-45] - prohibiting class lookup [org.jfree.chart.LocalizationBundle_en]
+2025-07-31 15:47:57.387 [GF] INFO  [JTS-PostAuthenticateS5-45] - prohibiting class lookup [org.jfree.chart.LocalizationBundle_en_US]
+2025-07-31 15:47:57.387 [GF] INFO  [JTS-PostAuthenticateS5-45] - prohibiting class lookup [org.jfree.chart.plot.LocalizationBundle]
+2025-07-31 15:47:57.387 [GF] INFO  [JTS-PostAuthenticateS5-45] - prohibiting class lookup [org.jfree.chart.plot.LocalizationBundle_en]
+2025-07-31 15:47:57.387 [GF] INFO  [JTS-PostAuthenticateS5-45] - prohibiting class lookup [org.jfree.chart.plot.LocalizationBundle_en_US]
+2025-07-31 15:47:57.487 [GF] INFO  [JTS-PostAuthenticateS5-45] - jfreechart version =1.0.8
+2025-07-31 15:47:57.487 [GF] INFO  [JTS-PostAuthenticateS5-45] - jcommon version =1.0.12
+2025-07-31 15:47:57.487 [GF] INFO  [JTS-PostAuthenticateS5-45] - JDOMFactory Class =interface org.jdom.JDOMFactory
+2025-07-31 15:47:57.491 [GF] INFO  [JTS-PostAuthenticateS5-45] - hsqldb jdbc =class org.hsqldb.jdbcDriver 2.4
+2025-07-31 15:47:57.493 [GF] INFO  [JTS-PostAuthenticateS5-45] - Changing state for connection from PRELOGON to PRELOGON in B 1680006109: SessionSocket:5
+2025-07-31 15:47:57.494 [GF] INFO  [JTS-PostAuthenticateS5-45] - createOrRenameToNewStyleUserDirectory: create newDir=C:\Users\mrbat\Desktop\495\tws\kicbjfhlalemndjpnaddbdcdaabdnacekaedffca
+2025-07-31 15:47:57.500 [GF] INFO  [JTS-PostAuthenticateS5-45] - performLogSwitch() [force=false]
+2025-07-31 15:47:57.502 [GF] INFO  [JTS-PostAuthenticateS5-45] - Switching to a new encrypted log...
+2025-07-31 16:35:50.706 [KJ] INFO  [JTS-Main] - ------------------------------- TWS RESTART --------------------------------
+2025-07-31 16:35:50.709 [KJ] INFO  [JTS-Main] - installer version: 4.101, installer type: updatable, install dir: 'C:\Users\mrbat\Desktop\495\tws\', Jts dir: 'C:\Users\mrbat\Desktop\495\tws', VM options file: 'C:\Users\mrbat\Desktop\495\tws\tws.vmoptions'
+2025-07-31 16:35:50.712 [KJ] INFO  [JTS-Main] - PROXY Installed custom selector
+2025-07-31 16:35:50.778 [KJ] INFO  [JTS-Main] - Setting custom timezone: America/New_York
+2025-07-31 16:35:50.783 [KJ] INFO  [JTS-Main] - LOCALE: Property locale_to_use=null JTS Locale=en_US  country=United States  variant=
+2025-07-31 16:35:50.784 [KJ] INFO  [JTS-Main] - Region: America
+2025-07-31 16:35:50.784 [KJ] INFO  [JTS-Main] - URL for locales.jar from argument: https://download2.interactivebrokers.com/installers/shared/i18n/ib
+2025-07-31 16:35:50.785 [KJ] INFO  [JTS-Main] - Starting to download 'https://download2.interactivebrokers.com/installers/shared/i18n/ib/locales.jar' using HotBackup 'https://download2.interactivebrokers.com/installers/shared/i18n/ib/locales.jar'
+2025-07-31 16:35:50.996 [KJ] INFO  [JTS-Main] - LOCALE: needToUpdate  dest=C:\Users\mrbat\Desktop\495\tws\jars\locales.jar  sourceMod=2025-07-31 16:11:52  destMod=2025-02-26 09:39:04  sourceSize=151902  destSize=151505  conditions=[NEWER_REMOTE, LOCAL_IN_FUTURE, SIZE_DIFFERS]  download=true
+2025-07-31 16:35:51.033 [KJ] INFO  [JTS-Main] - Finished downloading file [path=/installers/shared/i18n/ib/locales.jar,startPosition=0,totalBytesRead=151902,fileLen=151902,remoteLength=151902].
+2025-07-31 16:35:51.034 [KJ] INFO  [JTS-Main] - LOCALE: finished downloading C:\Users\mrbat\Desktop\495\tws\jars\locales.jar
+2025-07-31 16:35:51.047 [KJ] INFO  [JTS-Main] - DocumentBuilderFactory=jrt:/java.xml/com/sun/org/apache/xerces/internal/jaxp/DocumentBuilderFactoryImpl.class
+2025-07-31 16:35:51.062 [KJ] INFO  [JTS-Main] - LOCALE: loaded 11 supported locales
+2025-07-31 16:35:51.068 [KJ] INFO  [JTS-Main] - LOCALE: loaded 10 countries
+2025-07-31 16:35:51.074 [KJ] INFO  [JTS-Main] - Locale from ini: en
+2025-07-31 16:35:51.074 [KJ] INFO  [JTS-Main] - LOCALE: created classloader java.net.URLClassLoader@1cefc4b3 with file:/C:/Users/mrbat/Desktop/495/tws/jars/locales.jar, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@28c97a5
+2025-07-31 16:35:51.075 [KJ] INFO  [JTS-Main] - Locale=en_US  country=United States  variant=
+2025-07-31 16:35:51.076 [KJ] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage]
+2025-07-31 16:35:51.077 [KJ] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage_en]
+2025-07-31 16:35:51.077 [KJ] INFO  [JTS-Main] - prohibiting class lookup [twslaunch.ji18n.LauncherLanguage_en_US]
+2025-07-31 16:35:51.078 [KJ] INFO  [JTS-Main] - LOCALE:  type: launcher intended: en_US actual:  size: 503
+2025-07-31 16:35:51.078 [KJ] INFO  [JTS-Main] - settings dir: 'C:\Users\mrbat\Desktop\495\tws'
+2025-07-31 16:35:51.091 [KJ] INFO  [JTS-Main] - Verifying environment [entryPoint=TWS_UPDATABLE]...
+2025-07-31 16:35:51.092 [KJ] INFO  [AWT-EventQueue-0] - LauncherFontUpdater: simulatehighdefscreen=false
+2025-07-31 16:35:51.092 [KJ] INFO  [AWT-EventQueue-0] - LauncherFontUpdater: Screen dimensions=1920x1080
+2025-07-31 16:35:51.092 [KJ] INFO  [AWT-EventQueue-0] - LauncherFontUpdater: highres=false
+2025-07-31 16:35:51.092 [KJ] INFO  [AWT-EventQueue-0] - LauncherFontUpdater: FontSize=16
+2025-07-31 16:35:51.098 [KJ] INFO  [AWT-EventQueue-0] - LauncherJtsLookAndFeel initialized
+2025-07-31 16:35:51.132 [KJ] INFO  [AWT-EventQueue-0] - Install4jAutoUpdateService initialized [props=LauncherProperties[updateDownloadUrl=https://download2.interactivebrokers.com/installers/tws/latest,skipUpdateCheck=false,nightlyEnabled=false,channelNameArg=null,channelName=latest,channelChanged=false,jtsConfigDir=C:\Users\mrbat\Desktop\495\tws,apiPort=null,sessionId=null,installDir=C:\Users\mrbat\Desktop\495\tws\,exeName=tws]].
+2025-07-31 16:35:51.146 [KJ] INFO  [AWT-EventQueue-0] - Proxy not found for accessing 'https://download2.interactivebrokers.com/installers/tws/latest'
+2025-07-31 16:35:51.146 [KJ] INFO  [AWT-EventQueue-0] - Checking for update [args=[-Vchannel=latest, -VchannelChanged=false, -VcustomJtsConfigDir=C:\Users\mrbat\Desktop\495\tws]]...
+2025-07-31 16:35:52.744 [KJ] INFO  [JTS-Main] - Initializing launcher downloader [internalJars=jts4launch-1039-windows-x64.jar,internalJarsUrl=https://download2.interactivebrokers.com/installers/tws/latest,thirdPartyJars=jackson-databind-2.12.3.jar:jxbrowser-7.41.3.jar:total-2024.jar:batik-all-1.16.jar:jxbrowser-swing-7.41.3.jar:fop-2.8.jar:protobuf-java-3.25.6.jar:jxbrowser-win64-7.41.3.jar:jackson-annotations-2.12.3.jar:xmlgraphics-commons-2.8.jar,thirdPartyJarsUrl=https://download2.interactivebrokers.com/installers/jars,mainJarName=jts4launch-1039-windows-x64.jar,mainJarDigest=4a482de7e214afa4de7fcb07d2e48e9a1b78c3f3f3fa7a426b6ddc9b941f8784,ignoreDate=false,ignoreDownload=false]...
+2025-07-31 16:35:52.745 [KJ] INFO  [JTS-Main] - Verifying SHA-256 digest [digestUrl=https://download2.interactivebrokers.com/installers/tws/latest/jts4launch-1039-windows-x64.jar.sha256,expectedDigest=4a482de7e214afa4de7fcb07d2e48e9a1b78c3f3f3fa7a426b6ddc9b941f8784]...
+2025-07-31 16:35:52.746 [KJ] INFO  [JTS-Main] - Starting to download 'https://download2.interactivebrokers.com/installers/tws/latest/jts4launch-1039-windows-x64.jar.sha256' using HotBackup 'https://download2.interactivebrokers.com/installers/tws/latest/jts4launch-1039-windows-x64.jar.sha256'
+2025-07-31 16:35:52.769 [KJ] INFO  [JTS-Main] - getFileFromUrl: dest=C:\Users\mrbat\AppData\Local\Temp\digest1901260192992448515.tmp empty sourceSize=64
+2025-07-31 16:35:52.770 [KJ] INFO  [JTS-Main] - Finished downloading file [path=/installers/tws/latest/jts4launch-1039-windows-x64.jar.sha256,startPosition=0,totalBytesRead=64,fileLen=64,remoteLength=64].
+2025-07-31 16:35:52.779 [KJ] INFO  [JTS-Main] - Remote 'jts4launch-1039-windows-x64.jar' is compatible with this launcher.
+2025-07-31 16:35:52.962 [KJ] INFO  [JTS-Main] - Checking which local files need to be updated [relaxedRemoteFileSize: false]...
+2025-07-31 16:35:52.963 [KJ] INFO  [JTS-Main] - 0 file(s) need to be updated.
+2025-07-31 16:35:52.970 [KJ] INFO  [JTS-MiscUlrsRequester-2] - Connecting cdc1.ibllc.com:4000 timeout=10000...
+2025-07-31 16:35:53.019 [KJ] INFO  [JTS-MiscUlrsRequester-2] - Connected to cdc1.ibllc.com:4000/8.17.22.31 remote-ip on local port 0 socket local addrs:port /192.168.1.166:55130
+2025-07-31 16:35:53.020 [KJ] INFO  [JTS-MiscUlrsRequester-2] - Updating machine info [connectionAddress=/192.168.1.166]...
+2025-07-31 16:35:53.021 [KJ] INFO  [JTS-MiscUlrsRequester-2] - Creating unique random...
+2025-07-31 16:35:53.021 [KJ] INFO  [JTS-MiscUlrsRequester-2] - id=14460645
+2025-07-31 16:35:53.021 [KJ] INFO  [JTS-MiscUlrsRequester-2] - Resolving MAC address...
+2025-07-31 16:35:53.032 [KJ] INFO  [JTS-MiscUlrsRequester-2] - MACNetworkInfo created <14460645|34:5A:60:10:8B:2E|192.168.1.166>.
+2025-07-31 16:35:53.038 [KJ] INFO  [JTS-MISC URLsListenerS1-3] - Starting listener thread [sessionID=1]...
+2025-07-31 16:35:53.047 [KJ] INFO  [JTS-MiscUlrsRequester-2] - Sending MiscUrls request
+2025-07-31 16:35:53.047 [KJ] INFO  [JTS-AuthDispatcherS1-4] - Starting dispatcher thread [sessionID=1]...
+2025-07-31 16:35:53.051 [KJ] INFO  [JTS-MiscUlrsRequester-2] - LOGIN_TIME_MONITOR	 false 16:35:53:051 since start = 0 thread delay = 0 global delay = 0 tag=null, cls=AuthDispatcher method=send
+2025-07-31 16:35:53.052 [KJ] INFO  [JTS-AuthResponseMonitor-5] - Starting auth response monitor thread
+2025-07-31 16:35:53.052 [KJ] INFO  [JTS-MISC URLsListenerS1-3] - Initial listener buffer size is 65536.
+2025-07-31 16:35:53.052 [KJ] INFO  [JTS-MISC URLsListenerS1-3] - Listener thread [sessionID=1] is ready to process messages.
+2025-07-31 16:35:53.080 [KJ] INFO  [JTS-AuthDispatcherS1-4] - Received NS_MISC_URLS
+2025-07-31 16:35:53.080 [KJ] INFO  [JTS-AuthDispatcherS1-4] - IBMiscUrl.miscUrlMessage()[sslRequired=true]
+2025-07-31 16:35:53.081 [KJ] INFO  [JTS-AuthDispatcherS1-4] - Misc URL: scope is blank - setting userScope to EXTERNAL
+2025-07-31 16:35:53.081 [KJ] INFO  [JTS-AuthDispatcherS1-4] - Misc URL: setting userScope to EXTERNAL
+2025-07-31 16:35:53.082 [KJ] INFO  [AWT-EventQueue-0] - OvernightManager.dayInit: new values: dayOfTheWeek: 5 (Thu), YYYYMMofToday: 202507, YYYYMMDDofToday: 20250731, m_todayDate: 20250731, dueToChangeInTimezone: false
+2025-07-31 16:35:53.083 [KJ] INFO  [JTS-AuthDispatcherS1-4] - Disconnecting cdc1.ibllc.com:4000 [disconnectDetails=DisconnectDetails[sessionID=1,endPoint=cdc1.ibllc.com:4000,reason=DISCONNECT_BY_DESIGN,cause=null,systemMessage=null,keepSocketOpen=false]]...
+2025-07-31 16:35:53.083 [KJ] INFO  [JTS-AuthDispatcherS1-4] - Socket closed.
+2025-07-31 16:35:53.084 [KJ] INFO  [JTS-MISC URLsListenerS1-3] - Socket or stream for connection cdc1.ibllc.com:4000 was closed by another thread.
+2025-07-31 16:35:53.084 [KJ] INFO  [JTS-AuthDispatcherS1-4] - SocketTracker[name=name=MISC URLs(cdc1.ibllc.com:4000),usesCcpConMan=false,lastReadTimestamp=1753994153079,lastReadDateTime=2025-07-31T16:35:53.079,lastFixSendTime=].
+2025-07-31 16:35:53.084 [KJ] INFO  [JTS-AuthDispatcherS1-4] - Interrupting dispatcher [sessionID=1]...
+2025-07-31 16:35:53.084 [KJ] INFO  [JTS-AuthDispatcherS1-4] - Interrupting listener [sessionID=1,disconnectSocket=true]...
+2025-07-31 16:35:53.084 [KJ] INFO  [JTS-AuthDispatcherS1-4] - Dispatcher thread terminating [sessionID=1,interrupted=true]...
+2025-07-31 16:35:53.084 [KJ] INFO  [JTS-MISC URLsListenerS1-3] - Listener thread terminating [sessionID=1] [seen=1159,totalShifted=1159,moreAvailable=0]
+2025-07-31 16:35:53.085 [KJ] INFO  [JTS-AuthResponseMonitor-5] - Terminating auth response monitor thread
+2025-07-31 16:35:53.259 [KJ] INFO  [AWT-EventQueue-0] - Default timezone:America/New_York
+2025-07-31 16:35:53.262 [KJ] INFO  [AWT-EventQueue-0] - Starting GstatMessageMgr...
+2025-07-31 16:35:53.265 [KJ] INFO  [JTS-GstatMessageMgr-8] - Sending a request to GSTAT [url=https://api.ibkr.com/v1/gstat//bulletins,data='{"p":"10391d","t":"Maintenance","tz":"America/New_York","format":"webapp","theme":"dark","fontSize":"12px","lang":"en"}']...
+2025-07-31 16:35:53.280 [KJ] INFO  [AWT-EventQueue-0] - Started on 20250731-20:35:53
+2025-07-31 16:35:53.280 [KJ] INFO  [AWT-EventQueue-0] - Default timezone:America/New_York name:Eastern Standard Time dst:3600000
+2025-07-31 16:35:53.280 [KJ] INFO  [AWT-EventQueue-0] - java version = 17.0.10.0.101
+2025-07-31 16:35:53.280 [KJ] INFO  [AWT-EventQueue-0] - sun.arch.data.model = 64
+2025-07-31 16:35:53.280 [KJ] INFO  [AWT-EventQueue-0] - os = Windows 11
+2025-07-31 16:35:53.280 [KJ] INFO  [AWT-EventQueue-0] - os version = 10.0
+2025-07-31 16:35:53.280 [KJ] INFO  [AWT-EventQueue-0] - os architecture = 64
+2025-07-31 16:35:53.280 [KJ] INFO  [AWT-EventQueue-0] - runtime = OpenJDK Runtime Environment
+2025-07-31 16:35:53.281 [KJ] INFO  [AWT-EventQueue-0] - vendor = Azul Systems, Inc.
+2025-07-31 16:35:53.281 [KJ] INFO  [AWT-EventQueue-0] - vm name = OpenJDK 64-Bit Server VM
+2025-07-31 16:35:53.281 [KJ] INFO  [AWT-EventQueue-0] - username = 'mrbat'
+2025-07-31 16:35:53.408 [KJ] INFO  [JTS-GstatMessageMgr-8] - Received response [errorCode=204,contentLen=-1].
+2025-07-31 16:35:53.450 [KJ] INFO  [AWT-EventQueue-0] - Basic init done. Login window shown
+2025-07-31 16:35:53.450 [KJ] INFO  [JTS-Main] - Launcher created @ 20250729-16:08:59
+2025-07-31 16:35:53.666 [KJ] INFO  [JavaFX Application Thread] - GstatMessagePanel: setup web app is done
+2025-07-31 16:36:26.184 [KJ] INFO  [AWT-EventQueue-0] - Stopping GstatMessageMgr...
+2025-07-31 16:36:26.185 [KJ] INFO  [AWT-EventQueue-0] - LoginWindow.onLogin() - request MiscUrls
+2025-07-31 16:36:26.186 [KJ] INFO  [AWT-EventQueue-0] - Setting dir is C:\Users\mrbat\Desktop\495\tws\
+2025-07-31 16:36:26.187 [KJ] INFO  [AWT-EventQueue-0] - PROXY Cleared HTTP proxy: no valid proxy is present (passing on :0)
+2025-07-31 16:36:26.189 [KJ] INFO  [AWT-EventQueue-0] - host = cdc1.ibllc.com
+2025-07-31 16:36:26.189 [KJ] INFO  [AWT-EventQueue-0] - remotePort = 4001
+2025-07-31 16:36:26.189 [KJ] INFO  [AWT-EventQueue-0] - localPort = 0
+2025-07-31 16:36:26.192 [KJ] INFO  [AWT-EventQueue-0] - SPLASH Creating screen with 4 steps
+2025-07-31 16:36:26.210 [KJ] INFO  [AWT-EventQueue-0] - UserCredentials.sessionId() [this=1561301283,old=null,new=688bd3ca.00d0].
+2025-07-31 16:36:26.210 [KJ] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection attempt time is cleared!
+2025-07-31 16:36:26.210 [KJ] INFO  [AWT-EventQueue-0] - CONN CALC: Last connection set as now:16:36:26:210
+2025-07-31 16:36:26.210 [KJ] INFO  [AWT-EventQueue-0] - Prelogin delay:0
+2025-07-31 16:36:26.211 [KJ] INFO  [JTS-Login-10] - Starting launcher login thread
+2025-07-31 16:36:26.211 [KJ] INFO  [AWT-EventQueue-0] - Network monitor is activated
+2025-07-31 16:36:26.211 [KJ] INFO  [JTS-Login-10] - LauncherLoginThread.runLoginWithUI()[hotBackupStrategy=ON,loginAttempt=1,socketDelay=20000].
+2025-07-31 16:36:26.211 [KJ] INFO  [JTS-Login-10] - SPLASH Connecting to server
+2025-07-31 16:36:26.212 [KJ] INFO  [JTS-Login-10] - ### startLogin startTime=1753994186210
+2025-07-31 16:36:26.212 [KJ] INFO  [JTS-Login-10] - ### loginAttempt loginAttempt=1
+2025-07-31 16:36:26.212 [KJ] INFO  [JTS-Login-10] - Connecting cdc1.ibllc.com:4001 (SSL) timeout=20000...
+2025-07-31 16:36:26.212 [KJ] INFO  [JTS-Login-10] - ### onSocketOpenStart socketOpenStart=1753994186212; endPoint=cdc1.ibllc.com; port=4001
+2025-07-31 16:36:26.271 [KJ] INFO  [JTS-Login-10] - ### onSocketOpenEnd socketOpenEnd=1753994186271
+2025-07-31 16:36:26.271 [KJ] INFO  [JTS-Login-10] - Connected to cdc1.ibllc.com:4001 (SSL)/8.17.22.31 remote-ip on local port 0 socket local addrs:port /192.168.1.166:55269
+2025-07-31 16:36:26.271 [KJ] INFO  [JTS-Login-10] - Updating machine info [connectionAddress=/192.168.1.166]...
+2025-07-31 16:36:26.271 [KJ] INFO  [JTS-Login-10] - JTSAuthConnection.onConnected(): lastKnownCipherStatus=INSECURE
+2025-07-31 16:36:26.271 [KJ] INFO  [JTS-Login-10] - Changing state for connection from PRELOGON to PRELOGON in B 734231527: SessionSocket:2
+2025-07-31 16:36:26.271 [KJ] INFO  [JTS-Login-10] - Authenticating
+2025-07-31 16:36:26.272 [KJ] INFO  [JTS-Login-10] - AuthTimeoutMonitor-CCP: deactivate
+2025-07-31 16:36:26.272 [KJ] INFO  [JTS-Login-10] - AuthTimeoutMonitor-CCP: timeout=20000
+2025-07-31 16:36:26.272 [KJ] INFO  [JTS-CCPListenerS2-12] - Starting listener thread [sessionID=2]...
+2025-07-31 16:36:26.272 [KJ] INFO  [JTS-Login-10] - AuthTimeoutMonitor-CCP: activate
+2025-07-31 16:36:26.272 [KJ] INFO  [JTS-AuthTimeoutMonitorThread-CCP-14] - Starting auth timeout monitor thread for CCP
+2025-07-31 16:36:26.272 [KJ] INFO  [JTS-Login-10] - SPLASH -0001 step 1 AuthDispatcher.connect
+2025-07-31 16:36:26.272 [KJ] INFO  [JTS-Login-10] - Sending connect request
+2025-07-31 16:36:26.272 [KJ] INFO  [JTS-AuthDispatcherS2-13] - Starting dispatcher thread [sessionID=2]...
+2025-07-31 16:36:26.272 [KJ] INFO  [JTS-Login-10] - AuthDispatcher.initNSMsgVersionLimits: minVersion=38, maxVersion=50
+2025-07-31 16:36:26.273 [KJ] INFO  [JTS-Login-10] - AuthDispatcher.NSConnectRequest: userSessionID=688bd3ca.00d0, beeDemoType=NULL
+2025-07-31 16:36:26.273 [KJ] INFO  [JTS-Login-10] - ### onNsMsg loginMessageReq=1753994186273; brandNewUser=false
+2025-07-31 16:36:26.383 [KJ] INFO  [JTS-CCPListenerS2-12] - Initial listener buffer size is 65536.
+2025-07-31 16:36:26.383 [KJ] INFO  [JTS-Login-10] - SPLASH Authenticating
+2025-07-31 16:36:26.383 [KJ] INFO  [JTS-CCPListenerS2-12] - Listener thread [sessionID=2] is ready to process messages.
+2025-07-31 16:36:26.383 [KJ] INFO  [JTS-Login-10] - Terminating launcher login thread
+2025-07-31 16:36:26.418 [KJ] INFO  [JTS-AuthDispatcherS2-13] - set nsMsgVersion: context=AuthStart; version=50
+2025-07-31 16:36:26.418 [KJ] INFO  [JTS-AuthDispatcherS2-13] - Received NS_AUTH_START: 1
+2025-07-31 16:36:26.419 [KJ] INFO  [JTS-AuthDispatcherS2-13] - pwd time to expiry ms: 2348382214000 days: 27181
+2025-07-31 16:36:26.419 [KJ] INFO  [JTS-AuthDispatcherS2-13] - Long pwd allowed: true
+2025-07-31 16:36:26.419 [KJ] INFO  [JTS-AuthDispatcherS2-13] -  NS_AUTH_START version=50 pwd=1 soft=0 token(s)=[token=0] initialTokenType=PWD authenticationType=MARKET_DATA_CONNECTION identityHashcode=251296551
+2025-07-31 16:36:26.419 [KJ] INFO  [JTS-AuthDispatcherS2-13] - ### onStartAuthentication
+2025-07-31 16:36:26.419 [KJ] INFO  [JTS-AuthDispatcherS2-13] - Starting password Authentication
+2025-07-31 16:36:26.419 [KJ] INFO  [JTS-AuthDispatcherS2-13] - ### onXyzAuthQuery
+2025-07-31 16:36:26.419 [KJ] INFO  [JTS-AuthDispatcherS2-13] - sendXYZMessage: 777
+2025-07-31 16:36:26.420 [KJ] INFO  [JTS-AuthDispatcherS2-13] - UserCredentials.setFrom() [this=1335391025,other=1561301283,old=null,new=688bd3ca.00d0].
+2025-07-31 16:36:26.420 [KJ] INFO  [AWT-EventQueue-0] - SplashScreen: using ads manager
+2025-07-31 16:36:26.422 [KJ] INFO  [AWT-EventQueue-0] - AdImageContainer: start build ads UI
+2025-07-31 16:36:26.423 [KJ] INFO  [JTS-CachedThreadExecutor-19] - AdManager: NEXT_AD request https://api.ibkr.com/tws.proxy/info/next?platform=dTWS&size=1200x1000&lang=en&version=null&build=latest
+2025-07-31 16:36:26.424 [KJ] INFO  [JTS-CachedThreadExecutor-19] - AdManager: sending request with header X-USERNAME
+2025-07-31 16:36:26.451 [KJ] INFO  [JTS-AuthDispatcherS2-13] - Receiver: 777
+2025-07-31 16:36:26.451 [KJ] ERROR [JTS-AuthDispatcherS2-13] - ERROR: Received twslaunch.jauthentication.N with userName NOT PRINTED in it - this is not expected
+2025-07-31 16:36:26.451 [KJ] INFO  [JTS-AuthDispatcherS2-13] - processXYZMessage: 777, protocol version: 50
+2025-07-31 16:36:26.451 [KJ] INFO  [JTS-AuthDispatcherS2-13] - Received AUTH_PARAMS
+2025-07-31 16:36:26.451 [KJ] INFO  [JTS-AuthDispatcherS2-13] - ### onXyzAuthParams
+2025-07-31 16:36:26.452 [KJ] INFO  [JTS-AuthDispatcherS2-13] - sendXYZMessage: 777
+2025-07-31 16:36:26.482 [KJ] INFO  [JTS-AuthDispatcherS2-13] - SPLASH 0210 step 2 AuthDispatcher.processDataItr
+2025-07-31 16:36:26.483 [KJ] INFO  [JTS-AuthDispatcherS2-13] - Receiver: 777
+2025-07-31 16:36:26.483 [KJ] ERROR [JTS-AuthDispatcherS2-13] - ERROR: Received twslaunch.jauthentication.N with userName NOT PRINTED in it - this is not expected
+2025-07-31 16:36:26.483 [KJ] INFO  [JTS-AuthDispatcherS2-13] - processXYZMessage: 777, protocol version: 50
+2025-07-31 16:36:26.483 [KJ] INFO  [JTS-AuthDispatcherS2-13] - Received SERVER_PARAMS
+2025-07-31 16:36:26.485 [KJ] INFO  [JTS-AuthDispatcherS2-13] - Session Token received in AuthenticationMessageXYZ=36c39XXXXX.., messageId=SERVER_KEY (4)
+2025-07-31 16:36:26.485 [KJ] INFO  [JTS-AuthDispatcherS2-13] - sendXYZMessage: 777
+2025-07-31 16:36:26.516 [KJ] INFO  [JTS-AuthDispatcherS2-13] - Receiver: 777
+2025-07-31 16:36:26.516 [KJ] ERROR [JTS-AuthDispatcherS2-13] - ERROR: Received twslaunch.jauthentication.N with userName NOT PRINTED in it - this is not expected
+2025-07-31 16:36:26.516 [KJ] INFO  [JTS-AuthDispatcherS2-13] - processXYZMessage: 777, protocol version: 50
+2025-07-31 16:36:26.516 [KJ] INFO  [JTS-AuthDispatcherS2-13] - Received AUTH_RESULT
+2025-07-31 16:36:26.516 [KJ] INFO  [JTS-AuthDispatcherS2-13] - ### onXyzAuthServerProof
+2025-07-31 16:36:26.516 [KJ] INFO  [JTS-AuthDispatcherS2-13] - Passed pwd authentication.
+2025-07-31 16:36:26.516 [KJ] INFO  [JTS-AuthDispatcherS2-13] - Authentication completed.
+2025-07-31 16:36:26.516 [KJ] INFO  [JTS-AuthDispatcherS2-13] - ### onAuthenticationCompleted tokenProtocol=0; authenticated=true
+2025-07-31 16:36:26.516 [KJ] INFO  [JTS-AuthDispatcherS2-13] - setting session token in AuthenticationHandler: authenticationType=MARKET_DATA_CONNECTION hashCode=251296551 new=XYZSessionToken[type=SOFT,token=36c39XXXXX..] old=null ctciOld=null
+2025-07-31 16:36:26.516 [KJ] INFO  [JTS-AuthDispatcherS2-13] - ccp session token non-CTCI is set as XYZSessionToken[type=SOFT,token=36c39XXXXX..] 
+2025-07-31 16:36:26.555 [KJ] INFO  [JTS-AuthDispatcherS2-13] - Received NS_CONNECT_RESPONSE
+2025-07-31 16:36:26.555 [KJ] INFO  [JTS-AuthDispatcherS2-13] - Received CCP connect features: [TST, ONELOGON].
+2025-07-31 16:36:26.556 [KJ] INFO  [JTS-AuthDispatcherS2-13] - Log encryption support is enabled [authType=MARKET_DATA_CONNECTION,logKeyId=aaa,logKey=***,logUploadKey=dhtnuyctsj].
+2025-07-31 16:36:26.556 [KJ] INFO  [JTS-AuthDispatcherS2-13] - CCP sent paperUser NOT PRINTED for prodUser NOT PRINTED
+2025-07-31 16:36:26.556 [KJ] INFO  [JTS-AuthDispatcherS2-13] - UserCredentials.setFrom() [this=1335391025,other=1561301283,old=688bd3ca.00d0,new=688bd3ca.00d0].
+2025-07-31 16:36:26.557 [KJ] INFO  [JTS-AuthDispatcherS2-13] - AuthDispatcher.newCommPort()[userDirname=kicbjfhlalemndjpnaddbdcdaabdnacekaedffca,restart=,authToken=null,ccpToken=XYZSessionToken[type=SOFT,token=36c39XXXXX..]].
+2025-07-31 16:36:26.557 [KJ] INFO  [JTS-AuthDispatcherS2-13] - Daily auto-restart is not enabled.
+2025-07-31 16:36:26.558 [KJ] INFO  [JTS-AuthDispatcherS2-13] - Sending NSNewcommPort [tokenMask=2,tokens=XYZSessionToken[type=SOFT,token=36c39XXXXX..]],shortTokenHashes=4887047]...
+2025-07-31 16:36:26.565 [KJ] INFO  [JTS-CachedThreadExecutor-19] - AdManager: NEXT_AD ad is not available
+2025-07-31 16:36:26.565 [KJ] ERROR [JTS-CachedThreadExecutor-19] - AdsManager: get next image failed with status 404
+2025-07-31 16:36:26.566 [KJ] INFO  [AWT-EventQueue-0] - AdImageContainer: display regular background image without ads
+2025-07-31 16:36:26.566 [KJ] INFO  [AWT-EventQueue-0] - Splashscreen: should not show ads
+2025-07-31 16:36:26.589 [KJ] INFO  [JTS-AuthDispatcherS2-13] - Received NS_FIX_START
+2025-07-31 16:36:26.589 [KJ] INFO  [JTS-AuthDispatcherS2-13] - ### onNsFixStart
+2025-07-31 16:36:26.589 [KJ] INFO  [JTS-PostAuthenticateS2-20] - Interrupting dispatcher [sessionID=2]...
+2025-07-31 16:36:26.589 [KJ] INFO  [JTS-AuthDispatcherS2-13] - Dispatcher thread terminating [sessionID=2,interrupted=true]...
+2025-07-31 16:36:26.590 [KJ] INFO  [JTS-PostAuthenticateS2-20] - AuthTimeoutMonitor-CCP: deactivate
+2025-07-31 16:36:26.590 [KJ] INFO  [JTS-AuthTimeoutMonitorThread-CCP-14] - Terminating auth timeout monitor thread for CCP
+2025-07-31 16:36:26.590 [KJ] INFO  [JTS-PostAuthenticateS2-20] - Authentication complete
+2025-07-31 16:36:26.590 [KJ] INFO  [JTS-PostAuthenticateS2-20] - Checking which local files need to be updated [relaxedRemoteFileSize: true]...
+2025-07-31 16:36:26.590 [KJ] INFO  [JTS-PostAuthenticateS2-20] - 0 file(s) need to be updated.
+2025-07-31 16:36:26.590 [KJ] INFO  [JTS-PostAuthenticateS2-20] - Creating a FixLogonHandlerFactory instance...
+2025-07-31 16:36:26.591 [KJ] INFO  [JTS-PostAuthenticateS2-20] - getTWSClassLoaderAndInitThreads(): [urls=[file:/C:/Users/mrbat/Desktop/495/tws/jars/jts4launch-1039-windows-x64_1753820093000.dat, file:/C:/Users/mrbat/Desktop/495/tws/jars/jackson-databind-2.12.3_1700085189000.dat, file:/C:/Users/mrbat/Desktop/495/tws/jars/jxbrowser-7.41.3_1727888552000.dat, file:/C:/Users/mrbat/Desktop/495/tws/jars/total-2024_1727361747000.dat, file:/C:/Users/mrbat/Desktop/495/tws/jars/batik-all-1.16_1684763319000.dat, file:/C:/Users/mrbat/Desktop/495/tws/jars/jxbrowser-swing-7.41.3_1727888555000.dat, file:/C:/Users/mrbat/Desktop/495/tws/jars/fop-2.8_1684763319000.dat, file:/C:/Users/mrbat/Desktop/495/tws/jars/protobuf-java-3.25.6_1740684430000.dat, file:/C:/Users/mrbat/Desktop/495/tws/jars/jxbrowser-win64-7.41.3_1727888557000.dat, file:/C:/Users/mrbat/Desktop/495/tws/jars/jackson-annotations-2.12.3_1700085178000.dat, file:/C:/Users/mrbat/Desktop/495/tws/jars/xmlgraphics-commons-2.8_1684763319000.dat]].
+2025-07-31 16:36:26.599 [KJ] INFO  [JTS-PostAuthenticateS2-20] - Instance created.
+2025-07-31 16:36:26.611 [KJ] INFO  [AWT-EventQueue-0] - initPreUI() - entry
+2025-07-31 16:36:26.613 [KJ] INFO  [AWT-EventQueue-0] - Build 10.39.1d, Jul 29, 2025 4:04:39 PM
+2025-07-31 16:36:26.625 [KJ] INFO  [AWT-EventQueue-0] - LauncherJtsLookAndFeel uninitialized
+2025-07-31 16:36:26.625 [KJ] INFO  [AWT-EventQueue-0] - LookAndFeelChangedListener installed
+2025-07-31 16:36:26.628 [KJ] INFO  [AWT-EventQueue-0] - JtsLookAndFeel initialized
+2025-07-31 16:36:26.628 [KJ] INFO  [JTS-PostAuthenticateS2-20] - prohibiting class lookup [org.jfree.chart.LocalizationBundle]
+2025-07-31 16:36:26.629 [KJ] INFO  [JTS-PostAuthenticateS2-20] - prohibiting class lookup [org.jfree.chart.LocalizationBundle_en]
+2025-07-31 16:36:26.631 [KJ] INFO  [JTS-PostAuthenticateS2-20] - prohibiting class lookup [org.jfree.chart.LocalizationBundle_en_US]
+2025-07-31 16:36:26.631 [KJ] INFO  [JTS-PostAuthenticateS2-20] - prohibiting class lookup [org.jfree.chart.plot.LocalizationBundle]
+2025-07-31 16:36:26.631 [KJ] INFO  [JTS-PostAuthenticateS2-20] - prohibiting class lookup [org.jfree.chart.plot.LocalizationBundle_en]
+2025-07-31 16:36:26.631 [KJ] INFO  [JTS-PostAuthenticateS2-20] - prohibiting class lookup [org.jfree.chart.plot.LocalizationBundle_en_US]
+2025-07-31 16:36:26.701 [KJ] INFO  [JTS-PostAuthenticateS2-20] - jfreechart version =1.0.8
+2025-07-31 16:36:26.701 [KJ] INFO  [JTS-PostAuthenticateS2-20] - jcommon version =1.0.12
+2025-07-31 16:36:26.701 [KJ] INFO  [JTS-PostAuthenticateS2-20] - JDOMFactory Class =interface org.jdom.JDOMFactory
+2025-07-31 16:36:26.704 [KJ] INFO  [JTS-PostAuthenticateS2-20] - hsqldb jdbc =class org.hsqldb.jdbcDriver 2.4
+2025-07-31 16:36:26.705 [KJ] INFO  [JTS-PostAuthenticateS2-20] - Changing state for connection from PRELOGON to PRELOGON in B 734231527: SessionSocket:2
+2025-07-31 16:36:26.705 [KJ] INFO  [JTS-PostAuthenticateS2-20] - createOrRenameToNewStyleUserDirectory: no action: use existing newDir=C:\Users\mrbat\Desktop\495\tws\kicbjfhlalemndjpnaddbdcdaabdnacekaedffca
+2025-07-31 16:36:26.708 [KJ] INFO  [JTS-PostAuthenticateS2-20] - performLogSwitch() [force=false]
+2025-07-31 16:36:26.711 [KJ] INFO  [JTS-PostAuthenticateS2-20] - Switching to a new encrypted log...

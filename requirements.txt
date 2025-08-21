@@ -1,0 +1,15 @@
+dash
+dash-bootstrap-components
+plotly
+pandas
+sqlalchemy
+mysql-connector-python
+requests
+beautifulsoup4
+vaderSentiment
+transformers
+torch
+python-dotenv
+schedule
+openai
+#instal via pip install -r requirements.txt.

@@ -1,0 +1,113 @@
+[INFO] Logger started at 2025-08-01 01:28:52
+[INFO] Executable name: C:\Users\mrbat\Desktop\495\tws\.install4j\updater.exe
+[INFO] install4j version: 10.0.8 (build 10152)
+[INFO] Properties: 
+-- listing properties --
+install4j.launcherId=443
+java.specification.version=17
+sun.cpu.isalist=amd64
+sun.jnu.encoding=Cp1252
+java.class.path=C:\Users\mrbat\Desktop\495\tws\.insta...
+java.vm.vendor=Azul Systems, Inc.
+sun.arch.data.model=64
+install4j.exeDir=C:\Users\mrbat\Desktop\495\tws\.insta...
+user.variant=
+java.vendor.url=http://www.azul.com/
+user.timezone=America/New_York
+install4j.shutdownFile=C:\Users\mrbat\AppData\Local\Temp\i4j...
+java.vm.specification.version=17
+os.name=Windows 11
+user.country=US
+sun.boot.library.path=c:\users\mrbat\appdata\local\programs...
+install4j.alternativeLogfile=./.install4j/updater.log
+sun.java.command=C:\Users\mrbat\Desktop\495\tws\.insta...
+jdk.debug=release
+sun.cpu.endian=little
+exe4j.unextractedPosition=0
+user.home=C:\Users\mrbat
+user.language=en
+jdk.http.auth.tunneling.disabledSchemes=
+java.specification.vendor=Oracle Corporation
+java.version.date=2024-04-16
+java.home=c:\users\mrbat\appdata\local\programs...
+file.separator=\
+java.vm.compressedOopsMode=Zero based
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+java.specification.name=Java Platform API Specification
+jdk.lang.Process.allowAmbiguousCommands=false
+install4j.fromService=false
+exe4j.moduleName=C:\Users\mrbat\Desktop\495\tws\.insta...
+exe4j.tempDir=
+user.script=
+exe4j.consoleCodepage=cp0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+exe4j.isInstall4j=true
+java.security.manager=allow
+java.runtime.version=17.0.10.0.101+3-LTS
+user.name=mrbat
+path.separator=;
+os.version=10.0
+install4j.fromLauncherId=22
+java.runtime.name=OpenJDK Runtime Environment
+file.encoding=Cp1252
+java.vm.name=OpenJDK 64-Bit Server VM
+java.vendor.version=Zulu17.49+16-SA
+exe4j.semaphoreName=Local\c:_users_mrbat_desktop_495_tws_...
+install4j.fromLauncher=C:\Users\mrbat\Desktop\495\tws\tws.exe
+install4j.appDir=C:\Users\mrbat\Desktop\495\tws\
+java.vendor.url.bug=http://www.azul.com/support/
+java.io.tmpdir=C:\Users\mrbat\AppData\Local\Temp\
+java.version=17.0.10.0.101
+user.dir=C:\Users\mrbat\Desktop\495\tws
+os.arch=amd64
+java.vm.specification.name=Java Virtual Machine Specification
+sun.os.patch.level=
+native.encoding=Cp1252
+java.library.path=c:\users\mrbat\appdata\local\programs...
+java.vm.info=mixed mode
+java.vendor=Azul Systems, Inc.
+java.vm.version=17.0.10.0.101+3-LTS
+sun.io.unicode.encoding=UnicodeLittle
+java.class.version=61.0
+exe4j.launchName=C:\Users\mrbat\Desktop\495\tws\.insta...
+install4j.swt=false
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 4839]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_74
+       Property variableName: updateDescriptorUrl
+       Property failIfNull: true
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Variable changed: updateDescriptorUrl=https://download2.interactivebrokers.com/installers/tws/latest/tws-latest-windows-x64.xml[class java.lang.String]
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.update.CheckForUpdateAction [ID 479]: Execute action
+       Property connectTimeout: 10000
+       Property connectionFailureScript: null
+       Property readTimeout: 20000
+       Property requestHeaders: []
+       Property url: https://download2.interactivebrokers.com/installers/tws/latest/tws-latest-windows-x64.xml
+       Property variable: updateDescriptor
+       Property acceptAllCertificates: false
+       Property askForProxy: true
+       Property rollbackSupported: false
+       Property showError: true
+       Download: https://download2.interactivebrokers.com/installers/tws/latest/tws-latest-windows-x64.xml to C:\Users\mrbat\AppData\Local\Temp\i4jupd10576415452513562053.xml; size: 1493 bytes
+       Variable changed: updateDescriptor=com.install4j.runtime.installer.config.update.UpdateDescriptorImpl@1608bcbd[class com.install4j.runtime.installer.config.update.UpdateDescriptorImpl]
+       Execute action successful after 95 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 480]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_75
+       Property variableName: updateDescriptorEntry
+       Property failIfNull: false
+       Property onlyIfUndefined: false
+       Property responseFileVariable: false
+       Property rollbackSupported: false
+       Checking if update is available [currentUuid=d9400b80-e041-4e25-b658-ac121d55dedd,channel=latest,channelChanged=false,currentVersion=latest (10.39.1d) 20250729 16:04:39,currentMajorVersion=1039,currentMinorVersion=1,nextGenTws=false]...
+       -> uuid=d9400b80-e041-4e25-b658-ac121d55dedd,version=latest (10.39.1d) 20250729 16:04:39,majorVersion=1039,minorVersion=1,rolloutStartDateTime=2025-07-16T18:29:45,rolloutDays=10,rolloutPauseIntervals=[]
+       Update not found.
+       Variable changed: updateDescriptorEntry=null
+       Execute action successful after 55 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 444]: command: move 1 screens, executing actions, checking condition
+[INFO] cleaning up
+[INFO] Finished at 2025-08-01 01:28:53

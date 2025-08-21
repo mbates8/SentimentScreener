@@ -1,0 +1,9 @@
+# install4j response file for Trader Workstation latest (10.39.1d) 20250729 16:04:39
+cmdLineArgs$StringArray="C\:\\\\Users\\\\mrbat\\\\Desktop\\\\495\\\\tws","ndc1.ibllc.com\:4000","language\=https\://download2.interactivebrokers.com/installers/shared/i18n/ib"
+exeName=tws
+executeLauncherAction$Boolean=false
+installerType=updatable
+jtsConfigDir=C\:\\Users\\mrbat\\Desktop\\495\\tws
+sys.adminRights$Boolean=false
+sys.installationDir=C\:\\Users\\mrbat\\Desktop\\495\\tws
+sys.languageId=en
