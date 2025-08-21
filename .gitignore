@@ -28,3 +28,8 @@ tws/jars/
 # OS
 Thumbs.db
 .DS_Store
+# env and large db dumps
+.env
+*.sql
+*.sql.gz
+
